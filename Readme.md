@@ -1,6 +1,6 @@
 # MDN pipeline
 
-Pileline for snRNA sequence data analysis from the MDN project. 
+Pipeline for snRNA sequence data analysis from the MDN project. 
 
 ### Directory and naming conventions 
 
@@ -21,9 +21,9 @@ Following is the list of directories that are present in the repository: The des
 ### Running the pipeline
 The single entry point for the code is the `config.yaml` file. After you have updated the file with necessary variables, use the following command to run the pipeline: 
 ```bash 
-snakemake
+snakemake --cores <n>
 ```
-This will run the top rule defined in the `Snakemake` file, which in this case is all i.e. Running the pipeline from end to end. 
+This will run the top rule defined in the `Snakemake` file with n parallel processes at once (wherever applicable), which in this case is all i.e. Running the pipeline from end to end. 
 
 ### Adding additional species.  
 
