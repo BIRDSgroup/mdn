@@ -1,0 +1,41 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  build_transcriptome:
+    type: object
+    properties:
+      fa:
+        type: string
+      gtf:
+        type: string
+    required:
+      - fa
+      - gtf
+
+  evaluate_reads:
+    type: boolean
+
+  species:
+    enum:
+      - mouse
+      - human
+      - common_marmoset
+      - mallard_duck
+      - common_carp
+      - guinea_pig
+
+  raw_reads:
+    type: object
+    properties:
+      fastq:
+        type: string
+    required:
+      - fastq
+
+required:
+  - species
+  - raw_reads
