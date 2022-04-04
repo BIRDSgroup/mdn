@@ -17,6 +17,10 @@ Following is the list of directories that are present in the repository: The des
 - `.snakemake/`: Directory snakemake uses to store the recency and other information about the files defined in `Snakefile`. 
 - `transcriptomes/`: Directory containing the transcriptomes for different species. These are generated using the files present in the `genome_files` directory. 
 
+### Data
+The raw reads were downloaded from the [NeMo Portal](https://portal.nemoarchive.org/search/), there are a lot of filters available that you can use to narrow down on the region of brain that you're interested in. 
+
+Transcriptomes for species aren't available readily apart from Human and mouse, which you can download from the [cellranger website](https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest?) itself. In order to build a transcriptome, you need the genome assembly and gene annotation files, which can be found either on [NCBI](https://www.ncbi.nlm.nih.gov/assembly) or [Ensembl](https://asia.ensembl.org/index.html). 
 
 ### Running the pipeline
 The single entry point for the code is the `config.yaml` file. After you have updated the file with necessary variables, use the following command to run the pipeline: 
