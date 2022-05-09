@@ -47,10 +47,10 @@ To do a dry run of the snakemake pipeline and see what all rules would be execut
 snakemake --dryrun
 ```
 ### Caution/Things to keep in mind
-- Snakemake builds the execution graph using the last modified time of the input and output files defined in the Snakefile. Please be mindful of that while making some adhoc changes e.g. renaming a file, changing directory structure etc. Failure to do so might result in some parts of the pipeline running again prolonging the execution by few minutes or hours. 
+- Snakemake builds the execution graph using the last modified time of the input and output files defined in the Snakefile. Please be mindful of that while making some adhoc changes e.g. renaming a file, changing directory structure etc. Failure to do so might result in some parts of the pipeline running again prolonging the execution by few minutes or hours. In addition to that, the timestamps of different files and directories are preserved when mounted into a docker container.  
 - The docker image doesn't include the raw data or transcriptomes. While using the docker image, you need to mount the relavant directories to the ones defined in the repository. An example from the birds machine would be to mount the `/data/public-data/cellranger-ref-data/` directory to the `transcriptomes` directory in the repo. 
 
 ### Roadmap 
-- [ ] Running `qsub` job with snakemake has issues with environment variables. Modify the config to include the absolute paths of the tools being used. e.g. Cellranger, FastQC etc. 
+- [x] Running `qsub` job with snakemake has issues with environment variables. Modify the config to include the absolute paths of the tools being used. e.g. Cellranger, FastQC etc. 
 - [ ] Enforce check or automatically rename the fastq files to a name format that cellranger requires. This can be enforced upstream as well. 
 
