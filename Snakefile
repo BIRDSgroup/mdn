@@ -73,6 +73,8 @@ rule label_cell_types:
         "output/{species}_clusters.rds"
     output:
         "output/{species}_cluster_labels.csv"
+    params:
+        species="{species}"
     script:
         "scripts/label-cells.r"
 
