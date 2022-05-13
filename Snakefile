@@ -66,7 +66,7 @@ rule cluster_cells:
         input_dir="output/{species}_cellranger/outs/raw_feature_bc_matrix/",
         intermediate_output="output/{species}_intermediate"
     script:
-        "scripts/cluster-cells.r"
+        "scripts/cluster-cells.R"
 
 rule label_cell_types:
     input:
@@ -76,7 +76,7 @@ rule label_cell_types:
     params:
         species="{species}"
     script:
-        "scripts/label-cells.r"
+        "scripts/label-cells.R"
 
 rule integrated_analysis:
     input:
@@ -84,5 +84,5 @@ rule integrated_analysis:
     output:
         ""
     script:
-        "scripts/integrative-analysis.r"
+        "scripts/integrative-analysis.R"
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 ## Guided clustering in Seurat. 
 ## https://satijalab.org/seurat/archive/v3.0/pbmc3k_tutorial.html
 

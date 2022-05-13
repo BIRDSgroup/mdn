@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 # Cell labelling using over representation analysis. 
 # Need to convert this to GSEA in the later versions. 
 
