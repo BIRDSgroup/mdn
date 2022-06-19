@@ -18,6 +18,24 @@ properties:
 
   evaluate_reads:
     type: boolean
+  
+  previous_run:
+    type: object
+    properties:
+      run_id: 
+        type: string
+    required:
+      - run_id
+  
+  new_run: 
+    type: object
+    properties:
+      run_id:
+        type: string
+      is_new_run:
+        type: boolean
+    required:
+      - is_new_run
 
   species:
     enum:

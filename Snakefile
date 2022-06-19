@@ -1,5 +1,7 @@
 from snakemake.utils import validate
 import os
+import time
+import hashlib, base64
 
 configfile: "config.yaml"
 
@@ -9,15 +11,24 @@ validate(config, schema="config-schema.yaml")
 species = config["species"]
 fastq_files = [x[:-6] for x in os.listdir(os.path.join(config['raw_reads']["fastq"], species))]
 
+# Use run id as default hash is provided, otherwise calculate one. 
+if config["new_run"]["is_new_run"]:
+    if config["new_run"]["run_id"]:
+        hash_value = config["new_run"]["run_id"]
+    else:
+        string_to_hash = species + '_' + datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+        hash_value = hashlib.md5(b"hello worlds").digest(); d=base64.b64encode(d); 
+
+
 rule all:
     input:
         expand(
-            "quality_control/{species}/{sample}_fastqc.html", 
+            "output/{hash_value}/quality_control/{sample}_fastqc.html", 
             species = config["species"], 
             sample = fastq_files
         ), 
         expand(
-            "output/{species}_cluster_labels.csv", 
+            "output/{hash_value}/{species}_cluster_labels.csv", 
             species = config['species']
         )
 
@@ -38,9 +49,9 @@ rule fastqc:
     input:
         fastq="raw_reads/{species}/{sample}.fastq"
     output:
-        "quality_control/{species}/{sample}_fastqc.html"
+        "output/{hash_value}/quality_control/{sample}_fastqc.html"
     params:
-        dir="quality_control/{species}"
+        dir="output/{hash_value}/quality_control"
     shell:
         "./FastQC/fastqc {input.fastq} --outdir={params.dir}"
 
@@ -49,30 +60,30 @@ rule build_count_matrix:
         fastq="raw_reads/{species}/", 
         trans="transcriptomes/{species}/", 
     output:
-        "output/{species}_cellranger/outs/raw_feature_bc_matrix/matrix.mtx.gz"
+        "output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix/matrix.mtx.gz"
     shell:
         """
         cellranger count --id={species}_cellranger --fastqs={input.fastq} --transcriptome={input.trans} --expect-cells 3000 --localmem 512
-        rsync -a {species}_cellranger/ output/{species}_cellranger && rm -rf {species}_cellranger/
+        rsync -a {species}_cellranger/ output/{hash_value}/{species}_cellranger && rm -rf {species}_cellranger/
         """
 
 rule cluster_cells:
     input:
-        "output/{species}_cellranger/outs/raw_feature_bc_matrix/matrix.mtx.gz"
+        "output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix/matrix.mtx.gz"
     output:
-        "output/{species}_clusters.rds"
+        "output/{hash_value}/{species}_clusters.rds"
     params:
         species="{species}",
-        input_dir="output/{species}_cellranger/outs/raw_feature_bc_matrix/",
-        intermediate_output="output/{species}_intermediate"
+        input_dir="output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix/",
+        intermediate_output="output/{hash_value}/{species}_intermediate"
     script:
         "scripts/cluster-cells.R"
 
 rule label_cell_types:
     input:
-        "output/{species}_clusters.rds"
+        "output/{hash_value}/{species}_clusters.rds"
     output:
-        "output/{species}_cluster_labels.csv"
+        "output/{hash_value}/{species}_cluster_labels.csv"
     params:
         species="{species}"
     script:
@@ -80,7 +91,7 @@ rule label_cell_types:
 
 rule integrated_analysis:
     input:
-        "output/{species}_clusters.rds"
+        "output/{hash_value}/{species}_clusters.rds"
     output:
         ""
     script:
