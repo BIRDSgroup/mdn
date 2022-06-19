@@ -1,35 +1,62 @@
 #!/usr/bin/env Rscript
 
-# Cell labelling using over representation analysis. 
-# Need to convert this to GSEA in the later versions. 
+# Cell labelling using GSEA
+print("Start labelling")
 
-library(dplyr)
 library(Seurat)
 library(clustermole)
-library(homologene)
 
-# Read the mouse gene counts
-same = readRDS(snakemake@input[[1]])
+# Read the gene count matrix. 
+so = readRDS(snakemake@input[[1]])
 
-# Find markers for all the clusters. 
-same.markers = FindAllMarkers(same, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+# Calculate the average expression levels for each cell cluster. 
+avg_exp_mat <- AverageExpression(so)
 
-# Find top 10 marker genes for each cluster. 
-top10 <- same.markers %>% group_by(cluster) %>% top_n(n = 10, wt = avg_log2FC)
+# Convert to a regular matrix and log-transform.
+avg_exp_mat <- as.matrix(avg_exp_mat$RNA)
+avg_exp_mat <- log1p(avg_exp_mat)
 
-for (val in unique(top10$cluster)){
-    genelist = top10[top10$cluster == val,]$gene
-    gene_df <- orthogene::convert_orthologs(gene_df = genelist,
-                gene_input = "rownames",
-                gene_output = "columns",
-                input_species = snakemake@params[["species"]],
-                output_species = "mouse",
-                non121_strategy = "drop_both_species",
-                method = "gprofiler")
+# Skip the ortholog conversion if the species is mouse. 
+if (snakemake@params[["species"]] == "mouse") {
+    avg_exp_mat_subset = avg_exp_mat
+} 
 
-    celltypes = clustermole_overlaps(gene_df$ortholog_gene, species='mm')
-    mouse_celltypes = celltypes[(celltypes$p_value < 0.05) & (celltypes$species == "Mouse"), ]$celltype_full
-    mouse_celltypes.write(toString(val) + "_cluster_" + snakemake@output[[1]])
+else {
+    # Convert the genes present in the average expression matrix to their orthologs in mouse. 
+    genelist = rownames(avg_exp_mat)
+
+    ## Find orthologs using orthogene package. 
+    gene_df <- orthogene::convert_orthologs(
+        gene_df = genelist,
+        gene_input = "rownames",
+        gene_output = "columns",
+        input_species = snakemake@params[["species"]],
+        output_species = "mouse",
+        non121_strategy = "drop_both_species",
+        method = "gprofiler"
+    )
+
+    genes_with_orthologs = gene_df$input_gene
+
+    ## Subset the avg_exp_mat so that it only contains the genes that had orthologs. 
+    avg_exp_mat_subset = avg_exp_mat[genes_with_orthologs, ]
+
+    ## Chage the rownames of the avg_exp_mat to orthologs using gene_df
+    rownames(avg_exp_mat_subset) = gene_df$ortholog_gene
 }
 
 
+
+# Run enrichment of all cell type signatures across all clusters. 
+enrich_tbl <- clustermole_enrichment(expr_mat = avg_exp_mat_subset, species = "mm")
+
+# # Check the top 10 enriched cell types for all the clusters present in the data. 
+# for (val in unique(enrich_tbl$cluster)) {
+#     # Check the most enriched cell types for a particular cluster. 
+#     enrich_tbl %>% filter(cluster == "0") %>% head(15)
+# }
+
+# Write the enriched table with all the cell types to file. 
+write.csv(enrich_tbl, snakemake@output[[1]], row.names = FALSE)
+
+print("End labelling")

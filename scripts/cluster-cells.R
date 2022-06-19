@@ -3,6 +3,8 @@
 ## Guided clustering in Seurat. 
 ## https://satijalab.org/seurat/archive/v3.0/pbmc3k_tutorial.html
 
+print("Start clustering")
+
 library(dplyr)
 library(Seurat)
 library(ggplot2)
@@ -150,3 +152,5 @@ seu_dob <- RenameIdents(seu_dob, new.cluster.ids)
 DimPlot(seu_dob, reduction = "umap", label = TRUE, pt.size = 0.5) + NoLegend()
 
 saveRDS(seu_dob, file = paste(intermediate_output, project_name + "_clusters.rds"))
+
+print("End clustering")
