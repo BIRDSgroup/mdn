@@ -17,7 +17,7 @@ if config["new_run"]["is_new_run"]:
         hash_value = config["new_run"]["run_id"]
     else:
         string_to_hash = species + '_' + datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-        hash_value = hashlib.md5(b"hello worlds").digest(); d=base64.b64encode(d); 
+        hash_value = hashlib.md5(string_to_hash.encode('UTF-8')).hexdigest()
 
 
 rule all:
@@ -30,7 +30,12 @@ rule all:
         expand(
             "output/{hash_value}/{species}_cluster_labels.csv", 
             species = config['species']
-        )
+        ), 
+        expand(
+            "output/{hash_value}/{species1}_{species2}_integrated_cluster_correlation.rds", 
+            species1 = config['species1'], 
+            species2 = config['species2']
+        ) if "integration" in config else []
 
 if "build_transcriptome" in config:
     rule build_transcriptome:
@@ -89,11 +94,15 @@ rule label_cell_types:
     script:
         "scripts/label-cells.R"
 
-rule integrated_analysis:
-    input:
-        "output/{hash_value}/{species}_clusters.rds"
-    output:
-        ""
-    script:
-        "scripts/integrative-analysis.R"
-
+if "integration" in config: 
+    rule integrated_analysis:
+        input:
+            "output/{hash_value}/{species1}_clusters.rds", 
+            "output/{hash_value}/{species2}_clusters.rds", 
+        params:
+            sp1 = "{species1}", 
+            sp2 = "{species2}"
+        output:
+            "output/{hash_value}/{species1}_{species2}_integrated_cluster_correlation.rds"
+        script:
+            "scripts/integrative-analysis-cerebellum.R"

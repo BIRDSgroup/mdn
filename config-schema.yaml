@@ -15,6 +15,29 @@ properties:
     required:
       - fa
       - gtf
+  
+  integration:
+    type: object
+    properties:
+      species1:
+        enum:
+          - mouse
+          - human
+          - marmoset
+          - mallard_duck
+          - common_carp
+          - guinea_pig
+      species2:
+        enum:
+          - mouse
+          - human
+          - marmoset
+          - mallard_duck
+          - common_carp
+          - guinea_pig
+    required:
+      - species1
+      - species2
 
   evaluate_reads:
     type: boolean
@@ -41,7 +64,7 @@ properties:
     enum:
       - mouse
       - human
-      - common_marmoset
+      - marmoset
       - mallard_duck
       - common_carp
       - guinea_pig
