@@ -63,10 +63,10 @@ const images = [
   }, 
   ];
 
-class MyGallery extends React.Component {
+class AnalysisGallery extends React.Component {
   render() {
     return <ImageGallery items={images} />;
   }
 }
 
-export default MyGallery; 
+export default AnalysisGallery; 
