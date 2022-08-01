@@ -1,0 +1,1201 @@
+"cluster","celltype_full","score","score_rank","db","species","organ","celltype","n_genes"
+"0","Insulinoma cell | Mouse | TISSUES",0.7448816814,1,"TISSUES","Mouse","","Insulinoma cell",6
+"0","Pancreatic cancer cell | Mouse | TISSUES",0.7448816814,2,"TISSUES","Mouse","","Pancreatic cancer cell",6
+"0","CD4+ memory T-cells_FANTOM_2 | Human | xCell",0.7070120225,3,"xCell","Human","","CD4+ memory T-cells_FANTOM_2",8
+"0","Th2 cells_IRIS_2 | Human | xCell",0.7049449855,4,"xCell","Human","","Th2 cells_IRIS_2",5
+"0","Memory B-cells_IRIS_1 | Human | xCell",0.6847915793,5,"xCell","Human","","Memory B-cells_IRIS_1",7
+"0","B-lymphocyte | Mouse | TISSUES",0.6704338071,6,"TISSUES","Mouse","","B-lymphocyte",7
+"0","pre-B-lymphocyte | Mouse | TISSUES",0.6704338071,7,"TISSUES","Mouse","","pre-B-lymphocyte",7
+"0","pro-B-lymphocyte | Mouse | TISSUES",0.6704338071,8,"TISSUES","Mouse","","pro-B-lymphocyte",7
+"0","Pyramidal cell | Human | CellMarker",0.6197345015,9,"CellMarker","Human","","Pyramidal cell",8
+"0","Olfactory sensory neuron | Brain | Mouse | CellMarker",0.6091488129,10,"CellMarker","Mouse","Brain","Olfactory sensory neuron",5
+"0","Memory B-cells_IRIS_3 | Human | xCell",0.6018860621,11,"xCell","Human","","Memory B-cells_IRIS_3",5
+"0","Tregs_BLUEPRINT_2 | Human | xCell",0.5950315398,12,"xCell","Human","","Tregs_BLUEPRINT_2",5
+"0","Tregs_FANTOM_1 | Human | xCell",0.5950315398,13,"xCell","Human","","Tregs_FANTOM_1",5
+"0","testis | SaVanT",0.5866017572,14,"SaVanT","","","testis",10
+"0","Undefined placental cells | Placenta | Human | PanglaoDB",0.5643884944,15,"PanglaoDB","Human","Placenta","Undefined placental cells",5
+"0","Undefined placental cells | Placenta | Mouse | PanglaoDB",0.5643884944,16,"PanglaoDB","Mouse","Placenta","Undefined placental cells",5
+"0","CD4+ naive T-cells_FANTOM_3 | Human | xCell",0.5457041243,17,"xCell","Human","","CD4+ naive T-cells_FANTOM_3",5
+"0","nucleus_accumbens | SaVanT",0.5383346651,18,"SaVanT","","","nucleus_accumbens",46
+"0","Ciliated cell | Lung | Mouse | CellMarker",0.5374726355,19,"CellMarker","Mouse","Lung","Ciliated cell",14
+"0","cerebral_cortex_prefrontal | SaVanT",0.5351879833,20,"SaVanT","","","cerebral_cortex_prefrontal",50
+"0","CD8+ Tem_NOVERSHTERN_3 | Human | xCell",0.5330511811,21,"xCell","Human","","CD8+ Tem_NOVERSHTERN_3",6
+"0","Germ cell | Mouse | TISSUES",0.5330470655,22,"TISSUES","Mouse","","Germ cell",9
+"0","CD4+ T-cells_FANTOM_2 | Human | xCell",0.5280420765,23,"xCell","Human","","CD4+ T-cells_FANTOM_2",6
+"0","ZHONG_PFC_C3_UNKNOWN_INP | Human | MSigDB",0.5277276667,24,"MSigDB","Human","","ZHONG_PFC_C3_UNKNOWN_INP",13
+"0","CD4+ naive T-cells_FANTOM_1 | Human | xCell",0.5237685496,25,"xCell","Human","","CD4+ naive T-cells_FANTOM_1",11
+"0","CD4+ naive T-cells_NOVERSHTERN_3 | Human | xCell",0.5237685496,26,"xCell","Human","","CD4+ naive T-cells_NOVERSHTERN_3",11
+"0","CD4+ T-cells_FANTOM_1 | Human | xCell",0.5211078763,27,"xCell","Human","","CD4+ T-cells_FANTOM_1",14
+"0","naive B-cells_NOVERSHTERN_2 | Human | xCell",0.5190440665,28,"xCell","Human","","naive B-cells_NOVERSHTERN_2",20
+"0","CD4+ Tcm_NOVERSHTERN_1 | Human | xCell",0.5150736579,29,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_1",5
+"0","CD4+ Tcm_NOVERSHTERN_2 | Human | xCell",0.5150736579,30,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_2",5
+"0","CD8+ Tem_NOVERSHTERN_2 | Human | xCell",0.513029043,31,"xCell","Human","","CD8+ Tem_NOVERSHTERN_2",5
+"0","Neuroepithelioma cell | Human | TISSUES",0.5096046679,32,"TISSUES","Human","","Neuroepithelioma cell",5
+"0","amygdala | SaVanT",0.509214121,33,"SaVanT","","","amygdala",50
+"0","cerebral_cortex | SaVanT",0.4962665502,34,"SaVanT","","","cerebral_cortex",50
+"0","Intercalated cells | Kidney | Human | PanglaoDB",0.4931626079,35,"PanglaoDB","Human","Kidney","Intercalated cells",10
+"0","Intercalated cells | Kidney | Mouse | PanglaoDB",0.4931626079,36,"PanglaoDB","Mouse","Kidney","Intercalated cells",10
+"0","Immune cell (Renal Clear Cell Carcinoma) | Human | CellMarker",0.492592266,37,"CellMarker","Human","","Immune cell (Renal Clear Cell Carcinoma)",7
+"0","dorsal_striatum | SaVanT",0.4894407928,38,"SaVanT","","","dorsal_striatum",46
+"0","Tregs_FANTOM_3 | Human | xCell",0.4801941991,39,"xCell","Human","","Tregs_FANTOM_3",8
+"0","Brain cancer cell | Human | TISSUES",0.4646812302,40,"TISSUES","Human","","Brain cancer cell",5
+"0","Pyramidal cells | Brain | Human | PanglaoDB",0.4612109544,41,"PanglaoDB","Human","Brain","Pyramidal cells",23
+"0","Pyramidal cells | Brain | Mouse | PanglaoDB",0.4612109544,42,"PanglaoDB","Mouse","Brain","Pyramidal cells",23
+"0","hippocampus | SaVanT",0.4587914673,43,"SaVanT","","","hippocampus",49
+"0","Class-switched memory B-cells_BLUEPRINT_2 | Human | xCell",0.4581212212,44,"xCell","Human","","Class-switched memory B-cells_BLUEPRINT_2",16
+"0","IMGN_T_8Eff_Sp_OT1_d5_VSVOva | Mouse | SaVanT",0.4577141861,45,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_d5_VSVOva",22
+"0","CD8+ Tem_NOVERSHTERN_1 | Human | xCell",0.4573812706,46,"xCell","Human","","CD8+ Tem_NOVERSHTERN_1",8
+"0","Th2 cells_IRIS_3 | Human | xCell",0.4509371562,47,"xCell","Human","","Th2 cells_IRIS_3",7
+"0","IMGN_T_8Eff_Sp_OT1_d6_LisOva | Mouse | SaVanT",0.4502706601,48,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_d6_LisOva",21
+"0","Adipocytes_ENCODE_1 | Human | xCell",0.4497516828,49,"xCell","Human","","Adipocytes_ENCODE_1",7
+"0","Adipocytes_HPCA_2 | Human | xCell",0.4497516828,50,"xCell","Human","","Adipocytes_HPCA_2",7
+"0","Lep_LL | SaVanT",0.44084544,51,"SaVanT","","","Lep_LL",18
+"0","ZHONG_PFC_C2_UNKNOWN_NPC | Human | MSigDB",0.4386412427,52,"MSigDB","Human","","ZHONG_PFC_C2_UNKNOWN_NPC",32
+"0","pre-T-lymphocyte | Mouse | TISSUES",0.4365113794,53,"TISSUES","Mouse","","pre-T-lymphocyte",11
+"0","Thymocyte | Mouse | TISSUES",0.4365113794,54,"TISSUES","Mouse","","Thymocyte",11
+"0","Class-switched memory B-cells_BLUEPRINT_3 | Human | xCell",0.431783326,55,"xCell","Human","","Class-switched memory B-cells_BLUEPRINT_3",11
+"0","IMGN_T_8Eff_Sp_OT1_48hr_LisOva | Mouse | SaVanT",0.4297501065,56,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_48hr_LisOva",29
+"0","Rheaume et al.Nat Commun.22 | Retina | Mouse | CellMarker",0.427180144,57,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.22",7
+"0","IMGN_Tgd_vg3+24alo_e17_Th | Mouse | SaVanT",0.4260997662,58,"SaVanT","Mouse","","IMGN_Tgd_vg3+24alo_e17_Th",27
+"0","Class-switched memory B-cells_NOVERSHTERN_1 | Human | xCell",0.4251871905,59,"xCell","Human","","Class-switched memory B-cells_NOVERSHTERN_1",5
+"0","Epithelium | Mouse | TISSUES",0.4152441428,60,"TISSUES","Mouse","","Epithelium",12
+"0","Distal convoluted tubule cell | Kidney | Mouse | CellMarker",0.4149286983,61,"CellMarker","Mouse","Kidney","Distal convoluted tubule cell",13
+"0","CD4+ Tem_BLUEPRINT_3 | Human | xCell",0.4139701549,62,"xCell","Human","","CD4+ Tem_BLUEPRINT_3",9
+"0","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON | Human | MSigDB",0.4124826399,63,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON",36
+"0","GAO_LARGE_INTESTINE_ADULT_CH_MKI67HIGH_CELLS | Human | MSigDB",0.4116470661,64,"MSigDB","Human","","GAO_LARGE_INTESTINE_ADULT_CH_MKI67HIGH_CELLS",41
+"0","Myometrium | Human | TISSUES",0.4044647855,65,"TISSUES","Human","","Myometrium",5
+"0","CD4+ Tcm_NOVERSHTERN_3 | Human | xCell",0.3980008751,66,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_3",25
+"0","CD4+ Tcm_HPCA_3 | Human | xCell",0.3968487257,67,"xCell","Human","","CD4+ Tcm_HPCA_3",16
+"0","MSC_FANTOM_3 | Human | xCell",0.3951069285,68,"xCell","Human","","MSC_FANTOM_3",7
+"0","Late neuroblast | Brain | Mouse | CellMarker",0.3950227358,69,"CellMarker","Mouse","Brain","Late neuroblast",5
+"0","Cochlea | Mouse | TISSUES",0.3898930441,70,"TISSUES","Mouse","","Cochlea",5
+"0","Vestibular labyrinth | Mouse | TISSUES",0.3898930441,71,"TISSUES","Mouse","","Vestibular labyrinth",5
+"0","Vestibular system | Mouse | TISSUES",0.3898930441,72,"TISSUES","Mouse","","Vestibular system",5
+"0","umbilical_cord | SaVanT",0.3842402047,73,"SaVanT","","","umbilical_cord",28
+"0","Memory B-cells_IRIS_2 | Human | xCell",0.3841035869,74,"xCell","Human","","Memory B-cells_IRIS_2",6
+"0","Dopaminergic neurons | Brain | Human | PanglaoDB",0.3839157475,75,"PanglaoDB","Human","Brain","Dopaminergic neurons",13
+"0","lymph_nodes | SaVanT",0.3831841266,76,"SaVanT","","","lymph_nodes",21
+"0","Dopaminergic neurons | Brain | Mouse | PanglaoDB",0.3810910023,77,"PanglaoDB","Mouse","Brain","Dopaminergic neurons",12
+"0","Neurons_ENCODE_1 | Human | xCell",0.3807376383,78,"xCell","Human","","Neurons_ENCODE_1",7
+"0","HBA_PrefrontalCortex | Human | SaVanT",0.3796283919,79,"SaVanT","Human","","HBA_PrefrontalCortex",50
+"0","HBA_TemporalLobe | Human | SaVanT",0.3736342504,80,"SaVanT","Human","","HBA_TemporalLobe",50
+"0","pro B-cells_NOVERSHTERN_3 | Human | xCell",0.3702681205,81,"xCell","Human","","pro B-cells_NOVERSHTERN_3",8
+"0","Keratinocytes_HPCA_1 | Human | xCell",0.3697054702,82,"xCell","Human","","Keratinocytes_HPCA_1",5
+"0","Mesenchymal stem cell | Human | TISSUES",0.3693882046,83,"TISSUES","Human","","Mesenchymal stem cell",6
+"0","IMGN_T_DPbl_Th | Mouse | SaVanT",0.368996281,84,"SaVanT","Mouse","","IMGN_T_DPbl_Th",22
+"0","CD4+ Tcm_BLUEPRINT_2 | Human | xCell",0.3689276074,85,"xCell","Human","","CD4+ Tcm_BLUEPRINT_2",20
+"0","naive B-cells_NOVERSHTERN_1 | Human | xCell",0.3685105074,86,"xCell","Human","","naive B-cells_NOVERSHTERN_1",23
+"0","Neutrophil | SaVanT",0.3658015646,87,"SaVanT","","","Neutrophil",35
+"0","IMGN_proB_FrBC_FL | Mouse | SaVanT",0.3653091223,88,"SaVanT","Mouse","","IMGN_proB_FrBC_FL",26
+"0","CD138plus_plasma_cell | SaVanT",0.3652996003,89,"SaVanT","","","CD138plus_plasma_cell",34
+"0","Neurons | Brain | Human | PanglaoDB",0.362624766,90,"PanglaoDB","Human","Brain","Neurons",150
+"0","Neurons | Brain | Mouse | PanglaoDB",0.362624766,91,"PanglaoDB","Mouse","Brain","Neurons",150
+"0","CUI_DEVELOPING_HEART_RIGHT_ATRIAL_CARDIOMYOCYTE | Human | MSigDB",0.3601347015,92,"MSigDB","Human","","CUI_DEVELOPING_HEART_RIGHT_ATRIAL_CARDIOMYOCYTE",24
+"0","Photoreceptor cells | Eye | Human | PanglaoDB",0.3552247222,93,"PanglaoDB","Human","Eye","Photoreceptor cells",25
+"0","Photoreceptor cells | Eye | Mouse | PanglaoDB",0.3552247222,94,"PanglaoDB","Mouse","Eye","Photoreceptor cells",25
+"0","Rheaume et al.Nat Commun.30 | Retina | Mouse | CellMarker",0.3530006484,95,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.30",6
+"0","CD4+ Tem_HPCA_2 | Human | xCell",0.3529047003,96,"xCell","Human","","CD4+ Tem_HPCA_2",20
+"0","naive B-cells_NOVERSHTERN_3 | Human | xCell",0.3507798855,97,"xCell","Human","","naive B-cells_NOVERSHTERN_3",32
+"0","NK_cell | SaVanT",0.346483078,98,"SaVanT","","","NK_cell",23
+"0","Th2_Harvard | SaVanT",0.3446826509,99,"SaVanT","","","Th2_Harvard",26
+"0","Marrow cell | Mouse | TISSUES",0.3442392001,100,"TISSUES","Mouse","","Marrow cell",5
+"1","Memory B-cells_IRIS_3 | Human | xCell",0.6637589793,1,"xCell","Human","","Memory B-cells_IRIS_3",5
+"1","Myometrium | Human | TISSUES",0.635126266,2,"TISSUES","Human","","Myometrium",5
+"1","cDC_HPCA_3 | Human | xCell",0.6325205462,3,"xCell","Human","","cDC_HPCA_3",6
+"1","Neuroepithelioma cell | Human | TISSUES",0.6260892988,4,"TISSUES","Human","","Neuroepithelioma cell",5
+"1","Eosinophils_BLUEPRINT_2 | Human | xCell",0.6246210685,5,"xCell","Human","","Eosinophils_BLUEPRINT_2",7
+"1","Pyramidal cell | Human | CellMarker",0.5717775853,6,"CellMarker","Human","","Pyramidal cell",8
+"1","pDC_NOVERSHTERN_1 | Human | xCell",0.5647811424,7,"xCell","Human","","pDC_NOVERSHTERN_1",5
+"1","naive B-cells_HPCA_1 | Human | xCell",0.5505994709,8,"xCell","Human","","naive B-cells_HPCA_1",10
+"1","Late neuroblast | Brain | Mouse | CellMarker",0.5379605715,9,"CellMarker","Mouse","Brain","Late neuroblast",5
+"1","Pulmonary artery | Human | TISSUES",0.537625069,10,"TISSUES","Human","","Pulmonary artery",5
+"1","testis | SaVanT",0.5361916607,11,"SaVanT","","","testis",10
+"1","Memory B-cells_HPCA_2 | Human | xCell",0.5332278725,12,"xCell","Human","","Memory B-cells_HPCA_2",12
+"1","Epithelial cells_ENCODE_2 | Human | xCell",0.5144449168,13,"xCell","Human","","Epithelial cells_ENCODE_2",5
+"1","Rheaume et al.Nat Commun.31 | Retina | Mouse | CellMarker",0.5123129557,14,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.31",9
+"1","pDC_NOVERSHTERN_2 | Human | xCell",0.5117446926,15,"xCell","Human","","pDC_NOVERSHTERN_2",6
+"1","naive B-cells_NOVERSHTERN_2 | Human | xCell",0.5064159139,16,"xCell","Human","","naive B-cells_NOVERSHTERN_2",20
+"1","Gamma_Delta_T-cell | SaVanT",0.5063437598,17,"SaVanT","","","Gamma_Delta_T-cell",25
+"1","ZHONG_PFC_C5_BCL11B_CALB2_POS_INP | Human | MSigDB",0.49791546,18,"MSigDB","Human","","ZHONG_PFC_C5_BCL11B_CALB2_POS_INP",14
+"1","naive B-cells_HPCA_2 | Human | xCell",0.4966483293,19,"xCell","Human","","naive B-cells_HPCA_2",11
+"1","CD8+ Tem_NOVERSHTERN_2 | Human | xCell",0.4906224938,20,"xCell","Human","","CD8+ Tem_NOVERSHTERN_2",5
+"1","ZHONG_PFC_MAJOR_TYPES_EXCITATORY_NEURON | Human | MSigDB",0.4853826701,21,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_EXCITATORY_NEURON",5
+"1","B-cells_FANTOM_1 | Human | xCell",0.4846026791,22,"xCell","Human","","B-cells_FANTOM_1",6
+"1","retina | SaVanT",0.4810445652,23,"SaVanT","","","retina",28
+"1","cerebral_cortex_prefrontal | SaVanT",0.4787700353,24,"SaVanT","","","cerebral_cortex_prefrontal",50
+"1","Megakaryocyte | Human | TISSUES",0.4763249002,25,"TISSUES","Human","","Megakaryocyte",5
+"1","Germ layer | Human | TISSUES",0.4739577136,26,"TISSUES","Human","","Germ layer",5
+"1","Keratinocytes_FANTOM_2 | Human | xCell",0.468656624,27,"xCell","Human","","Keratinocytes_FANTOM_2",12
+"1","Keratinocytes_FANTOM_3 | Human | xCell",0.468656624,28,"xCell","Human","","Keratinocytes_FANTOM_3",12
+"1","Memory B-cells_IRIS_1 | Human | xCell",0.4684285364,29,"xCell","Human","","Memory B-cells_IRIS_1",7
+"1","Myeloid conventional dendritic cell | Bone marrow | Human | CellMarker",0.4678388604,30,"CellMarker","Human","Bone marrow","Myeloid conventional dendritic cell",5
+"1","Adrenal gland | Mouse | TISSUES",0.463752482,31,"TISSUES","Mouse","","Adrenal gland",5
+"1","Olfactory sensory neuron | Brain | Mouse | CellMarker",0.462418055,32,"CellMarker","Mouse","Brain","Olfactory sensory neuron",5
+"1","Lake et al.Science.Ex2 | Brain | Human | CellMarker",0.4597641876,33,"CellMarker","Human","Brain","Lake et al.Science.Ex2",8
+"1","Hepatocyte | Liver | Mouse | CellMarker",0.4595617495,34,"CellMarker","Mouse","Liver","Hepatocyte",6
+"1","Reticulocyte | SaVanT",0.4561803323,35,"SaVanT","","","Reticulocyte",10
+"1","Mesangial cell | Human | TISSUES",0.4429576036,36,"TISSUES","Human","","Mesangial cell",9
+"1","Mesangium | Human | TISSUES",0.4429576036,37,"TISSUES","Human","","Mesangium",9
+"1","Memory B-cells_BLUEPRINT_1 | Human | xCell",0.441986959,38,"xCell","Human","","Memory B-cells_BLUEPRINT_1",44
+"1","naive B-cells_NOVERSHTERN_1 | Human | xCell",0.43784393,39,"xCell","Human","","naive B-cells_NOVERSHTERN_1",23
+"1","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON | Human | MSigDB",0.4337946353,40,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON",36
+"1","Cancer stem cell (Bladder Cancer) | Bladder | Human | CellMarker",0.4337327246,41,"CellMarker","Human","Bladder","Cancer stem cell (Bladder Cancer)",5
+"1","CD8+ Tem_NOVERSHTERN_3 | Human | xCell",0.4293868706,42,"xCell","Human","","CD8+ Tem_NOVERSHTERN_3",6
+"1","Memory B-cells_BLUEPRINT_3 | Human | xCell",0.4288888309,43,"xCell","Human","","Memory B-cells_BLUEPRINT_3",21
+"1","Neuron | Embryonic prefrontal cortex | Human | CellMarker",0.4264035354,44,"CellMarker","Human","Embryonic prefrontal cortex","Neuron",8
+"1","B-cells_FANTOM_3 | Human | xCell",0.4249827944,45,"xCell","Human","","B-cells_FANTOM_3",8
+"1","cerebral_cortex | SaVanT",0.4234173634,46,"SaVanT","","","cerebral_cortex",50
+"1","Alpha cell | Pancreas | Human | CellMarker",0.4202141271,47,"CellMarker","Human","Pancreas","Alpha cell",7
+"1","Neutrophils_FANTOM_1 | Human | xCell",0.4180266537,48,"xCell","Human","","Neutrophils_FANTOM_1",26
+"1","NK cells_IRIS_2 | Human | xCell",0.4158764063,49,"xCell","Human","","NK cells_IRIS_2",7
+"1","Neuroblasts | Brain | Human | PanglaoDB",0.4154625775,50,"PanglaoDB","Human","Brain","Neuroblasts",31
+"1","Neuroblasts | Brain | Mouse | PanglaoDB",0.4154625775,51,"PanglaoDB","Mouse","Brain","Neuroblasts",31
+"1","Large granular lymphocyte | Mouse | TISSUES",0.4153271513,52,"TISSUES","Mouse","","Large granular lymphocyte",7
+"1","Natural killer cell | Mouse | TISSUES",0.4153271513,53,"TISSUES","Mouse","","Natural killer cell",7
+"1","Null cell | Mouse | TISSUES",0.4153271513,54,"TISSUES","Mouse","","Null cell",7
+"1","NKT_NOVERSHTERN_1 | Human | xCell",0.4139812277,55,"xCell","Human","","NKT_NOVERSHTERN_1",6
+"1","Renal corpuscle | Human | TISSUES",0.4112886484,56,"TISSUES","Human","","Renal corpuscle",10
+"1","Renal glomerulus | Human | TISSUES",0.4112886484,57,"TISSUES","Human","","Renal glomerulus",10
+"1","Retinal ganglion cell | Retina | Mouse | CellMarker",0.4095090391,58,"CellMarker","Mouse","Retina","Retinal ganglion cell",6
+"1","Lymphocyte | Bone marrow | Mouse | CellMarker",0.4074731408,59,"CellMarker","Mouse","Bone marrow","Lymphocyte",6
+"1","Pyramidal cells | Brain | Human | PanglaoDB",0.4045124471,60,"PanglaoDB","Human","Brain","Pyramidal cells",23
+"1","Pyramidal cells | Brain | Mouse | PanglaoDB",0.4045124471,61,"PanglaoDB","Mouse","Brain","Pyramidal cells",23
+"1","Germ cells | Reproductive | Human | PanglaoDB",0.4000603132,62,"PanglaoDB","Human","Reproductive","Germ cells",43
+"1","Germ cells | Reproductive | Mouse | PanglaoDB",0.4000603132,63,"PanglaoDB","Mouse","Reproductive","Germ cells",43
+"1","Dopaminergic neurons | Brain | Human | PanglaoDB",0.3982695478,64,"PanglaoDB","Human","Brain","Dopaminergic neurons",13
+"1","ZHONG_PFC_C7_ORG_UNDERGOING_NEURONAL_DIFFERENTIATION | Human | MSigDB",0.3969629462,65,"MSigDB","Human","","ZHONG_PFC_C7_ORG_UNDERGOING_NEURONAL_DIFFERENTIATION",48
+"1","NK cells_BLUEPRINT_3 | Human | xCell",0.3931893557,66,"xCell","Human","","NK cells_BLUEPRINT_3",7
+"1","Neutrophils_FANTOM_3 | Human | xCell",0.3931056496,67,"xCell","Human","","Neutrophils_FANTOM_3",23
+"1","Pinealocytes | Brain | Human | PanglaoDB",0.3925025728,68,"PanglaoDB","Human","Brain","Pinealocytes",11
+"1","Pinealocytes | Brain | Mouse | PanglaoDB",0.3925025728,69,"PanglaoDB","Mouse","Brain","Pinealocytes",11
+"1","ZHONG_PFC_C2_UNKNOWN_NPC | Human | MSigDB",0.3923041677,70,"MSigDB","Human","","ZHONG_PFC_C2_UNKNOWN_NPC",32
+"1","CD8+ Tem_NOVERSHTERN_1 | Human | xCell",0.3920308681,71,"xCell","Human","","CD8+ Tem_NOVERSHTERN_1",8
+"1","naive B-cells_HPCA_3 | Human | xCell",0.3891199462,72,"xCell","Human","","naive B-cells_HPCA_3",15
+"1","Eosinophils_BLUEPRINT_3 | Human | xCell",0.3874939771,73,"xCell","Human","","Eosinophils_BLUEPRINT_3",17
+"1","B_cell | SaVanT",0.3874781597,74,"SaVanT","","","B_cell",35
+"1","Neurons_ENCODE_1 | Human | xCell",0.3872389554,75,"xCell","Human","","Neurons_ENCODE_1",7
+"1","CD4+ T-cells_FANTOM_2 | Human | xCell",0.3846244602,76,"xCell","Human","","CD4+ T-cells_FANTOM_2",6
+"1","Delta cells | Pancreas | Human | PanglaoDB",0.3828303427,77,"PanglaoDB","Human","Pancreas","Delta cells",13
+"1","Delta cells | Pancreas | Mouse | PanglaoDB",0.3828303427,78,"PanglaoDB","Mouse","Pancreas","Delta cells",13
+"1","FAN_EMBRYONIC_CTX_IN_1_INTERNEURON | Human | MSigDB",0.3819151476,79,"MSigDB","Human","","FAN_EMBRYONIC_CTX_IN_1_INTERNEURON",6
+"1","Memory B-cells_BLUEPRINT_2 | Human | xCell",0.3805861574,80,"xCell","Human","","Memory B-cells_BLUEPRINT_2",26
+"1","dorsal_striatum | SaVanT",0.3782079295,81,"SaVanT","","","dorsal_striatum",46
+"1","FAN_EMBRYONIC_CTX_EX_4_EXCITATORY_NEURON | Human | MSigDB",0.3766532788,82,"MSigDB","Human","","FAN_EMBRYONIC_CTX_EX_4_EXCITATORY_NEURON",109
+"1","Cardiomyocyte | Heart | Mouse | CellMarker",0.3757927617,83,"CellMarker","Mouse","Heart","Cardiomyocyte",6
+"1","IMGN_B_Fo_Sp | Mouse | SaVanT",0.3723040075,84,"SaVanT","Mouse","","IMGN_B_Fo_Sp",29
+"1","common_myeloid_progenitor | SaVanT",0.3716647836,85,"SaVanT","","","common_myeloid_progenitor",42
+"1","CUI_DEVELOPING_HEART_RIGHT_ATRIAL_CARDIOMYOCYTE | Human | MSigDB",0.3712269303,86,"MSigDB","Human","","CUI_DEVELOPING_HEART_RIGHT_ATRIAL_CARDIOMYOCYTE",24
+"1","IMGN_B_Fo_PC | Mouse | SaVanT",0.3710870075,87,"SaVanT","Mouse","","IMGN_B_Fo_PC",29
+"1","T helper cells | Immune system | Human | PanglaoDB",0.3683348143,88,"PanglaoDB","Human","Immune system","T helper cells",13
+"1","T helper cells | Immune system | Mouse | PanglaoDB",0.3683348143,89,"PanglaoDB","Mouse","Immune system","T helper cells",13
+"1","Memory B-cells_IRIS_2 | Human | xCell",0.3676718248,90,"xCell","Human","","Memory B-cells_IRIS_2",6
+"1","pre-T-lymphocyte | Human | TISSUES",0.3653017353,91,"TISSUES","Human","","pre-T-lymphocyte",5
+"1","Thymocyte | Human | TISSUES",0.3653017353,92,"TISSUES","Human","","Thymocyte",5
+"1","Cancer stem cell (Pancreatic Ductal Adenocarcinoma) | Human | CellMarker",0.3631636215,93,"CellMarker","Human","","Cancer stem cell (Pancreatic Ductal Adenocarcinoma)",6
+"1","MANNO_MIDBRAIN_NEUROTYPES_HNBGABA | Human | MSigDB",0.3626124365,94,"MSigDB","Human","","MANNO_MIDBRAIN_NEUROTYPES_HNBGABA",476
+"1","HU_FETAL_RETINA_AMACRINE | Human | MSigDB",0.3604492448,95,"MSigDB","Human","","HU_FETAL_RETINA_AMACRINE",46
+"1","IMGN_DC_103+11b-_Lv | Mouse | SaVanT",0.3568805556,96,"SaVanT","Mouse","","IMGN_DC_103+11b-_Lv",34
+"1","LAKE_ADULT_KIDNEY_C29_UNKNOWN_NOVEL_PT_CFH_POS_SUBPOPULATION_S2 | Human | MSigDB",0.3536748953,97,"MSigDB","Human","","LAKE_ADULT_KIDNEY_C29_UNKNOWN_NOVEL_PT_CFH_POS_SUBPOPULATION_S2",61
+"1","Keratinocyte | SaVanT",0.3534934095,98,"SaVanT","","","Keratinocyte",16
+"1","Cancer stem cell (Lung Cancer) | Lung | Human | CellMarker",0.3526289537,99,"CellMarker","Human","Lung","Cancer stem cell (Lung Cancer)",6
+"1","Cancer stem cell | Prostate | Human | CellMarker",0.352231803,100,"CellMarker","Human","Prostate","Cancer stem cell",13
+"10","Oligodendrocyte progenitor cells | Brain | Human | PanglaoDB",0.7480183589,1,"PanglaoDB","Human","Brain","Oligodendrocyte progenitor cells",20
+"10","Oligodendrocyte progenitor cells | Brain | Mouse | PanglaoDB",0.7480183589,2,"PanglaoDB","Mouse","Brain","Oligodendrocyte progenitor cells",20
+"10","Oligodendrocyte | Human | CellMarker",0.7320728468,3,"CellMarker","Human","","Oligodendrocyte",5
+"10","Oligodendrocyte precursor cell | Brain | Mouse | CellMarker",0.731239914,4,"CellMarker","Mouse","Brain","Oligodendrocyte precursor cell",74
+"10","Alveolar macrophages | Lungs | Human | PanglaoDB",0.7250300805,5,"PanglaoDB","Human","Lungs","Alveolar macrophages",8
+"10","Alveolar macrophages | Lungs | Mouse | PanglaoDB",0.7250300805,6,"PanglaoDB","Mouse","Lungs","Alveolar macrophages",8
+"10","Rheaume et al.Nat Commun.19 | Retina | Mouse | CellMarker",0.6439721986,7,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.19",9
+"10","O cell | Brain | Mouse | CellMarker",0.6383924921,8,"CellMarker","Mouse","Brain","O cell",8
+"10","NKT_NOVERSHTERN_2 | Human | xCell",0.6281908337,9,"xCell","Human","","NKT_NOVERSHTERN_2",5
+"10","Rheaume et al.Nat Commun.4 | Retina | Mouse | CellMarker",0.6171387014,10,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.4",5
+"10","Erythrocytes_BLUEPRINT_1 | Human | xCell",0.6165681903,11,"xCell","Human","","Erythrocytes_BLUEPRINT_1",5
+"10","Erythrocytes_BLUEPRINT_2 | Human | xCell",0.6165681903,12,"xCell","Human","","Erythrocytes_BLUEPRINT_2",5
+"10","Erythrocytes_BLUEPRINT_3 | Human | xCell",0.6165681903,13,"xCell","Human","","Erythrocytes_BLUEPRINT_3",5
+"10","Erythrocytes_HPCA_2 | Human | xCell",0.6165681903,14,"xCell","Human","","Erythrocytes_HPCA_2",5
+"10","Erythrocytes_HPCA_3 | Human | xCell",0.6165681903,15,"xCell","Human","","Erythrocytes_HPCA_3",5
+"10","Basophil | Human | CellMarker",0.6071737967,16,"CellMarker","Human","","Basophil",12
+"10","Mesenchymal stem cell | Periodontal ligament | Human | CellMarker",0.6058832993,17,"CellMarker","Human","Periodontal ligament","Mesenchymal stem cell",6
+"10","ZHONG_PFC_C2_ASCL1_POS_ASTROCYTE | Human | MSigDB",0.6046649071,18,"MSigDB","Human","","ZHONG_PFC_C2_ASCL1_POS_ASTROCYTE",6
+"10","Fibroblast | Mouse | CellMarker",0.6028164296,19,"CellMarker","Mouse","","Fibroblast",6
+"10","Monocytes_BLUEPRINT_2 | Human | xCell",0.599642283,20,"xCell","Human","","Monocytes_BLUEPRINT_2",5
+"10","Plasma cells_BLUEPRINT_1 | Human | xCell",0.5995454295,21,"xCell","Human","","Plasma cells_BLUEPRINT_1",5
+"10","Erythroid cell | Human | TISSUES",0.5949541398,22,"TISSUES","Human","","Erythroid cell",5
+"10","Cholinergic neurons | Brain | Human | PanglaoDB",0.5752482847,23,"PanglaoDB","Human","Brain","Cholinergic neurons",6
+"10","Cholinergic neurons | Brain | Mouse | PanglaoDB",0.5752482847,24,"PanglaoDB","Mouse","Brain","Cholinergic neurons",6
+"10","Acinar cells | Pancreas | Mouse | PanglaoDB",0.5746596632,25,"PanglaoDB","Mouse","Pancreas","Acinar cells",7
+"10","ZHONG_PFC_MAJOR_TYPES_OPC | Human | MSigDB",0.572955887,26,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_OPC",66
+"10","Melanocytes_ENCODE_1 | Human | xCell",0.5727736934,27,"xCell","Human","","Melanocytes_ENCODE_1",9
+"10","Stem cell | Muscle | Human | CellMarker",0.5608996386,28,"CellMarker","Human","Muscle","Stem cell",10
+"10","NT_6 | SaVanT",0.5589851445,29,"SaVanT","","","NT_6",22
+"10","Memory B-cells_HPCA_3 | Human | xCell",0.5572116553,30,"xCell","Human","","Memory B-cells_HPCA_3",5
+"10","Adventitial cell | Human | CellMarker",0.5560520628,31,"CellMarker","Human","","Adventitial cell",5
+"10","NKT_NOVERSHTERN_1 | Human | xCell",0.54619544,32,"xCell","Human","","NKT_NOVERSHTERN_1",6
+"10","Lens epithelium | Human | TISSUES",0.5443789613,33,"TISSUES","Human","","Lens epithelium",10
+"10","Fibroblast | Human | CellMarker",0.5442816848,34,"CellMarker","Human","","Fibroblast",9
+"10","Mesenchymal stem cell | Placenta | Human | CellMarker",0.5431799349,35,"CellMarker","Human","Placenta","Mesenchymal stem cell",7
+"10","Rheaume et al.Nat Commun.40 | Retina | Mouse | CellMarker",0.5411984563,36,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.40",13
+"10","Memory B-cells_HPCA_1 | Human | xCell",0.5406508023,37,"xCell","Human","","Memory B-cells_HPCA_1",6
+"10","Erythrocytes_FANTOM_3 | Human | xCell",0.534481141,38,"xCell","Human","","Erythrocytes_FANTOM_3",5
+"10","Memory B-cells_IRIS_1 | Human | xCell",0.5284793844,39,"xCell","Human","","Memory B-cells_IRIS_1",7
+"10","Lee et al.Cell.E | Lung | Mouse | CellMarker",0.5284388062,40,"CellMarker","Mouse","Lung","Lee et al.Cell.E",5
+"10","CD4+ naive T-cells_FANTOM_3 | Human | xCell",0.5280772169,41,"xCell","Human","","CD4+ naive T-cells_FANTOM_3",5
+"10","Mesenchymal stromal cell | Peripheral blood | Mouse | CellMarker",0.5251606645,42,"CellMarker","Mouse","Peripheral blood","Mesenchymal stromal cell",5
+"10","FAN_EMBRYONIC_CTX_OPC | Human | MSigDB",0.5239272154,43,"MSigDB","Human","","FAN_EMBRYONIC_CTX_OPC",41
+"10","Epithelial cells_FANTOM_1 | Human | xCell",0.5231889836,44,"xCell","Human","","Epithelial cells_FANTOM_1",7
+"10","Mesenchymal stem cell | Skeletal muscle | Human | CellMarker",0.5214942246,45,"CellMarker","Human","Skeletal muscle","Mesenchymal stem cell",8
+"10","Microglial cell | Human | CellMarker",0.5172119743,46,"CellMarker","Human","","Microglial cell",6
+"10","ZHONG_PFC_C2_THY1_POS_OPC | Human | MSigDB",0.5171756193,47,"MSigDB","Human","","ZHONG_PFC_C2_THY1_POS_OPC",20
+"10","Plasma cells_HPCA_3 | Human | xCell",0.5153412467,48,"xCell","Human","","Plasma cells_HPCA_3",6
+"10","Meningeal cells | Brain | Human | PanglaoDB",0.5125929736,49,"PanglaoDB","Human","Brain","Meningeal cells",14
+"10","Meningeal cells | Brain | Mouse | PanglaoDB",0.5125929736,50,"PanglaoDB","Mouse","Brain","Meningeal cells",14
+"10","cDC_HPCA_1 | Human | xCell",0.5094536723,51,"xCell","Human","","cDC_HPCA_1",7
+"10","FAN_EMBRYONIC_CTX_BIG_GROUPS_GLIAL | Human | MSigDB",0.5068277819,52,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_GLIAL",102
+"10","CD4+ Tem_BLUEPRINT_2 | Human | xCell",0.5054094436,53,"xCell","Human","","CD4+ Tem_BLUEPRINT_2",6
+"10","Mesenchymal stem cell | Bone marrow | Mouse | CellMarker",0.504228711,54,"CellMarker","Mouse","Bone marrow","Mesenchymal stem cell",8
+"10","Renal proximal tubule | Human | TISSUES",0.5024785434,55,"TISSUES","Human","","Renal proximal tubule",7
+"10","Renal tubule | Human | TISSUES",0.5024785434,56,"TISSUES","Human","","Renal tubule",7
+"10","cDC_HPCA_2 | Human | xCell",0.5014500686,57,"xCell","Human","","cDC_HPCA_2",5
+"10","Adult stem cell | Mouse | TISSUES",0.5011332481,58,"TISSUES","Mouse","","Adult stem cell",7
+"10","Endothelial cell | Bone marrow | Human | CellMarker",0.5002231063,59,"CellMarker","Human","Bone marrow","Endothelial cell",10
+"10","Epidermis | Mouse | TISSUES",0.4985931896,60,"TISSUES","Mouse","","Epidermis",23
+"10","Cancer stem cell (Lung Cancer) | Mouse | CellMarker",0.4956811887,61,"CellMarker","Mouse","","Cancer stem cell (Lung Cancer)",5
+"10","Endothelial cell | Blood vessel | Mouse | CellMarker",0.4952090908,62,"CellMarker","Mouse","Blood vessel","Endothelial cell",15
+"10","Thyroid cancer cell | Human | TISSUES",0.4923617129,63,"TISSUES","Human","","Thyroid cancer cell",11
+"10","Epidermal cell | Mouse | TISSUES",0.4911855054,64,"TISSUES","Mouse","","Epidermal cell",11
+"10","Pericyte | Human | CellMarker",0.49036382,65,"CellMarker","Human","","Pericyte",10
+"10","Pericyte | Brain | Mouse | CellMarker",0.4903157914,66,"CellMarker","Mouse","Brain","Pericyte",6
+"10","Eosinophil | Lung | Mouse | CellMarker",0.4884066567,67,"CellMarker","Mouse","Lung","Eosinophil",5
+"10","Preadipocytes_ENCODE_2 | Human | xCell",0.4844835305,68,"xCell","Human","","Preadipocytes_ENCODE_2",10
+"10","Monocytes_IRIS_1 | Human | xCell",0.4837846264,69,"xCell","Human","","Monocytes_IRIS_1",6
+"10","Neural tube cell | Germ | Human | CellMarker",0.4820809644,70,"CellMarker","Human","Germ","Neural tube cell",9
+"10","Epithelial cells_FANTOM_3 | Human | xCell",0.4809435752,71,"xCell","Human","","Epithelial cells_FANTOM_3",7
+"10","NK cells_HPCA_2 | Human | xCell",0.4808241348,72,"xCell","Human","","NK cells_HPCA_2",15
+"10","Neural stem cell | Brain | Mouse | CellMarker",0.4801022742,73,"CellMarker","Mouse","Brain","Neural stem cell",10
+"10","Oligodendrocyte progenitor cell | Embryonic prefrontal cortex | Human | CellMarker",0.4798568803,74,"CellMarker","Human","Embryonic prefrontal cortex","Oligodendrocyte progenitor cell",81
+"10","Conventional dendritic cell | Human | CellMarker",0.4735443533,75,"CellMarker","Human","","Conventional dendritic cell",8
+"10","TLR2_6 | SaVanT",0.4718486042,76,"SaVanT","","","TLR2_6",26
+"10","Keratinocyte | Mouse | TISSUES",0.4706939185,77,"TISSUES","Mouse","","Keratinocyte",5
+"10","Stratum spinosum | Mouse | TISSUES",0.4706939185,78,"TISSUES","Mouse","","Stratum spinosum",5
+"10","HU_FETAL_RETINA_MULLER | Human | MSigDB",0.4702977313,79,"MSigDB","Human","","HU_FETAL_RETINA_MULLER",28
+"10","Marginal zone B cell | Mouse | CellMarker",0.4678600139,80,"CellMarker","Mouse","","Marginal zone B cell",5
+"10","MA_M_GMCSF_P3C_72h | Human | SaVanT",0.4668573256,81,"SaVanT","Human","","MA_M_GMCSF_P3C_72h",33
+"10","ZHONG_PFC_C6_DLX5_GAD1_GAD2_POS_INTERNEURON | Human | MSigDB",0.4659670551,82,"MSigDB","Human","","ZHONG_PFC_C6_DLX5_GAD1_GAD2_POS_INTERNEURON",9
+"10","Daltons lymphoma cell | Mouse | TISSUES",0.4659595003,83,"TISSUES","Mouse","","Daltons lymphoma cell",7
+"10","T-cell lymphoma cell | Mouse | TISSUES",0.4659595003,84,"TISSUES","Mouse","","T-cell lymphoma cell",7
+"10","Cancer stem cell (Lung Cancer) | Lung | Mouse | CellMarker",0.4640670293,85,"CellMarker","Mouse","Lung","Cancer stem cell (Lung Cancer)",6
+"10","Fibroblastoma cell | Human | TISSUES",0.4627969664,86,"TISSUES","Human","","Fibroblastoma cell",6
+"10","Fibrosarcoma cell | Human | TISSUES",0.4627969664,87,"TISSUES","Human","","Fibrosarcoma cell",6
+"10","Stem cell | Bone | Mouse | CellMarker",0.4610158477,88,"CellMarker","Mouse","Bone","Stem cell",6
+"10","T helper cell | Mouse | CellMarker",0.4607753095,89,"CellMarker","Mouse","","T helper cell",10
+"10","Monocyte | Peripheral blood | Human | CellMarker",0.4591022313,90,"CellMarker","Human","Peripheral blood","Monocyte",10
+"10","HBA_Thymus | Human | SaVanT",0.4589912401,91,"SaVanT","Human","","HBA_Thymus",25
+"10","Neutrophil | Blood | Human | CellMarker",0.4569383172,92,"CellMarker","Human","Blood","Neutrophil",8
+"10","Parathyroid gland | Human | TISSUES",0.4568328349,93,"TISSUES","Human","","Parathyroid gland",5
+"10","IMGN_MF_Thio5_II+480int_PC | Mouse | SaVanT",0.4557911479,94,"SaVanT","Mouse","","IMGN_MF_Thio5_II+480int_PC",38
+"10","IMGN_MF_Thio5_II-480hi_PC | Mouse | SaVanT",0.4556534675,95,"SaVanT","Mouse","","IMGN_MF_Thio5_II-480hi_PC",32
+"10","Mesenchymal stem cell | Bone | Human | CellMarker",0.4555549688,96,"CellMarker","Human","Bone","Mesenchymal stem cell",14
+"10","Mesenchymal stem cell | Muscle | Human | CellMarker",0.4555549688,97,"CellMarker","Human","Muscle","Mesenchymal stem cell",14
+"10","Mesenchymal stem cell | Tendon | Human | CellMarker",0.4555549688,98,"CellMarker","Human","Tendon","Mesenchymal stem cell",14
+"10","CD8+ Tcm_NOVERSHTERN_2 | Human | xCell",0.4545600972,99,"xCell","Human","","CD8+ Tcm_NOVERSHTERN_2",9
+"10","Respiratory epithelium | Human | TISSUES",0.4529342084,100,"TISSUES","Human","","Respiratory epithelium",6
+"11","Oligodendrocyte | Brain | Mouse | CellMarker",0.866214589,1,"CellMarker","Mouse","Brain","Oligodendrocyte",42
+"11","O cell | Brain | Mouse | CellMarker",0.8590854468,2,"CellMarker","Mouse","Brain","O cell",8
+"11","Oligodendrocyte | Human | CellMarker",0.846781333,3,"CellMarker","Human","","Oligodendrocyte",5
+"11","Oligodendrocytes | Brain | Human | PanglaoDB",0.7350488986,4,"PanglaoDB","Human","Brain","Oligodendrocytes",60
+"11","Oligodendrocytes | Brain | Mouse | PanglaoDB",0.7350488986,5,"PanglaoDB","Mouse","Brain","Oligodendrocytes",60
+"11","NKT_NOVERSHTERN_3 | Human | xCell",0.72138025,6,"xCell","Human","","NKT_NOVERSHTERN_3",6
+"11","Coronary artery endothelial cell | Human | TISSUES",0.7035983052,7,"TISSUES","Human","","Coronary artery endothelial cell",6
+"11","Goblet cells | GI tract | Human | PanglaoDB",0.6856011112,8,"PanglaoDB","Human","GI tract","Goblet cells",5
+"11","Goblet cells | GI tract | Mouse | PanglaoDB",0.6856011112,9,"PanglaoDB","Mouse","GI tract","Goblet cells",5
+"11","Macrophages M1_BLUEPRINT_1 | Human | xCell",0.6766217601,10,"xCell","Human","","Macrophages M1_BLUEPRINT_1",5
+"11","Endothelial cell | Muscle | Human | CellMarker",0.6707889416,11,"CellMarker","Human","Muscle","Endothelial cell",5
+"11","Lipofibroblast | Lung | Mouse | CellMarker",0.6476928707,12,"CellMarker","Mouse","Lung","Lipofibroblast",7
+"11","Mesenchymal stem cell | Skeletal muscle | Human | CellMarker",0.6222739968,13,"CellMarker","Human","Skeletal muscle","Mesenchymal stem cell",8
+"11","Endothelial cell | Lung | Human | CellMarker",0.6200995136,14,"CellMarker","Human","Lung","Endothelial cell",6
+"11","Th1 cells_IRIS_2 | Human | xCell",0.6195094971,15,"xCell","Human","","Th1 cells_IRIS_2",7
+"11","Basophils_NOVERSHTERN_3 | Human | xCell",0.6112365178,16,"xCell","Human","","Basophils_NOVERSHTERN_3",5
+"11","Melanocytes_FANTOM_1 | Human | xCell",0.5961173644,17,"xCell","Human","","Melanocytes_FANTOM_1",5
+"11","Mesenchymal stem cell | Placenta | Human | CellMarker",0.592599381,18,"CellMarker","Human","Placenta","Mesenchymal stem cell",7
+"11","CUI_DEVELOPING_HEART_COMPACT_ATRIAL_CARDIOMYOCYTE | Human | MSigDB",0.5866178857,19,"MSigDB","Human","","CUI_DEVELOPING_HEART_COMPACT_ATRIAL_CARDIOMYOCYTE",10
+"11","Pericyte | Brain | Mouse | CellMarker",0.575056655,20,"CellMarker","Mouse","Brain","Pericyte",6
+"11","Mesenchymal stromal cell | Umbilical cord | Mouse | CellMarker",0.5648267506,21,"CellMarker","Mouse","Umbilical cord","Mesenchymal stromal cell",7
+"11","Endothelial cell | Adipose tissue | Human | CellMarker",0.5607836092,22,"CellMarker","Human","Adipose tissue","Endothelial cell",6
+"11","HBA_Spinalcord | Human | SaVanT",0.5590681561,23,"SaVanT","Human","","HBA_Spinalcord",44
+"11","Oligodendrocytes | SaVanT",0.5547158694,24,"SaVanT","","","Oligodendrocytes",49
+"11","spinal_cord | SaVanT",0.5514769229,25,"SaVanT","","","spinal_cord",48
+"11","Schwann cells | Brain | Human | PanglaoDB",0.5502250649,26,"PanglaoDB","Human","Brain","Schwann cells",29
+"11","Schwann cells | Brain | Mouse | PanglaoDB",0.5502250649,27,"PanglaoDB","Mouse","Brain","Schwann cells",29
+"11","Stromal cell | Bone marrow | Human | CellMarker",0.5467459804,28,"CellMarker","Human","Bone marrow","Stromal cell",7
+"11","Pericyte | Human | CellMarker",0.5454566627,29,"CellMarker","Human","","Pericyte",10
+"11","Type II pneumocyte | Lung | Mouse | CellMarker",0.5446415351,30,"CellMarker","Mouse","Lung","Type II pneumocyte",15
+"11","Pulmonary artery | Human | TISSUES",0.5442296881,31,"TISSUES","Human","","Pulmonary artery",5
+"11","Monocytes_IRIS_1 | Human | xCell",0.5418499338,32,"xCell","Human","","Monocytes_IRIS_1",6
+"11","Endothelial cell | Bone marrow | Human | CellMarker",0.535034175,33,"CellMarker","Human","Bone marrow","Endothelial cell",10
+"11","Endothelial cell | Human | CellMarker",0.5319398139,34,"CellMarker","Human","","Endothelial cell",11
+"11","Eosinophils_BLUEPRINT_3 | Human | xCell",0.5282141147,35,"xCell","Human","","Eosinophils_BLUEPRINT_3",17
+"11","Adipocyte | Mouse | TISSUES",0.525734748,36,"TISSUES","Mouse","","Adipocyte",23
+"11","Fat pad | Mouse | TISSUES",0.525734748,37,"TISSUES","Mouse","","Fat pad",23
+"11","White adipose tissue | Mouse | TISSUES",0.525734748,38,"TISSUES","Mouse","","White adipose tissue",23
+"11","Neural tube cell | Germ | Human | CellMarker",0.5251624633,39,"CellMarker","Human","Germ","Neural tube cell",9
+"11","Endothelial cell | Embryo | Mouse | CellMarker",0.5245977997,40,"CellMarker","Mouse","Embryo","Endothelial cell",9
+"11","Type III taste bud cell | Taste bud | Mouse | CellMarker",0.5214367017,41,"CellMarker","Mouse","Taste bud","Type III taste bud cell",5
+"11","Endothelial cell | Cornea | Human | CellMarker",0.5188673739,42,"CellMarker","Human","Cornea","Endothelial cell",8
+"11","Endothelial cell | Mouse | CellMarker",0.5173270089,43,"CellMarker","Mouse","","Endothelial cell",7
+"11","Microglial cell (Glioma) | Brain | Human | CellMarker",0.5161442066,44,"CellMarker","Human","Brain","Microglial cell (Glioma)",6
+"11","MEL | SaVanT",0.5130718118,45,"SaVanT","","","MEL",35
+"11","Early enterocyte precursor cell | Intestinal crypt | Mouse | CellMarker",0.5063333193,46,"CellMarker","Mouse","Intestinal crypt","Early enterocyte precursor cell",10
+"11","Stem cell | Cartilage | Human | CellMarker",0.5059800189,47,"CellMarker","Human","Cartilage","Stem cell",7
+"11","Basophils_NOVERSHTERN_2 | Human | xCell",0.5035041643,48,"xCell","Human","","Basophils_NOVERSHTERN_2",7
+"11","Mesenchymal stem cell | Tooth | Human | CellMarker",0.5018061078,49,"CellMarker","Human","Tooth","Mesenchymal stem cell",6
+"11","DC_IRIS_2 | Human | xCell",0.5011621568,50,"xCell","Human","","DC_IRIS_2",10
+"11","Macrophages M1_BLUEPRINT_2 | Human | xCell",0.49795772,51,"xCell","Human","","Macrophages M1_BLUEPRINT_2",5
+"11","intestine_large | SaVanT",0.4947628136,52,"SaVanT","","","intestine_large",14
+"11","BU | SaVanT",0.4927661021,53,"SaVanT","","","BU",25
+"11","Stem cell | Bone | Human | CellMarker",0.4923700961,54,"CellMarker","Human","Bone","Stem cell",5
+"11","Oligodendrocyte | Brain | Human | CellMarker",0.491554823,55,"CellMarker","Human","Brain","Oligodendrocyte",114
+"11","Marginal zone B cell | Mouse | CellMarker",0.4888707251,56,"CellMarker","Mouse","","Marginal zone B cell",5
+"11","Airway goblet cells | Lungs | Human | PanglaoDB",0.4870735128,57,"PanglaoDB","Human","Lungs","Airway goblet cells",6
+"11","Airway goblet cells | Lungs | Mouse | PanglaoDB",0.4870735128,58,"PanglaoDB","Mouse","Lungs","Airway goblet cells",6
+"11","Oligodendrocyte progenitor cells | Brain | Human | PanglaoDB",0.4858654847,59,"PanglaoDB","Human","Brain","Oligodendrocyte progenitor cells",20
+"11","Oligodendrocyte progenitor cells | Brain | Mouse | PanglaoDB",0.4858654847,60,"PanglaoDB","Mouse","Brain","Oligodendrocyte progenitor cells",20
+"11","CD4+ Tcm_NOVERSHTERN_1 | Human | xCell",0.4852167286,61,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_1",5
+"11","CD4+ Tcm_NOVERSHTERN_2 | Human | xCell",0.4852167286,62,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_2",5
+"11","Olfactory sensory neuron | Brain | Mouse | CellMarker",0.4846011957,63,"CellMarker","Mouse","Brain","Olfactory sensory neuron",5
+"11","Radial glial cell | Human | CellMarker",0.4832988482,64,"CellMarker","Human","","Radial glial cell",6
+"11","Epithelial cells_FANTOM_1 | Human | xCell",0.4761481121,65,"xCell","Human","","Epithelial cells_FANTOM_1",7
+"11","Luminal epithelial cells | Mammary gland | Human | PanglaoDB",0.4754895188,66,"PanglaoDB","Human","Mammary gland","Luminal epithelial cells",18
+"11","CD4+ T-cells_FANTOM_2 | Human | xCell",0.4713116199,67,"xCell","Human","","CD4+ T-cells_FANTOM_2",6
+"11","Mesenchymal stem cell | Fat pad | Human | CellMarker",0.4689783389,68,"CellMarker","Human","Fat pad","Mesenchymal stem cell",6
+"11","Stem cell | Dental pulp | Human | CellMarker",0.467771628,69,"CellMarker","Human","Dental pulp","Stem cell",8
+"11","HSC_FANTOM_1 | Human | xCell",0.4633954571,70,"xCell","Human","","HSC_FANTOM_1",9
+"11","Luminal epithelial cells | Mammary gland | Mouse | PanglaoDB",0.4627900267,71,"PanglaoDB","Mouse","Mammary gland","Luminal epithelial cells",17
+"11","HSC_NOVERSHTERN_3 | Human | xCell",0.4558779284,72,"xCell","Human","","HSC_NOVERSHTERN_3",5
+"11","Lee et al.Cell.E | Lung | Mouse | CellMarker",0.4536486657,73,"CellMarker","Mouse","Lung","Lee et al.Cell.E",5
+"11","Astrocytes_ENCODE_3 | Human | xCell",0.453316353,74,"xCell","Human","","Astrocytes_ENCODE_3",13
+"11","Endothelial cell | Blood vessel | Mouse | CellMarker",0.4515734577,75,"CellMarker","Mouse","Blood vessel","Endothelial cell",15
+"11","Undefined placental cells | Placenta | Human | PanglaoDB",0.4463505788,76,"PanglaoDB","Human","Placenta","Undefined placental cells",5
+"11","Undefined placental cells | Placenta | Mouse | PanglaoDB",0.4463505788,77,"PanglaoDB","Mouse","Placenta","Undefined placental cells",5
+"11","Basophils_NOVERSHTERN_1 | Human | xCell",0.440599876,78,"xCell","Human","","Basophils_NOVERSHTERN_1",18
+"11","Mesenchymal progenitor cell | Lung | Mouse | CellMarker",0.4371205549,79,"CellMarker","Mouse","Lung","Mesenchymal progenitor cell",7
+"11","Dental pulp stem cell | Dental pulp | Human | CellMarker",0.4351864708,80,"CellMarker","Human","Dental pulp","Dental pulp stem cell",7
+"11","FAN_EMBRYONIC_CTX_OLIG | Human | MSigDB",0.4328764517,81,"MSigDB","Human","","FAN_EMBRYONIC_CTX_OLIG",509
+"11","Epithelial cell | Lacrimal gland | Mouse | CellMarker",0.4320868723,82,"CellMarker","Mouse","Lacrimal gland","Epithelial cell",7
+"11","Vein | Mouse | TISSUES",0.4310927452,83,"TISSUES","Mouse","","Vein",9
+"11","HBA_retina | Human | SaVanT",0.4292964196,84,"SaVanT","Human","","HBA_retina",39
+"11","Epithelial cells_FANTOM_3 | Human | xCell",0.424095495,85,"xCell","Human","","Epithelial cells_FANTOM_3",7
+"11","Mesenchymal stromal cell | Bone marrow | Mouse | CellMarker",0.4236343339,86,"CellMarker","Mouse","Bone marrow","Mesenchymal stromal cell",6
+"11","Mesenchymal stem cell | Bone marrow | Human | CellMarker",0.421783951,87,"CellMarker","Human","Bone marrow","Mesenchymal stem cell",11
+"11","ZHONG_PFC_C4_PTGDS_POS_OPC | Human | MSigDB",0.4175787322,88,"MSigDB","Human","","ZHONG_PFC_C4_PTGDS_POS_OPC",113
+"11","HBA_OlfactoryBulb | Human | SaVanT",0.4167412279,89,"SaVanT","Human","","HBA_OlfactoryBulb",45
+"11","IMGN_proB_FrBC_FL | Mouse | SaVanT",0.411210204,90,"SaVanT","Mouse","","IMGN_proB_FrBC_FL",26
+"11","Tregs_FANTOM_3 | Human | xCell",0.4104433228,91,"xCell","Human","","Tregs_FANTOM_3",8
+"11","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_OLFACTORY_ENSHEATHING_GLIA | Human | MSigDB",0.4097397688,92,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_OLFACTORY_ENSHEATHING_GLIA",84
+"11","Peri-islet Schwann cells | Pancreas | Human | PanglaoDB",0.4094237044,93,"PanglaoDB","Human","Pancreas","Peri-islet Schwann cells",9
+"11","Peri-islet Schwann cells | Pancreas | Mouse | PanglaoDB",0.4094237044,94,"PanglaoDB","Mouse","Pancreas","Peri-islet Schwann cells",9
+"11","Monocytes_BLUEPRINT_2 | Human | xCell",0.4073969914,95,"xCell","Human","","Monocytes_BLUEPRINT_2",5
+"11","HBA_Thalamus | Human | SaVanT",0.4043233968,96,"SaVanT","Human","","HBA_Thalamus",46
+"11","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_UNSPECIFIED | Human | MSigDB",0.4042629178,97,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_UNSPECIFIED",20
+"11","HAY_BONE_MARROW_CD34_POS_MULTILIN | Human | MSigDB",0.4030344072,98,"MSigDB","Human","","HAY_BONE_MARROW_CD34_POS_MULTILIN",14
+"11","MA_M_GMCSF_IL4_72h | Human | SaVanT",0.4016211466,99,"SaVanT","Human","","MA_M_GMCSF_IL4_72h",37
+"11","Mesenchymal stem cell | Ligament | Human | CellMarker",0.4000559878,100,"CellMarker","Human","Ligament","Mesenchymal stem cell",12
+"2","Germ layer | Human | TISSUES",0.7725418614,1,"TISSUES","Human","","Germ layer",5
+"2","ZHONG_PFC_MAJOR_TYPES_EXCITATORY_NEURON | Human | MSigDB",0.7235680118,2,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_EXCITATORY_NEURON",5
+"2","Alpha cell | Pancreas | Human | CellMarker",0.6893690678,3,"CellMarker","Human","Pancreas","Alpha cell",7
+"2","HAY_BONE_MARROW_CD34_POS_LYMPHOID_UNK | Human | MSigDB",0.6754295916,4,"MSigDB","Human","","HAY_BONE_MARROW_CD34_POS_LYMPHOID_UNK",5
+"2","CD8+ Tem_NOVERSHTERN_3 | Human | xCell",0.6478766241,5,"xCell","Human","","CD8+ Tem_NOVERSHTERN_3",6
+"2","cerebral_cortex | SaVanT",0.6399994798,6,"SaVanT","","","cerebral_cortex",50
+"2","Rheaume et al.Nat Commun.31 | Retina | Mouse | CellMarker",0.6169669358,7,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.31",9
+"2","Enterocyte | Intestinal crypt | Mouse | CellMarker",0.6155305426,8,"CellMarker","Mouse","Intestinal crypt","Enterocyte",5
+"2","Lens | Mouse | TISSUES",0.6104299453,9,"TISSUES","Mouse","","Lens",9
+"2","cerebral_cortex_prefrontal | SaVanT",0.5961838337,10,"SaVanT","","","cerebral_cortex_prefrontal",50
+"2","Pyramidal cell | Human | CellMarker",0.59371188,11,"CellMarker","Human","","Pyramidal cell",8
+"2","CD4+ T-cells_FANTOM_2 | Human | xCell",0.593597919,12,"xCell","Human","","CD4+ T-cells_FANTOM_2",6
+"2","Glutaminergic neurons | Brain | Human | PanglaoDB",0.5784434999,13,"PanglaoDB","Human","Brain","Glutaminergic neurons",9
+"2","Glutaminergic neurons | Brain | Mouse | PanglaoDB",0.5784434999,14,"PanglaoDB","Mouse","Brain","Glutaminergic neurons",9
+"2","ZHONG_PFC_C5_BCL11B_CALB2_POS_INP | Human | MSigDB",0.5723711738,15,"MSigDB","Human","","ZHONG_PFC_C5_BCL11B_CALB2_POS_INP",14
+"2","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_RESPIRATORY_SECRETORY_CELLS | Human | MSigDB",0.572219883,16,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_RESPIRATORY_SECRETORY_CELLS",8
+"2","MSC_FANTOM_3 | Human | xCell",0.5673108865,17,"xCell","Human","","MSC_FANTOM_3",7
+"2","Neuron | Mouse | CellMarker",0.5662873684,18,"CellMarker","Mouse","","Neuron",8
+"2","CD4+ naive T-cells_NOVERSHTERN_2 | Human | xCell",0.5612956164,19,"xCell","Human","","CD4+ naive T-cells_NOVERSHTERN_2",7
+"2","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON | Human | MSigDB",0.5526887496,20,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON",36
+"2","Neurons_ENCODE_1 | Human | xCell",0.5421636247,21,"xCell","Human","","Neurons_ENCODE_1",7
+"2","Myeloid conventional dendritic cell | Bone marrow | Human | CellMarker",0.534043622,22,"CellMarker","Human","Bone marrow","Myeloid conventional dendritic cell",5
+"2","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_UNSPECIFIED | Human | MSigDB",0.5324791805,23,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_UNSPECIFIED",20
+"2","Class-switched memory B-cells_BLUEPRINT_2 | Human | xCell",0.532381857,24,"xCell","Human","","Class-switched memory B-cells_BLUEPRINT_2",16
+"2","CD8+ Tem_NOVERSHTERN_2 | Human | xCell",0.5297013551,25,"xCell","Human","","CD8+ Tem_NOVERSHTERN_2",5
+"2","CD8+ Tem_NOVERSHTERN_1 | Human | xCell",0.5255539245,26,"xCell","Human","","CD8+ Tem_NOVERSHTERN_1",8
+"2","Lens epithelium | Human | TISSUES",0.5234584733,27,"TISSUES","Human","","Lens epithelium",10
+"2","CLP_BLUEPRINT_1 | Human | xCell",0.5197295823,28,"xCell","Human","","CLP_BLUEPRINT_1",6
+"2","Neuron | Embryonic prefrontal cortex | Human | CellMarker",0.5051285247,29,"CellMarker","Human","Embryonic prefrontal cortex","Neuron",8
+"2","Bone marrow stromal cell | Human | TISSUES",0.5034958168,30,"TISSUES","Human","","Bone marrow stromal cell",6
+"2","Stromal cell | Human | TISSUES",0.5034958168,31,"TISSUES","Human","","Stromal cell",6
+"2","Seminoma cell | Human | TISSUES",0.5016195385,32,"TISSUES","Human","","Seminoma cell",6
+"2","Fibroblastoma cell | Human | TISSUES",0.5015995601,33,"TISSUES","Human","","Fibroblastoma cell",6
+"2","Fibrosarcoma cell | Human | TISSUES",0.5015995601,34,"TISSUES","Human","","Fibrosarcoma cell",6
+"2","Neuron | Brain | Mouse | CellMarker",0.501307938,35,"CellMarker","Mouse","Brain","Neuron",46
+"2","Embryonic carcinoma cell line | Mouse | TISSUES",0.4997101011,36,"TISSUES","Mouse","","Embryonic carcinoma cell line",6
+"2","Embryonic cell line | Mouse | TISSUES",0.4997101011,37,"TISSUES","Mouse","","Embryonic cell line",6
+"2","CD4+ Tem_BLUEPRINT_2 | Human | xCell",0.4987345977,38,"xCell","Human","","CD4+ Tem_BLUEPRINT_2",6
+"2","HBA_TemporalLobe | Human | SaVanT",0.4865710748,39,"SaVanT","Human","","HBA_TemporalLobe",50
+"2","Class-switched memory B-cells_BLUEPRINT_3 | Human | xCell",0.4855341604,40,"xCell","Human","","Class-switched memory B-cells_BLUEPRINT_3",11
+"2","Undefined placental cells | Placenta | Human | PanglaoDB",0.4831205269,41,"PanglaoDB","Human","Placenta","Undefined placental cells",5
+"2","Undefined placental cells | Placenta | Mouse | PanglaoDB",0.4831205269,42,"PanglaoDB","Mouse","Placenta","Undefined placental cells",5
+"2","HBA_Amygdala | Human | SaVanT",0.4817878107,43,"SaVanT","Human","","HBA_Amygdala",50
+"2","Myocytes_FANTOM_2 | Human | xCell",0.4794901797,44,"xCell","Human","","Myocytes_FANTOM_2",11
+"2","CD4+ Tem_NOVERSHTERN_1 | Human | xCell",0.4759439049,45,"xCell","Human","","CD4+ Tem_NOVERSHTERN_1",15
+"2","Embryonic carcinoma cell line | Human | TISSUES",0.4727422211,46,"TISSUES","Human","","Embryonic carcinoma cell line",7
+"2","IMGN_T_4SP69+_Th | Mouse | SaVanT",0.470733425,47,"SaVanT","Mouse","","IMGN_T_4SP69+_Th",37
+"2","IMGN_Tgd_vg1+vd6+24ahi_Th | Mouse | SaVanT",0.4688814631,48,"SaVanT","Mouse","","IMGN_Tgd_vg1+vd6+24ahi_Th",31
+"2","Prostate adenocarcinoma cell | Human | TISSUES",0.4678337344,49,"TISSUES","Human","","Prostate adenocarcinoma cell",5
+"2","HBA_Wholebrain | Human | SaVanT",0.4649778677,50,"SaVanT","Human","","HBA_Wholebrain",50
+"2","Frontal lobe | Mouse | TISSUES",0.4642312951,51,"TISSUES","Mouse","","Frontal lobe",24
+"2","Olfactory bulb | Mouse | TISSUES",0.4642312951,52,"TISSUES","Mouse","","Olfactory bulb",24
+"2","Olfactory lobe | Mouse | TISSUES",0.4642312951,53,"TISSUES","Mouse","","Olfactory lobe",24
+"2","MANNO_MIDBRAIN_NEUROTYPES_HOMTN | Human | MSigDB",0.4616466244,54,"MSigDB","Human","","MANNO_MIDBRAIN_NEUROTYPES_HOMTN",264
+"2","Retinal ganglion cells | Brain | Human | PanglaoDB",0.4609084029,55,"PanglaoDB","Human","Brain","Retinal ganglion cells",48
+"2","Retinal ganglion cells | Brain | Mouse | PanglaoDB",0.4609084029,56,"PanglaoDB","Mouse","Brain","Retinal ganglion cells",48
+"2","HBA_CingulateCortex | Human | SaVanT",0.460067211,57,"SaVanT","Human","","HBA_CingulateCortex",50
+"2","Keratinocyte | SaVanT",0.457532406,58,"SaVanT","","","Keratinocyte",16
+"2","Pyramidal cells | Brain | Human | PanglaoDB",0.4544397048,59,"PanglaoDB","Human","Brain","Pyramidal cells",23
+"2","Pyramidal cells | Brain | Mouse | PanglaoDB",0.4544397048,60,"PanglaoDB","Mouse","Brain","Pyramidal cells",23
+"2","HBA_PrefrontalCortex | Human | SaVanT",0.4525013775,61,"SaVanT","Human","","HBA_PrefrontalCortex",50
+"2","CLP_BLUEPRINT_2 | Human | xCell",0.4515936144,62,"xCell","Human","","CLP_BLUEPRINT_2",10
+"2","amygdala | SaVanT",0.4515700545,63,"SaVanT","","","amygdala",50
+"2","Hepatocyte | Liver | Mouse | CellMarker",0.4443335032,64,"CellMarker","Mouse","Liver","Hepatocyte",6
+"2","Large granular lymphocyte | Mouse | TISSUES",0.4405940985,65,"TISSUES","Mouse","","Large granular lymphocyte",7
+"2","Natural killer cell | Mouse | TISSUES",0.4405940985,66,"TISSUES","Mouse","","Natural killer cell",7
+"2","Null cell | Mouse | TISSUES",0.4405940985,67,"TISSUES","Mouse","","Null cell",7
+"2","Hippocampal_Neurons | SaVanT",0.4402158666,68,"SaVanT","","","Hippocampal_Neurons",50
+"2","Rheaume et al.Nat Commun.22 | Retina | Mouse | CellMarker",0.4384392309,69,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.22",7
+"2","Osteoblast | Mouse | TISSUES",0.4357830376,70,"TISSUES","Mouse","","Osteoblast",5
+"2","HBA_SubthalamicNucleus | Human | SaVanT",0.4356355508,71,"SaVanT","Human","","HBA_SubthalamicNucleus",50
+"2","IMGN_T_4SP24-_Th | Mouse | SaVanT",0.4315552287,72,"SaVanT","Mouse","","IMGN_T_4SP24-_Th",34
+"2","IMGN_Tgd_vg3+24alo_e17_Th | Mouse | SaVanT",0.4298601731,73,"SaVanT","Mouse","","IMGN_Tgd_vg3+24alo_e17_Th",27
+"2","Autonomic nervous system | Mouse | TISSUES",0.4288373764,74,"TISSUES","Mouse","","Autonomic nervous system",13
+"2","Peripheral nervous system | Mouse | TISSUES",0.4288373764,75,"TISSUES","Mouse","","Peripheral nervous system",13
+"2","Sympathetic chain | Mouse | TISSUES",0.4288373764,76,"TISSUES","Mouse","","Sympathetic chain",13
+"2","Sympathetic ganglion | Mouse | TISSUES",0.4288373764,77,"TISSUES","Mouse","","Sympathetic ganglion",13
+"2","Sympathetic nervous system | Mouse | TISSUES",0.4288373764,78,"TISSUES","Mouse","","Sympathetic nervous system",13
+"2","dorsal_root_ganglia | SaVanT",0.4278727811,79,"SaVanT","","","dorsal_root_ganglia",39
+"2","Epithelium | Mouse | TISSUES",0.4273983118,80,"TISSUES","Mouse","","Epithelium",12
+"2","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_IMMATURE_NEURONS | Human | MSigDB",0.4253708663,81,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_IMMATURE_NEURONS",98
+"2","Cancer cell (Breast Cancer (circulating)) | Blood | Human | CellMarker",0.4238084917,82,"CellMarker","Human","Blood","Cancer cell (Breast Cancer (circulating))",5
+"2","HBA_Cerebellum | Human | SaVanT",0.4232490598,83,"SaVanT","Human","","HBA_Cerebellum",50
+"2","IMGN_T_8Eff_Sp_OT1_48hr_LisOva | Mouse | SaVanT",0.4212444835,84,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_48hr_LisOva",29
+"2","IMGN_T_DPsm_Th | Mouse | SaVanT",0.4205430254,85,"SaVanT","Mouse","","IMGN_T_DPsm_Th",34
+"2","1-cell stage cell (Blastomere) | Embryo | Mouse | CellMarker",0.4199688941,86,"CellMarker","Mouse","Embryo","1-cell stage cell (Blastomere)",16
+"2","HBA_CerebellumPeduncles | Human | SaVanT",0.419219636,87,"SaVanT","Human","","HBA_CerebellumPeduncles",50
+"2","MANNO_MIDBRAIN_NEUROTYPES_HSERT | Human | MSigDB",0.4182361822,88,"MSigDB","Human","","MANNO_MIDBRAIN_NEUROTYPES_HSERT",326
+"2","Neurons_FANTOM_2 | Human | xCell",0.4181286512,89,"xCell","Human","","Neurons_FANTOM_2",140
+"2","HBA_GlobusPallidus | Human | SaVanT",0.4152107767,90,"SaVanT","Human","","HBA_GlobusPallidus",50
+"2","Neuroepithelioma cell | Human | TISSUES",0.4139971215,91,"TISSUES","Human","","Neuroepithelioma cell",5
+"2","IMGN_Tgd_vg2+24ahi_Th | Mouse | SaVanT",0.4137355628,92,"SaVanT","Mouse","","IMGN_Tgd_vg2+24ahi_Th",32
+"2","CD1C+_A dendritic cell | Blood | Human | CellMarker",0.4132882717,93,"CellMarker","Human","Blood","CD1C+_A dendritic cell",13
+"2","IMGN_NKT_44-NK1_1-_Th | Mouse | SaVanT",0.4121223319,94,"SaVanT","Mouse","","IMGN_NKT_44-NK1_1-_Th",29
+"2","HBA_BDCA4+_DentriticCells | Human | SaVanT",0.4105362356,95,"SaVanT","Human","","HBA_BDCA4+_DentriticCells",27
+"2","CD4+ naive T-cells_FANTOM_1 | Human | xCell",0.4083747359,96,"xCell","Human","","CD4+ naive T-cells_FANTOM_1",11
+"2","CD4+ naive T-cells_NOVERSHTERN_3 | Human | xCell",0.4083747359,97,"xCell","Human","","CD4+ naive T-cells_NOVERSHTERN_3",11
+"2","IMGN_Tgd_vg2-_Sp | Mouse | SaVanT",0.4076367684,98,"SaVanT","Mouse","","IMGN_Tgd_vg2-_Sp",32
+"2","hippocampus | SaVanT",0.406841052,99,"SaVanT","","","hippocampus",49
+"2","IMGN_T_4SP24int_Th | Mouse | SaVanT",0.4039036776,100,"SaVanT","Mouse","","IMGN_T_4SP24int_Th",38
+"3","Pyramidal cell | Human | CellMarker",0.7755975221,1,"CellMarker","Human","","Pyramidal cell",8
+"3","Th2 cells_IRIS_2 | Human | xCell",0.7284209904,2,"xCell","Human","","Th2 cells_IRIS_2",5
+"3","Monocytic leukemia cell | Human | TISSUES",0.6164250553,3,"TISSUES","Human","","Monocytic leukemia cell",5
+"3","B-lymphocyte | Mouse | TISSUES",0.6115538651,4,"TISSUES","Mouse","","B-lymphocyte",7
+"3","pre-B-lymphocyte | Mouse | TISSUES",0.6115538651,5,"TISSUES","Mouse","","pre-B-lymphocyte",7
+"3","pro-B-lymphocyte | Mouse | TISSUES",0.6115538651,6,"TISSUES","Mouse","","pro-B-lymphocyte",7
+"3","testis | SaVanT",0.5841694934,7,"SaVanT","","","testis",10
+"3","Ciliated cell | Lung | Mouse | CellMarker",0.5835657106,8,"CellMarker","Mouse","Lung","Ciliated cell",14
+"3","Bile | Human | TISSUES",0.574953926,9,"TISSUES","Human","","Bile",5
+"3","Digestive juice | Human | TISSUES",0.574953926,10,"TISSUES","Human","","Digestive juice",5
+"3","Rheaume et al.Nat Commun.31 | Retina | Mouse | CellMarker",0.5731554765,11,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.31",9
+"3","Neuroepithelioma cell | Human | TISSUES",0.5695022519,12,"TISSUES","Human","","Neuroepithelioma cell",5
+"3","Paneth cells | GI tract | Mouse | PanglaoDB",0.5489737367,13,"PanglaoDB","Mouse","GI tract","Paneth cells",6
+"3","amygdala | SaVanT",0.5382956176,14,"SaVanT","","","amygdala",50
+"3","Paneth cells | GI tract | Human | PanglaoDB",0.5178978697,15,"PanglaoDB","Human","GI tract","Paneth cells",7
+"3","IMGN_T_DPbl_Th | Mouse | SaVanT",0.5141853274,16,"SaVanT","Mouse","","IMGN_T_DPbl_Th",22
+"3","Long-term hematopoietic stem cell | Bone marrow | Mouse | CellMarker",0.5124834097,17,"CellMarker","Mouse","Bone marrow","Long-term hematopoietic stem cell",5
+"3","Pinealocytes | Brain | Human | PanglaoDB",0.5093773526,18,"PanglaoDB","Human","Brain","Pinealocytes",11
+"3","Pinealocytes | Brain | Mouse | PanglaoDB",0.5093773526,19,"PanglaoDB","Mouse","Brain","Pinealocytes",11
+"3","HBA_small_intestine | Human | SaVanT",0.5061484307,20,"SaVanT","Human","","HBA_small_intestine",12
+"3","Neurons_ENCODE_1 | Human | xCell",0.4992732032,21,"xCell","Human","","Neurons_ENCODE_1",7
+"3","CD8+ Tem_NOVERSHTERN_2 | Human | xCell",0.4973040526,22,"xCell","Human","","CD8+ Tem_NOVERSHTERN_2",5
+"3","IMGN_T_8Eff_Sp_OT1_d6_LisOva | Mouse | SaVanT",0.4944927972,23,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_d6_LisOva",21
+"3","MSC_FANTOM_3 | Human | xCell",0.4918960201,24,"xCell","Human","","MSC_FANTOM_3",7
+"3","Lymphocyte | Bone marrow | Mouse | CellMarker",0.4748459621,25,"CellMarker","Mouse","Bone marrow","Lymphocyte",6
+"3","4-cell stage cell (Blastomere) | Embryo | Mouse | CellMarker",0.4732417765,26,"CellMarker","Mouse","Embryo","4-cell stage cell (Blastomere)",11
+"3","IMGN_T_8Eff_Sp_OT1_d5_VSVOva | Mouse | SaVanT",0.4732093046,27,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_d5_VSVOva",22
+"3","CD4+ naive T-cells_IRIS_2 | Human | xCell",0.4707999392,28,"xCell","Human","","CD4+ naive T-cells_IRIS_2",6
+"3","IMGN_NKT_44-NK1_1-_Th | Mouse | SaVanT",0.4701966973,29,"SaVanT","Mouse","","IMGN_NKT_44-NK1_1-_Th",29
+"3","IMGN_Tgd_vg3+24alo_e17_Th | Mouse | SaVanT",0.4600360168,30,"SaVanT","Mouse","","IMGN_Tgd_vg3+24alo_e17_Th",27
+"3","intestine_small | SaVanT",0.4597529791,31,"SaVanT","","","intestine_small",11
+"3","Alpha cell | Pancreas | Human | CellMarker",0.455451952,32,"CellMarker","Human","Pancreas","Alpha cell",7
+"3","Colonic epithelium | Human | TISSUES",0.4550069619,33,"TISSUES","Human","","Colonic epithelium",6
+"3","ZHONG_PFC_C3_UNKNOWN_INP | Human | MSigDB",0.4513340357,34,"MSigDB","Human","","ZHONG_PFC_C3_UNKNOWN_INP",13
+"3","Neutrophil | SaVanT",0.4507623269,35,"SaVanT","","","Neutrophil",35
+"3","IMGN_Tgd_vg1+vd6-24alo_Th | Mouse | SaVanT",0.448790996,36,"SaVanT","Mouse","","IMGN_Tgd_vg1+vd6-24alo_Th",23
+"3","Leiomyosarcoma cell | Human | TISSUES",0.4432237422,37,"TISSUES","Human","","Leiomyosarcoma cell",14
+"3","Immune cell (Renal Clear Cell Carcinoma) | Human | CellMarker",0.4399420007,38,"CellMarker","Human","","Immune cell (Renal Clear Cell Carcinoma)",7
+"3","CD8+ Tem_NOVERSHTERN_3 | Human | xCell",0.4383589917,39,"xCell","Human","","CD8+ Tem_NOVERSHTERN_3",6
+"3","Th1_Harvard | SaVanT",0.4349966294,40,"SaVanT","","","Th1_Harvard",20
+"3","IMGN_NKT_44+NK1_1-_Th | Mouse | SaVanT",0.43116832,41,"SaVanT","Mouse","","IMGN_NKT_44+NK1_1-_Th",23
+"3","Olfactory sensory neuron | Brain | Mouse | CellMarker",0.4253366775,42,"CellMarker","Mouse","Brain","Olfactory sensory neuron",5
+"3","dorsal_striatum | SaVanT",0.4235739332,43,"SaVanT","","","dorsal_striatum",46
+"3","Intestinal epithelium | Human | TISSUES",0.4214922288,44,"TISSUES","Human","","Intestinal epithelium",7
+"3","retinal_pigment_epithelium | SaVanT",0.4212751905,45,"SaVanT","","","retinal_pigment_epithelium",24
+"3","cerebral_cortex_prefrontal | SaVanT",0.4212566061,46,"SaVanT","","","cerebral_cortex_prefrontal",50
+"3","pDC_NOVERSHTERN_3 | Human | xCell",0.4191227728,47,"xCell","Human","","pDC_NOVERSHTERN_3",8
+"3","cDC_HPCA_3 | Human | xCell",0.4189359022,48,"xCell","Human","","cDC_HPCA_3",6
+"3","liver | SaVanT",0.4185648674,49,"SaVanT","","","liver",15
+"3","Germ layer | Human | TISSUES",0.414911924,50,"TISSUES","Human","","Germ layer",5
+"3","Neuroendocrine cells | Brain | Human | PanglaoDB",0.4069767499,51,"PanglaoDB","Human","Brain","Neuroendocrine cells",16
+"3","Neuroendocrine cells | Brain | Mouse | PanglaoDB",0.4069767499,52,"PanglaoDB","Mouse","Brain","Neuroendocrine cells",16
+"3","Eosinophils_NOVERSHTERN_1 | Human | xCell",0.4065396061,53,"xCell","Human","","Eosinophils_NOVERSHTERN_1",6
+"3","NK cells | Immune system | Human | PanglaoDB",0.4064993236,54,"PanglaoDB","Human","Immune system","NK cells",22
+"3","pro B-cells_NOVERSHTERN_3 | Human | xCell",0.4049312778,55,"xCell","Human","","pro B-cells_NOVERSHTERN_3",8
+"3","Preadipocytes_FANTOM_2 | Human | xCell",0.4039967407,56,"xCell","Human","","Preadipocytes_FANTOM_2",7
+"3","Cochlea | Mouse | TISSUES",0.3987907709,57,"TISSUES","Mouse","","Cochlea",5
+"3","Vestibular labyrinth | Mouse | TISSUES",0.3987907709,58,"TISSUES","Mouse","","Vestibular labyrinth",5
+"3","Vestibular system | Mouse | TISSUES",0.3987907709,59,"TISSUES","Mouse","","Vestibular system",5
+"3","CD8+ Tem_NOVERSHTERN_1 | Human | xCell",0.3987022159,60,"xCell","Human","","CD8+ Tem_NOVERSHTERN_1",8
+"3","B-cells_HPCA_1 | Human | xCell",0.3983685601,61,"xCell","Human","","B-cells_HPCA_1",21
+"3","ZHONG_PFC_MAJOR_TYPES_EXCITATORY_NEURON | Human | MSigDB",0.3908534468,62,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_EXCITATORY_NEURON",5
+"3","pre-T-lymphocyte | Mouse | TISSUES",0.3896417979,63,"TISSUES","Mouse","","pre-T-lymphocyte",11
+"3","Thymocyte | Mouse | TISSUES",0.3896417979,64,"TISSUES","Mouse","","Thymocyte",11
+"3","Adipocyte progenitor cells | Connective tissue | Mouse | PanglaoDB",0.3872822226,65,"PanglaoDB","Mouse","Connective tissue","Adipocyte progenitor cells",8
+"3","HBA_Trachea | Human | SaVanT",0.3852126239,66,"SaVanT","Human","","HBA_Trachea",8
+"3","adipose_white | SaVanT",0.3847188995,67,"SaVanT","","","adipose_white",17
+"3","Pericytes_FANTOM_1 | Human | xCell",0.3844335953,68,"xCell","Human","","Pericytes_FANTOM_1",5
+"3","CD4+ naive T-cells_FANTOM_3 | Human | xCell",0.3819294177,69,"xCell","Human","","CD4+ naive T-cells_FANTOM_3",5
+"3","Lep_BT | SaVanT",0.3818351185,70,"SaVanT","","","Lep_BT",12
+"3","IMGN_T_8Mem_Sp_OT1_d100_LisOva | Mouse | SaVanT",0.3804853407,71,"SaVanT","Mouse","","IMGN_T_8Mem_Sp_OT1_d100_LisOva",27
+"3","NK cells | Immune system | Mouse | PanglaoDB",0.3792469174,72,"PanglaoDB","Mouse","Immune system","NK cells",21
+"3","LAKE_ADULT_KIDNEY_C30_IMMUNE_CELLS_MACROPHAGES | Human | MSigDB",0.3779164892,73,"MSigDB","Human","","LAKE_ADULT_KIDNEY_C30_IMMUNE_CELLS_MACROPHAGES",7
+"3","Dendritic cell progenitor | Bone marrow | Human | CellMarker",0.3767445207,74,"CellMarker","Human","Bone marrow","Dendritic cell progenitor",5
+"3","GAO_LARGE_INTESTINE_ADULT_CH_MKI67HIGH_CELLS | Human | MSigDB",0.3706531372,75,"MSigDB","Human","","GAO_LARGE_INTESTINE_ADULT_CH_MKI67HIGH_CELLS",41
+"3","IMGN_T_8Mem_Sp_OT1_d106_VSVOva | Mouse | SaVanT",0.3705858778,76,"SaVanT","Mouse","","IMGN_T_8Mem_Sp_OT1_d106_VSVOva",27
+"3","Lake et al.Science.Ex5 | Brain | Human | CellMarker",0.3705629205,77,"CellMarker","Human","Brain","Lake et al.Science.Ex5",5
+"3","IMGN_T_8Mem_Sp_OT1_d45_VSVOva | Mouse | SaVanT",0.370474773,78,"SaVanT","Mouse","","IMGN_T_8Mem_Sp_OT1_d45_VSVOva",27
+"3","CD4+ Tcm_BLUEPRINT_2 | Human | xCell",0.3700346573,79,"xCell","Human","","CD4+ Tcm_BLUEPRINT_2",20
+"3","Rheaume et al.Nat Commun.30 | Retina | Mouse | CellMarker",0.3670494332,80,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.30",6
+"3","Insulinoma cell | Mouse | TISSUES",0.3638258683,81,"TISSUES","Mouse","","Insulinoma cell",6
+"3","Pancreatic cancer cell | Mouse | TISSUES",0.3638258683,82,"TISSUES","Mouse","","Pancreatic cancer cell",6
+"3","B-cells_FANTOM_1 | Human | xCell",0.3635993441,83,"xCell","Human","","B-cells_FANTOM_1",6
+"3","T memory cells | Immune system | Human | PanglaoDB",0.3611899177,84,"PanglaoDB","Human","Immune system","T memory cells",21
+"3","Chondrocyte | Human | TISSUES",0.3584759564,85,"TISSUES","Human","","Chondrocyte",9
+"3","min6 | SaVanT",0.3584244983,86,"SaVanT","","","min6",29
+"3","IMGN_T_8Eff_Sp_OT1_d8_VSVOva | Mouse | SaVanT",0.3579345765,87,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_d8_VSVOva",24
+"3","IMGN_T_8Mem_Sp_OT1_d45_LisOva | Mouse | SaVanT",0.3571943569,88,"SaVanT","Mouse","","IMGN_T_8Mem_Sp_OT1_d45_LisOva",28
+"3","IMGN_Tgd_vg2-_act_Sp | Mouse | SaVanT",0.3566243806,89,"SaVanT","Mouse","","IMGN_Tgd_vg2-_act_Sp",27
+"3","hippocampus | SaVanT",0.3539430294,90,"SaVanT","","","hippocampus",49
+"3","IMGN_Tgd_vg3+24ahi_e17_Th | Mouse | SaVanT",0.3533410421,91,"SaVanT","Mouse","","IMGN_Tgd_vg3+24ahi_e17_Th",27
+"3","IMGN_T_8Eff_Sp_OT1_48hr_LisOva | Mouse | SaVanT",0.3529324603,92,"SaVanT","Mouse","","IMGN_T_8Eff_Sp_OT1_48hr_LisOva",29
+"3","Distal tubule cells | Kidney | Human | PanglaoDB",0.3515425605,93,"PanglaoDB","Human","Kidney","Distal tubule cells",21
+"3","Distal tubule cells | Kidney | Mouse | PanglaoDB",0.3515425605,94,"PanglaoDB","Mouse","Kidney","Distal tubule cells",21
+"3","Megakaryocyte erythroid cell | Mouse | CellMarker",0.3504295358,95,"CellMarker","Mouse","","Megakaryocyte erythroid cell",8
+"3","Bronchoalveolar system | Human | TISSUES",0.34887495,96,"TISSUES","Human","","Bronchoalveolar system",7
+"3","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON | Human | MSigDB",0.3466405327,97,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_EXCITATORY_NEURON",36
+"3","Arterial smooth muscle | Human | TISSUES",0.3451311812,98,"TISSUES","Human","","Arterial smooth muscle",5
+"3","T memory cells | Immune system | Mouse | PanglaoDB",0.3435923114,99,"PanglaoDB","Mouse","Immune system","T memory cells",26
+"3","Endothelial progenitor cell | Bone marrow | Human | CellMarker",0.3413457249,100,"CellMarker","Human","Bone marrow","Endothelial progenitor cell",6
+"4","Stem cell | Liver | Mouse | CellMarker",0.8859487667,1,"CellMarker","Mouse","Liver","Stem cell",5
+"4","FAN_EMBRYONIC_CTX_IN_4_INTERNEURON | Human | MSigDB",0.8648427386,2,"MSigDB","Human","","FAN_EMBRYONIC_CTX_IN_4_INTERNEURON",6
+"4","FAN_EMBRYONIC_CTX_BIG_GROUPS_INHIBITORY | Human | MSigDB",0.8507843054,3,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_INHIBITORY",8
+"4","ZHONG_PFC_C6_DLX5_GAD1_GAD2_POS_INTERNEURON | Human | MSigDB",0.8467293794,4,"MSigDB","Human","","ZHONG_PFC_C6_DLX5_GAD1_GAD2_POS_INTERNEURON",9
+"4","GABAergic neurons | Brain | Human | PanglaoDB",0.8317325545,5,"PanglaoDB","Human","Brain","GABAergic neurons",12
+"4","GABAergic neurons | Brain | Mouse | PanglaoDB",0.8317325545,6,"PanglaoDB","Mouse","Brain","GABAergic neurons",12
+"4","Cholinergic neurons | Brain | Human | PanglaoDB",0.8282855752,7,"PanglaoDB","Human","Brain","Cholinergic neurons",6
+"4","Cholinergic neurons | Brain | Mouse | PanglaoDB",0.8282855752,8,"PanglaoDB","Mouse","Brain","Cholinergic neurons",6
+"4","ZHONG_PFC_MAJOR_TYPES_INTERNEURON | Human | MSigDB",0.8152918391,9,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_INTERNEURON",13
+"4","pre-T-lymphocyte | Human | TISSUES",0.7965726571,10,"TISSUES","Human","","pre-T-lymphocyte",5
+"4","Thymocyte | Human | TISSUES",0.7965726571,11,"TISSUES","Human","","Thymocyte",5
+"4","ZHONG_PFC_C3_PROX1_CCK_POS_INTERNEURON | Human | MSigDB",0.7690623891,12,"MSigDB","Human","","ZHONG_PFC_C3_PROX1_CCK_POS_INTERNEURON",6
+"4","Germ cell | Human | CellMarker",0.749002889,13,"CellMarker","Human","","Germ cell",7
+"4","ZHONG_PFC_C7_SST_LHX6_POS_PUTATIVE_MIGRATING_INTERNEURON | Human | MSigDB",0.7356936448,14,"MSigDB","Human","","ZHONG_PFC_C7_SST_LHX6_POS_PUTATIVE_MIGRATING_INTERNEURON",8
+"4","Plasma cells_BLUEPRINT_1 | Human | xCell",0.7353856147,15,"xCell","Human","","Plasma cells_BLUEPRINT_1",5
+"4","Brain cancer cell | Human | TISSUES",0.7132806512,16,"TISSUES","Human","","Brain cancer cell",5
+"4","ZHONG_PFC_C1_DLX5_POS_INTERNEURON | Human | MSigDB",0.6839428103,17,"MSigDB","Human","","ZHONG_PFC_C1_DLX5_POS_INTERNEURON",5
+"4","Plasma cells_HPCA_3 | Human | xCell",0.6521696409,18,"xCell","Human","","Plasma cells_HPCA_3",6
+"4","Alpha cell | Pancreas | Human | CellMarker",0.6488667956,19,"CellMarker","Human","Pancreas","Alpha cell",7
+"4","T helper17 (Th17) cell | Mouse | CellMarker",0.6462317558,20,"CellMarker","Mouse","","T helper17 (Th17) cell",5
+"4","Marrow cell | Mouse | TISSUES",0.638193919,21,"TISSUES","Mouse","","Marrow cell",5
+"4","Memory B-cells_HPCA_3 | Human | xCell",0.6361028407,22,"xCell","Human","","Memory B-cells_HPCA_3",5
+"4","ZHONG_PFC_C3_UNKNOWN_INP | Human | MSigDB",0.6247081741,23,"MSigDB","Human","","ZHONG_PFC_C3_UNKNOWN_INP",13
+"4","Neuron | Brain | Human | CellMarker",0.6190513499,24,"CellMarker","Human","Brain","Neuron",25
+"4","FAN_EMBRYONIC_CTX_IN_1_INTERNEURON | Human | MSigDB",0.6095257473,25,"MSigDB","Human","","FAN_EMBRYONIC_CTX_IN_1_INTERNEURON",6
+"4","Endothelial progenitor cell | Bone marrow | Human | CellMarker",0.5908730523,26,"CellMarker","Human","Bone marrow","Endothelial progenitor cell",6
+"4","Type III taste bud cell | Taste bud | Mouse | CellMarker",0.5880732649,27,"CellMarker","Mouse","Taste bud","Type III taste bud cell",5
+"4","Progenitor cell | Liver | Mouse | CellMarker",0.5839475578,28,"CellMarker","Mouse","Liver","Progenitor cell",5
+"4","Basket cell | Brain | Mouse | CellMarker",0.5814667693,29,"CellMarker","Mouse","Brain","Basket cell",14
+"4","Semen | Human | TISSUES",0.5770663408,30,"TISSUES","Human","","Semen",6
+"4","Peripheral ganglion | Human | TISSUES",0.5649718213,31,"TISSUES","Human","","Peripheral ganglion",7
+"4","Spinal ganglion | Human | TISSUES",0.5649718213,32,"TISSUES","Human","","Spinal ganglion",7
+"4","Hepatocyte | Liver | Mouse | CellMarker",0.5515537895,33,"CellMarker","Mouse","Liver","Hepatocyte",6
+"4","Purkinje neurons | Brain | Human | PanglaoDB",0.5495645146,34,"PanglaoDB","Human","Brain","Purkinje neurons",42
+"4","Purkinje neurons | Brain | Mouse | PanglaoDB",0.5495645146,35,"PanglaoDB","Mouse","Brain","Purkinje neurons",42
+"4","MSC_FANTOM_3 | Human | xCell",0.5483801319,36,"xCell","Human","","MSC_FANTOM_3",7
+"4","Merkel cells | Skin | Human | PanglaoDB",0.5475705798,37,"PanglaoDB","Human","Skin","Merkel cells",5
+"4","Merkel cells | Skin | Mouse | PanglaoDB",0.5475705798,38,"PanglaoDB","Mouse","Skin","Merkel cells",5
+"4","Cancer stem cell (Glioma) | Brain | Human | CellMarker",0.5429193438,39,"CellMarker","Human","Brain","Cancer stem cell (Glioma)",5
+"4","M2 macrophage | Mouse | CellMarker",0.5390933013,40,"CellMarker","Mouse","","M2 macrophage",5
+"4","Nuocytes | Immune system | Human | PanglaoDB",0.5348040466,41,"PanglaoDB","Human","Immune system","Nuocytes",5
+"4","Nuocytes | Immune system | Mouse | PanglaoDB",0.5348040466,42,"PanglaoDB","Mouse","Immune system","Nuocytes",5
+"4","hypothalamus | SaVanT",0.5343432326,43,"SaVanT","","","hypothalamus",45
+"4","Megakaryocyte-erythroid progenitor | Bone marrow | Mouse | CellMarker",0.5297336331,44,"CellMarker","Mouse","Bone marrow","Megakaryocyte-erythroid progenitor",7
+"4","Fat cell (adipocyte) | Adipose tissue | Human | CellMarker",0.5281067476,45,"CellMarker","Human","Adipose tissue","Fat cell (adipocyte)",13
+"4","Stem cell | Endometrium | Human | CellMarker",0.5267149373,46,"CellMarker","Human","Endometrium","Stem cell",7
+"4","Macrophage | Heart | Mouse | CellMarker",0.523932975,47,"CellMarker","Mouse","Heart","Macrophage",5
+"4","Chondrocyte | Human | TISSUES",0.5237324545,48,"TISSUES","Human","","Chondrocyte",9
+"4","Retinal ganglion cells | Brain | Human | PanglaoDB",0.5171804388,49,"PanglaoDB","Human","Brain","Retinal ganglion cells",48
+"4","Retinal ganglion cells | Brain | Mouse | PanglaoDB",0.5171804388,50,"PanglaoDB","Mouse","Brain","Retinal ganglion cells",48
+"4","Memory B-cells_HPCA_1 | Human | xCell",0.5131359589,51,"xCell","Human","","Memory B-cells_HPCA_1",6
+"4","Embryonic carcinoma cell line | Mouse | TISSUES",0.5114243702,52,"TISSUES","Mouse","","Embryonic carcinoma cell line",6
+"4","Embryonic cell line | Mouse | TISSUES",0.5114243702,53,"TISSUES","Mouse","","Embryonic cell line",6
+"4","Plasma cells_IRIS_2 | Human | xCell",0.5030727097,54,"xCell","Human","","Plasma cells_IRIS_2",24
+"4","HBA_Tongue | Human | SaVanT",0.5008736377,55,"SaVanT","Human","","HBA_Tongue",21
+"4","Rheaume et al.Nat Commun.22 | Retina | Mouse | CellMarker",0.4967367561,56,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.22",7
+"4","Mesenchymal stem cell | Human | TISSUES",0.4960031285,57,"TISSUES","Human","","Mesenchymal stem cell",6
+"4","Rheaume et al.Nat Commun.11 | Retina | Mouse | CellMarker",0.490397281,58,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.11",9
+"4","Noradrenergic neurons | Brain | Human | PanglaoDB",0.4771259821,59,"PanglaoDB","Human","Brain","Noradrenergic neurons",5
+"4","Noradrenergic neurons | Brain | Mouse | PanglaoDB",0.4771259821,60,"PanglaoDB","Mouse","Brain","Noradrenergic neurons",5
+"4","MPP_ENCODE_1 | Human | xCell",0.473889426,61,"xCell","Human","","MPP_ENCODE_1",5
+"4","Cochlea | Mouse | TISSUES",0.468348865,62,"TISSUES","Mouse","","Cochlea",5
+"4","Vestibular labyrinth | Mouse | TISSUES",0.468348865,63,"TISSUES","Mouse","","Vestibular labyrinth",5
+"4","Vestibular system | Mouse | TISSUES",0.468348865,64,"TISSUES","Mouse","","Vestibular system",5
+"4","Osteoblast_FANTOM_1 | Human | xCell",0.4660548454,65,"xCell","Human","","Osteoblast_FANTOM_1",23
+"4","Melanocyte | Mouse | TISSUES",0.4620370328,66,"TISSUES","Mouse","","Melanocyte",6
+"4","Th1 cells_IRIS_3 | Human | xCell",0.4604923166,67,"xCell","Human","","Th1 cells_IRIS_3",11
+"4","B-cells_FANTOM_3 | Human | xCell",0.4600634484,68,"xCell","Human","","B-cells_FANTOM_3",8
+"4","HBA_Pituitary | Human | SaVanT",0.4569876307,69,"SaVanT","Human","","HBA_Pituitary",36
+"4","Plasma cells_HPCA_1 | Human | xCell",0.453530665,70,"xCell","Human","","Plasma cells_HPCA_1",9
+"4","Lens epithelium | Human | TISSUES",0.4501064457,71,"TISSUES","Human","","Lens epithelium",10
+"4","Macrophage | Bone marrow | Mouse | CellMarker",0.4477657667,72,"CellMarker","Mouse","Bone marrow","Macrophage",5
+"4","Enteric neurons | GI tract | Human | PanglaoDB",0.4473845342,73,"PanglaoDB","Human","GI tract","Enteric neurons",39
+"4","Enteric neurons | GI tract | Mouse | PanglaoDB",0.4473845342,74,"PanglaoDB","Mouse","GI tract","Enteric neurons",39
+"4","Plasma cells_IRIS_3 | Human | xCell",0.4435655795,75,"xCell","Human","","Plasma cells_IRIS_3",11
+"4","Myocytes_FANTOM_2 | Human | xCell",0.4392229793,76,"xCell","Human","","Myocytes_FANTOM_2",11
+"4","CD4+ T-cells_BLUEPRINT_3 | Human | xCell",0.4380618077,77,"xCell","Human","","CD4+ T-cells_BLUEPRINT_3",14
+"4","TI_M_6 | SaVanT",0.4340243924,78,"SaVanT","","","TI_M_6",37
+"4","ZHONG_PFC_C5_BCL11B_CALB2_POS_INP | Human | MSigDB",0.4327608937,79,"MSigDB","Human","","ZHONG_PFC_C5_BCL11B_CALB2_POS_INP",14
+"4","Rheaume et al.Nat Commun.37 | Retina | Mouse | CellMarker",0.4310421799,80,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.37",11
+"4","Smooth muscle_HPCA_1 | Human | xCell",0.4309409262,81,"xCell","Human","","Smooth muscle_HPCA_1",6
+"4","Myocytes_ENCODE_2 | Human | xCell",0.4282384762,82,"xCell","Human","","Myocytes_ENCODE_2",8
+"4","Stem cell | Submandibular gland | Mouse | CellMarker",0.4272940555,83,"CellMarker","Mouse","Submandibular gland","Stem cell",5
+"4","Neurons_FANTOM_2 | Human | xCell",0.4248824299,84,"xCell","Human","","Neurons_FANTOM_2",140
+"4","CD4+ T-cells_BLUEPRINT_1 | Human | xCell",0.4237285328,85,"xCell","Human","","CD4+ T-cells_BLUEPRINT_1",18
+"4","HBA_Thyroid | Human | SaVanT",0.4226652338,86,"SaVanT","Human","","HBA_Thyroid",24
+"4","pDC_NOVERSHTERN_3 | Human | xCell",0.4215254729,87,"xCell","Human","","pDC_NOVERSHTERN_3",8
+"4","Myoepithelial cells | Smooth muscle | Mouse | PanglaoDB",0.4204576099,88,"PanglaoDB","Mouse","Smooth muscle","Myoepithelial cells",6
+"4","Monocyte | Blood | Human | CellMarker",0.4197020991,89,"CellMarker","Human","Blood","Monocyte",5
+"4","Progenitor cell | Mammary gland | Mouse | CellMarker",0.4160962678,90,"CellMarker","Mouse","Mammary gland","Progenitor cell",5
+"4","Macrophage | Lung | Human | CellMarker",0.4160459683,91,"CellMarker","Human","Lung","Macrophage",6
+"4","MANNO_MIDBRAIN_NEUROTYPES_HSERT | Human | MSigDB",0.4154087433,92,"MSigDB","Human","","MANNO_MIDBRAIN_NEUROTYPES_HSERT",326
+"4","Aorta | Mouse | TISSUES",0.4144092193,93,"TISSUES","Mouse","","Aorta",11
+"4","Artery | Mouse | TISSUES",0.4144092193,94,"TISSUES","Mouse","","Artery",11
+"4","Myoepithelial cells | Smooth muscle | Human | PanglaoDB",0.4118363257,95,"PanglaoDB","Human","Smooth muscle","Myoepithelial cells",7
+"4","Photoreceptor cells | Eye | Human | PanglaoDB",0.4112547801,96,"PanglaoDB","Human","Eye","Photoreceptor cells",25
+"4","Photoreceptor cells | Eye | Mouse | PanglaoDB",0.4112547801,97,"PanglaoDB","Mouse","Eye","Photoreceptor cells",25
+"4","Enteroendocrine cell | Small intestine | Mouse | CellMarker",0.4061698539,98,"CellMarker","Mouse","Small intestine","Enteroendocrine cell",25
+"4","pituitary | SaVanT",0.4042857512,99,"SaVanT","","","pituitary",37
+"4","Mesenchymal stromal cell | Peripheral blood | Mouse | CellMarker",0.4025058195,100,"CellMarker","Mouse","Peripheral blood","Mesenchymal stromal cell",5
+"5","Astrocyte | Brain | Mouse | CellMarker",0.7688094679,1,"CellMarker","Mouse","Brain","Astrocyte",45
+"5","Quiescent neural stem cell | Brain | Mouse | CellMarker",0.7677904991,2,"CellMarker","Mouse","Brain","Quiescent neural stem cell",10
+"5","Eosinophil | Lung | Mouse | CellMarker",0.7642840488,3,"CellMarker","Mouse","Lung","Eosinophil",5
+"5","Ventral otocyst | Brain | Mouse | CellMarker",0.7595385305,4,"CellMarker","Mouse","Brain","Ventral otocyst",6
+"5","Radial glial cell | Human | CellMarker",0.7350913805,5,"CellMarker","Human","","Radial glial cell",6
+"5","Keratinocytes | Skin | Human | PanglaoDB",0.6898672378,6,"PanglaoDB","Human","Skin","Keratinocytes",16
+"5","Neural stem cell | Brain | Mouse | CellMarker",0.6870484239,7,"CellMarker","Mouse","Brain","Neural stem cell",10
+"5","Keratinocytes | Skin | Mouse | PanglaoDB",0.6857044187,8,"PanglaoDB","Mouse","Skin","Keratinocytes",15
+"5","Intestinal stem cell | Small intestine | Human | CellMarker",0.6837956454,9,"CellMarker","Human","Small intestine","Intestinal stem cell",6
+"5","Bergmann glial cell | Brain | Mouse | CellMarker",0.6749047193,10,"CellMarker","Mouse","Brain","Bergmann glial cell",39
+"5","Crypt cells | GI tract | Human | PanglaoDB",0.6710765555,11,"PanglaoDB","Human","GI tract","Crypt cells",8
+"5","Crypt cells | GI tract | Mouse | PanglaoDB",0.6710765555,12,"PanglaoDB","Mouse","GI tract","Crypt cells",8
+"5","Dorsal otocyst | Brain | Mouse | CellMarker",0.669626172,13,"CellMarker","Mouse","Brain","Dorsal otocyst",8
+"5","Epithelial cells_FANTOM_3 | Human | xCell",0.6612663484,14,"xCell","Human","","Epithelial cells_FANTOM_3",7
+"5","Cancer stem cell (Pancreatic Cancer) | Pancreas | Human | CellMarker",0.6576326011,15,"CellMarker","Human","Pancreas","Cancer stem cell (Pancreatic Cancer)",5
+"5","T helper17 (Th17) cell | Human | CellMarker",0.6506641417,16,"CellMarker","Human","","T helper17 (Th17) cell",5
+"5","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_BOWMANS_GLAND | Human | MSigDB",0.6471843482,17,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_BOWMANS_GLAND",5
+"5","stomach | SaVanT",0.63914368,18,"SaVanT","","","stomach",8
+"5","Radial glia cells | Brain | Human | PanglaoDB",0.6311745322,19,"PanglaoDB","Human","Brain","Radial glia cells",10
+"5","Radial glia cells | Brain | Mouse | PanglaoDB",0.6311745322,20,"PanglaoDB","Mouse","Brain","Radial glia cells",10
+"5","Endothelial cell | Liver | Mouse | CellMarker",0.6270436307,21,"CellMarker","Mouse","Liver","Endothelial cell",5
+"5","Myofibroblasts | Smooth muscle | Human | PanglaoDB",0.6261641648,22,"PanglaoDB","Human","Smooth muscle","Myofibroblasts",8
+"5","Myofibroblasts | Smooth muscle | Mouse | PanglaoDB",0.6261641648,23,"PanglaoDB","Mouse","Smooth muscle","Myofibroblasts",8
+"5","Megakaryocyte | Human | CellMarker",0.6219092251,24,"CellMarker","Human","","Megakaryocyte",8
+"5","Intestinal stem cell | Intestine | Mouse | CellMarker",0.6198295056,25,"CellMarker","Mouse","Intestine","Intestinal stem cell",5
+"5","Erythroid cell | Bone marrow | Mouse | CellMarker",0.6130037938,26,"CellMarker","Mouse","Bone marrow","Erythroid cell",6
+"5","Epithelial cell | Human | CellMarker",0.6104173506,27,"CellMarker","Human","","Epithelial cell",14
+"5","CD8+ Tcm_BLUEPRINT_3 | Human | xCell",0.6095531376,28,"xCell","Human","","CD8+ Tcm_BLUEPRINT_3",8
+"5","Astrocytes | Brain | Human | PanglaoDB",0.6039109594,29,"PanglaoDB","Human","Brain","Astrocytes",47
+"5","Astrocytes | Brain | Mouse | PanglaoDB",0.6039109594,30,"PanglaoDB","Mouse","Brain","Astrocytes",47
+"5","Parietal cells | GI tract | Human | PanglaoDB",0.6031135004,31,"PanglaoDB","Human","GI tract","Parietal cells",7
+"5","Clara cell | Trachea | Mouse | CellMarker",0.6008377334,32,"CellMarker","Mouse","Trachea","Clara cell",5
+"5","FAN_EMBRYONIC_CTX_ASTROCYTE_1 | Human | MSigDB",0.5995413765,33,"MSigDB","Human","","FAN_EMBRYONIC_CTX_ASTROCYTE_1",55
+"5","T helper cell | Human | CellMarker",0.5984003501,34,"CellMarker","Human","","T helper cell",8
+"5","Astrocytes | SaVanT",0.5968507126,35,"SaVanT","","","Astrocytes",50
+"5","Eosinophils_NOVERSHTERN_3 | Human | xCell",0.5804987648,36,"xCell","Human","","Eosinophils_NOVERSHTERN_3",5
+"5","Parietal cells | GI tract | Mouse | PanglaoDB",0.5796428057,37,"PanglaoDB","Mouse","GI tract","Parietal cells",6
+"5","Thymocytes | Thymus | Human | PanglaoDB",0.5782631248,38,"PanglaoDB","Human","Thymus","Thymocytes",8
+"5","Thymocytes | Thymus | Mouse | PanglaoDB",0.5782631248,39,"PanglaoDB","Mouse","Thymus","Thymocytes",8
+"5","Osteocyte | Bone | Human | CellMarker",0.5776469914,40,"CellMarker","Human","Bone","Osteocyte",5
+"5","Follicular B cell | Human | CellMarker",0.5770254974,41,"CellMarker","Human","","Follicular B cell",6
+"5","Wnt2+ cell | Lung | Mouse | CellMarker",0.5762036302,42,"CellMarker","Mouse","Lung","Wnt2+ cell",7
+"5","NKT_NOVERSHTERN_1 | Human | xCell",0.5658963493,43,"xCell","Human","","NKT_NOVERSHTERN_1",6
+"5","Epithelial cells_FANTOM_1 | Human | xCell",0.5624903395,44,"xCell","Human","","Epithelial cells_FANTOM_1",7
+"5","Astrocytes_ENCODE_3 | Human | xCell",0.5617408344,45,"xCell","Human","","Astrocytes_ENCODE_3",13
+"5","Erythrocytes_FANTOM_3 | Human | xCell",0.5613185245,46,"xCell","Human","","Erythrocytes_FANTOM_3",5
+"5","Sertoli cell | Human | CellMarker",0.5571572648,47,"CellMarker","Human","","Sertoli cell",6
+"5","Intestinal stem cell | Small intestine | Mouse | CellMarker",0.555160413,48,"CellMarker","Mouse","Small intestine","Intestinal stem cell",5
+"5","Red pulp macrophages | Immune system | Human | PanglaoDB",0.5550738112,49,"PanglaoDB","Human","Immune system","Red pulp macrophages",5
+"5","Red pulp macrophages | Immune system | Mouse | PanglaoDB",0.5550738112,50,"PanglaoDB","Mouse","Immune system","Red pulp macrophages",5
+"5","Peri-islet Schwann cells | Pancreas | Human | PanglaoDB",0.5534232873,51,"PanglaoDB","Human","Pancreas","Peri-islet Schwann cells",9
+"5","Peri-islet Schwann cells | Pancreas | Mouse | PanglaoDB",0.5534232873,52,"PanglaoDB","Mouse","Pancreas","Peri-islet Schwann cells",9
+"5","FAN_EMBRYONIC_CTX_ASTROCYTE_2 | Human | MSigDB",0.5531383182,53,"MSigDB","Human","","FAN_EMBRYONIC_CTX_ASTROCYTE_2",104
+"5","Regulatory T (Treg) cell | Mouse | CellMarker",0.5502859512,54,"CellMarker","Mouse","","Regulatory T (Treg) cell",12
+"5","ZHONG_PFC_MAJOR_TYPES_ASTROCYTES | Human | MSigDB",0.5448867411,55,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_ASTROCYTES",228
+"5","B cell | Peripheral blood | Human | CellMarker",0.5437954928,56,"CellMarker","Human","Peripheral blood","B cell",8
+"5","Adipocyte progenitor cells | Connective tissue | Mouse | PanglaoDB",0.5422485108,57,"PanglaoDB","Mouse","Connective tissue","Adipocyte progenitor cells",8
+"5","ZHONG_PFC_C9_ORG_OTHER | Human | MSigDB",0.5420769501,58,"MSigDB","Human","","ZHONG_PFC_C9_ORG_OTHER",56
+"5","Cancer stem cell (Glioblastoma) | Brain | Human | CellMarker",0.5391327074,59,"CellMarker","Human","Brain","Cancer stem cell (Glioblastoma)",5
+"5","Retinal progenitor cells | Eye | Human | PanglaoDB",0.5318883197,60,"PanglaoDB","Human","Eye","Retinal progenitor cells",6
+"5","Retinal progenitor cells | Eye | Mouse | PanglaoDB",0.5318883197,61,"PanglaoDB","Mouse","Eye","Retinal progenitor cells",6
+"5","Cornea | Human | TISSUES",0.5269789841,62,"TISSUES","Human","","Cornea",7
+"5","Olfactory ensheathing glia | Brain | Mouse | CellMarker",0.5249732397,63,"CellMarker","Mouse","Brain","Olfactory ensheathing glia",40
+"5","MA_M_GMCSF_upLPS_IC_72h | Human | SaVanT",0.5220603165,64,"SaVanT","Human","","MA_M_GMCSF_upLPS_IC_72h",35
+"5","FAN_EMBRYONIC_CTX_BIG_GROUPS_GLIAL | Human | MSigDB",0.5215280954,65,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_GLIAL",102
+"5","Marginal zone B cell | Mouse | CellMarker",0.5211205261,66,"CellMarker","Mouse","","Marginal zone B cell",5
+"5","MA_M_GMCSF_GC_72h | Human | SaVanT",0.5204950914,67,"SaVanT","Human","","MA_M_GMCSF_GC_72h",35
+"5","HPCA_M1_IFNg | Human | SaVanT",0.5190530281,68,"SaVanT","Human","","HPCA_M1_IFNg",23
+"5","Enterocyte | Large intestine | Human | CellMarker",0.5151964123,69,"CellMarker","Human","Large intestine","Enterocyte",16
+"5","GAO_LARGE_INTESTINE_24W_C10_ENTEROCYTE | Human | MSigDB",0.5151964123,70,"MSigDB","Human","","GAO_LARGE_INTESTINE_24W_C10_ENTEROCYTE",16
+"5","Pancreatic progenitor cells | Pancreas | Human | PanglaoDB",0.511953293,71,"PanglaoDB","Human","Pancreas","Pancreatic progenitor cells",6
+"5","Pancreatic progenitor cells | Pancreas | Mouse | PanglaoDB",0.511953293,72,"PanglaoDB","Mouse","Pancreas","Pancreatic progenitor cells",6
+"5","Epithelial cell | Kidney | Human | CellMarker",0.5042546031,73,"CellMarker","Human","Kidney","Epithelial cell",6
+"5","Cholangiocytes | Liver | Human | PanglaoDB",0.5026173042,74,"PanglaoDB","Human","Liver","Cholangiocytes",17
+"5","Bergmann glia | Brain | Human | PanglaoDB",0.5025518101,75,"PanglaoDB","Human","Brain","Bergmann glia",31
+"5","Bergmann glia | Brain | Mouse | PanglaoDB",0.5025518101,76,"PanglaoDB","Mouse","Brain","Bergmann glia",31
+"5","Urine | Human | TISSUES",0.5018252902,77,"TISSUES","Human","","Urine",11
+"5","Hematopoietic stem cell | Mouse | TISSUES",0.5003640644,78,"TISSUES","Mouse","","Hematopoietic stem cell",5
+"5","Astrocyte | Embryonic prefrontal cortex | Human | CellMarker",0.4984182473,79,"CellMarker","Human","Embryonic prefrontal cortex","Astrocyte",239
+"5","Platelet | Mouse | CellMarker",0.4979545378,80,"CellMarker","Mouse","","Platelet",13
+"5","IMGN_NK_MCMV1_Sp | Mouse | SaVanT",0.4968206216,81,"SaVanT","Mouse","","IMGN_NK_MCMV1_Sp",25
+"5","Follicular B cell | Mouse | CellMarker",0.4955735424,82,"CellMarker","Mouse","","Follicular B cell",5
+"5","Endothelial cell (Renal Clear Cell Carcinoma) | Human | CellMarker",0.4948824859,83,"CellMarker","Human","","Endothelial cell (Renal Clear Cell Carcinoma)",9
+"5","IFNg_10ng_24h_NHEK_55 | SaVanT",0.4930523415,84,"SaVanT","","","IFNg_10ng_24h_NHEK_55",29
+"5","Adipocyte progenitor cells | Connective tissue | Human | PanglaoDB",0.4913384056,85,"PanglaoDB","Human","Connective tissue","Adipocyte progenitor cells",9
+"5","Myoepithelial cells | Smooth muscle | Mouse | PanglaoDB",0.48831076,86,"PanglaoDB","Mouse","Smooth muscle","Myoepithelial cells",6
+"5","IFNg_20ng_24h_NHEK_23 | SaVanT",0.4871258176,87,"SaVanT","","","IFNg_20ng_24h_NHEK_23",28
+"5","Mesenchymal cell (Ovarian Cancer) | Ovary | Human | CellMarker",0.4870381385,88,"CellMarker","Human","Ovary","Mesenchymal cell (Ovarian Cancer)",10
+"5","Mesenchymal cell | Ovary | Human | CellMarker",0.4870381385,89,"CellMarker","Human","Ovary","Mesenchymal cell",10
+"5","Noradrenergic neurons | Brain | Human | PanglaoDB",0.4857620485,90,"PanglaoDB","Human","Brain","Noradrenergic neurons",5
+"5","Noradrenergic neurons | Brain | Mouse | PanglaoDB",0.4857620485,91,"PanglaoDB","Mouse","Brain","Noradrenergic neurons",5
+"5","MANNO_MIDBRAIN_NEUROTYPES_HRGL2B | Human | MSigDB",0.4851638426,92,"MSigDB","Human","","MANNO_MIDBRAIN_NEUROTYPES_HRGL2B",269
+"5","HBA_Pancreas | Human | SaVanT",0.4833220641,93,"SaVanT","Human","","HBA_Pancreas",13
+"5","Astrocytes_ENCODE_2 | Human | xCell",0.4818500601,94,"xCell","Human","","Astrocytes_ENCODE_2",28
+"5","Cancer stem cell (Colon Cancer) | Human | CellMarker",0.4784813233,95,"CellMarker","Human","","Cancer stem cell (Colon Cancer)",7
+"5","Macrophages_FANTOM_2 | Human | xCell",0.477756054,96,"xCell","Human","","Macrophages_FANTOM_2",9
+"5","Cancer stem cell (Colorectum Cancer) | Colorectum | Human | CellMarker",0.4774900983,97,"CellMarker","Human","Colorectum","Cancer stem cell (Colorectum Cancer)",11
+"5","Cancer stem cell (Glioblastoma) | Human | CellMarker",0.4749957105,98,"CellMarker","Human","","Cancer stem cell (Glioblastoma)",10
+"5","Pericyte | Brain | Mouse | CellMarker",0.4741668248,99,"CellMarker","Mouse","Brain","Pericyte",6
+"5","Regulatory T (Treg) cell | Human | CellMarker",0.471423181,100,"CellMarker","Human","","Regulatory T (Treg) cell",10
+"6","Macrophage | Bone marrow | Mouse | CellMarker",0.9655397373,1,"CellMarker","Mouse","Bone marrow","Macrophage",5
+"6","Macrophage | Heart | Mouse | CellMarker",0.9551341359,2,"CellMarker","Mouse","Heart","Macrophage",5
+"6","M2 macrophage | Bone marrow | Mouse | CellMarker",0.8949973478,3,"CellMarker","Mouse","Bone marrow","M2 macrophage",5
+"6","Meningeal cells | Brain | Human | PanglaoDB",0.8763664591,4,"PanglaoDB","Human","Brain","Meningeal cells",14
+"6","Meningeal cells | Brain | Mouse | PanglaoDB",0.8763664591,5,"PanglaoDB","Mouse","Brain","Meningeal cells",14
+"6","Myeloid-derived suppressor cell | Mouse | CellMarker",0.8601960133,6,"CellMarker","Mouse","","Myeloid-derived suppressor cell",7
+"6","M2 macrophage | Mouse | CellMarker",0.8565310851,7,"CellMarker","Mouse","","M2 macrophage",5
+"6","Memory B-cells_HPCA_3 | Human | xCell",0.7990343568,8,"xCell","Human","","Memory B-cells_HPCA_3",5
+"6","Memory B-cells_HPCA_1 | Human | xCell",0.7925014163,9,"xCell","Human","","Memory B-cells_HPCA_1",6
+"6","Cornea | Human | TISSUES",0.7893455232,10,"TISSUES","Human","","Cornea",7
+"6","DC_IRIS_2 | Human | xCell",0.7849913157,11,"xCell","Human","","DC_IRIS_2",10
+"6","DC_FANTOM_3 | Human | xCell",0.7832302468,12,"xCell","Human","","DC_FANTOM_3",5
+"6","HBA_Tonsil | Human | SaVanT",0.7816867934,13,"SaVanT","Human","","HBA_Tonsil",13
+"6","Melanocytes_FANTOM_1 | Human | xCell",0.7754016558,14,"xCell","Human","","Melanocytes_FANTOM_1",5
+"6","Eosinophil | Lung | Mouse | CellMarker",0.77027298,15,"CellMarker","Mouse","Lung","Eosinophil",5
+"6","Smooth muscle cell | Lung | Mouse | CellMarker",0.7660297866,16,"CellMarker","Mouse","Lung","Smooth muscle cell",19
+"6","Neutrophil | Blood | Human | CellMarker",0.7621725233,17,"CellMarker","Human","Blood","Neutrophil",8
+"6","Tear | Human | TISSUES",0.7602054119,18,"TISSUES","Human","","Tear",5
+"6","Myofibroblasts | Smooth muscle | Human | PanglaoDB",0.7453039023,19,"PanglaoDB","Human","Smooth muscle","Myofibroblasts",8
+"6","Myofibroblasts | Smooth muscle | Mouse | PanglaoDB",0.7453039023,20,"PanglaoDB","Mouse","Smooth muscle","Myofibroblasts",8
+"6","Langerhans cells | Skin | Human | PanglaoDB",0.7447196877,21,"PanglaoDB","Human","Skin","Langerhans cells",13
+"6","HBA_Lymphnode | Human | SaVanT",0.7442185704,22,"SaVanT","Human","","HBA_Lymphnode",19
+"6","Preadipocytes_FANTOM_2 | Human | xCell",0.7441795174,23,"xCell","Human","","Preadipocytes_FANTOM_2",7
+"6","Microglial cell | Human | CellMarker",0.743657776,24,"CellMarker","Human","","Microglial cell",6
+"6","Fibroblast | Lung | Human | CellMarker",0.7431703155,25,"CellMarker","Human","Lung","Fibroblast",7
+"6","HBA_Fetallung | Human | SaVanT",0.740950847,26,"SaVanT","Human","","HBA_Fetallung",20
+"6","Plasma cell | Peripheral blood | Human | CellMarker",0.7347919565,27,"CellMarker","Human","Peripheral blood","Plasma cell",5
+"6","Mural cell | Brain | Mouse | CellMarker",0.7334165748,28,"CellMarker","Mouse","Brain","Mural cell",37
+"6","Microglia | Brain | Human | PanglaoDB",0.7322762918,29,"PanglaoDB","Human","Brain","Microglia",37
+"6","Microglia | Brain | Mouse | PanglaoDB",0.7322762918,30,"PanglaoDB","Mouse","Brain","Microglia",37
+"6","Neutrophil | Bone marrow | Mouse | CellMarker",0.7297437744,31,"CellMarker","Mouse","Bone marrow","Neutrophil",6
+"6","Class-switched memory B-cells_NOVERSHTERN_1 | Human | xCell",0.726619103,32,"xCell","Human","","Class-switched memory B-cells_NOVERSHTERN_1",5
+"6","Red pulp macrophages | Immune system | Human | PanglaoDB",0.7253809743,33,"PanglaoDB","Human","Immune system","Red pulp macrophages",5
+"6","Red pulp macrophages | Immune system | Mouse | PanglaoDB",0.7253809743,34,"PanglaoDB","Mouse","Immune system","Red pulp macrophages",5
+"6","IMGN_Fi_Sk | Mouse | SaVanT",0.7223363759,35,"SaVanT","Mouse","","IMGN_Fi_Sk",43
+"6","T helper cell | Human | CellMarker",0.7166789228,36,"CellMarker","Human","","T helper cell",8
+"6","Fibroblasts_FANTOM_2 | Human | xCell",0.7143717593,37,"xCell","Human","","Fibroblasts_FANTOM_2",8
+"6","Macrophage | Human | CellMarker",0.7118593845,38,"CellMarker","Human","","Macrophage",11
+"6","HBA_UterusCorpus | Human | SaVanT",0.7114783137,39,"SaVanT","Human","","HBA_UterusCorpus",42
+"6","Astrocytes_FANTOM_2 | Human | xCell",0.7088614267,40,"xCell","Human","","Astrocytes_FANTOM_2",52
+"6","Macrophage | Lacrimal gland | Mouse | CellMarker",0.7077093632,41,"CellMarker","Mouse","Lacrimal gland","Macrophage",13
+"6","Ductal cells | Pancreas | Human | PanglaoDB",0.707156214,42,"PanglaoDB","Human","Pancreas","Ductal cells",13
+"6","Basophil | Mouse | CellMarker",0.7055636073,43,"CellMarker","Mouse","","Basophil",11
+"6","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_FIBROBLASTS_STROMAL_CELLS | Human | MSigDB",0.7050815443,44,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_FIBROBLASTS_STROMAL_CELLS",58
+"6","Cardiac progenitor cell | Heart | Human | CellMarker",0.7028256401,45,"CellMarker","Human","Heart","Cardiac progenitor cell",6
+"6","HBA_WholeBlood | Human | SaVanT",0.7001286833,46,"SaVanT","Human","","HBA_WholeBlood",32
+"6","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_B_CELLS | Human | MSigDB",0.6999089497,47,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_B_CELLS",19
+"6","Myoepithelial cells | Smooth muscle | Mouse | PanglaoDB",0.6983109647,48,"PanglaoDB","Mouse","Smooth muscle","Myoepithelial cells",6
+"6","FAN_EMBRYONIC_CTX_MICROGLIA_3 | Human | MSigDB",0.6969587516,49,"MSigDB","Human","","FAN_EMBRYONIC_CTX_MICROGLIA_3",12
+"6","T regulatory cells | Immune system | Human | PanglaoDB",0.6965828625,50,"PanglaoDB","Human","Immune system","T regulatory cells",6
+"6","T regulatory cells | Immune system | Mouse | PanglaoDB",0.6965828625,51,"PanglaoDB","Mouse","Immune system","T regulatory cells",6
+"6","Cardiac stem and precursor cells | Heart | Mouse | PanglaoDB",0.6933279759,52,"PanglaoDB","Mouse","Heart","Cardiac stem and precursor cells",5
+"6","Fibroblast | Heart | Mouse | CellMarker",0.6907202879,53,"CellMarker","Mouse","Heart","Fibroblast",6
+"6","IFNg_10ng_4d_NHEK_12 | SaVanT",0.6903938514,54,"SaVanT","","","IFNg_10ng_4d_NHEK_12",39
+"6","CUI_DEVELOPING_HEART_COMPACT_VENTRICULAR_CARDIOMYOCYTE | Human | MSigDB",0.6895944533,55,"MSigDB","Human","","CUI_DEVELOPING_HEART_COMPACT_VENTRICULAR_CARDIOMYOCYTE",36
+"6","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_RESPIRATORY_SECRETORY_CELLS | Human | MSigDB",0.6887584599,56,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_RESPIRATORY_SECRETORY_CELLS",8
+"6","Peritubular myoid cells | Reproductive | Human | PanglaoDB",0.6887170923,57,"PanglaoDB","Human","Reproductive","Peritubular myoid cells",14
+"6","Peritubular myoid cells | Reproductive | Mouse | PanglaoDB",0.6887170923,58,"PanglaoDB","Mouse","Reproductive","Peritubular myoid cells",14
+"6","HBA_CD14+_Monocytes | Human | SaVanT",0.6877515322,59,"SaVanT","Human","","HBA_CD14+_Monocytes",28
+"6","Fibroblast cell line | Human | TISSUES",0.6875897549,60,"TISSUES","Human","","Fibroblast cell line",11
+"6","Stromal cells | Connective tissue | Mouse | PanglaoDB",0.685444094,61,"PanglaoDB","Mouse","Connective tissue","Stromal cells",22
+"6","osteoblast_day14 | SaVanT",0.6850910067,62,"SaVanT","","","osteoblast_day14",43
+"6","Ductal cells | Pancreas | Mouse | PanglaoDB",0.6849816917,63,"PanglaoDB","Mouse","Pancreas","Ductal cells",12
+"6","C3H_10T1_2 | SaVanT",0.684474408,64,"SaVanT","","","C3H_10T1_2",46
+"6","Lee et al.Cell.E | Lung | Mouse | CellMarker",0.6842715516,65,"CellMarker","Mouse","Lung","Lee et al.Cell.E",5
+"6","Dendritic cell progenitor | Bone marrow | Human | CellMarker",0.6836745512,66,"CellMarker","Human","Bone marrow","Dendritic cell progenitor",5
+"6","Monocytes | Immune system | Human | PanglaoDB",0.6832295909,67,"PanglaoDB","Human","Immune system","Monocytes",25
+"6","IMGN_FRC_MLN | Mouse | SaVanT",0.68033717,68,"SaVanT","Mouse","","IMGN_FRC_MLN",44
+"6","Follicular cells | Thyroid | Human | PanglaoDB",0.6766679306,69,"PanglaoDB","Human","Thyroid","Follicular cells",6
+"6","Follicular cells | Thyroid | Mouse | PanglaoDB",0.6766679306,70,"PanglaoDB","Mouse","Thyroid","Follicular cells",6
+"6","Myofibroblast | Lung | Mouse | CellMarker",0.6765469053,71,"CellMarker","Mouse","Lung","Myofibroblast",26
+"6","Myoepithelial cells | Smooth muscle | Human | PanglaoDB",0.6763729416,72,"PanglaoDB","Human","Smooth muscle","Myoepithelial cells",7
+"6","HBA_Appendix | Human | SaVanT",0.6762556129,73,"SaVanT","Human","","HBA_Appendix",33
+"6","Monocytes | Immune system | Mouse | PanglaoDB",0.6741559565,74,"PanglaoDB","Mouse","Immune system","Monocytes",24
+"6","Pdgfrapha+ cell | Lung | Mouse | CellMarker",0.6728982795,75,"CellMarker","Mouse","Lung","Pdgfrapha+ cell",11
+"6","Stromal cells | Connective tissue | Human | PanglaoDB",0.6723434497,76,"PanglaoDB","Human","Connective tissue","Stromal cells",24
+"6","IMGN_FRC_SLN | Mouse | SaVanT",0.6708545991,77,"SaVanT","Mouse","","IMGN_FRC_SLN",41
+"6","Osteocyte | Bone | Human | CellMarker",0.6701162532,78,"CellMarker","Human","Bone","Osteocyte",5
+"6","Basophil | Human | CellMarker",0.6687520584,79,"CellMarker","Human","","Basophil",12
+"6","IMGN_MF_Thio5_II+480lo_PC | Mouse | SaVanT",0.6684598978,80,"SaVanT","Mouse","","IMGN_MF_Thio5_II+480lo_PC",39
+"6","HPCA_Smooth_muscle_cells | Human | SaVanT",0.6677488977,81,"SaVanT","Human","","HPCA_Smooth_muscle_cells",44
+"6","Specialist antigen presenting cell | Mouse | CellMarker",0.6668501801,82,"CellMarker","Mouse","","Specialist antigen presenting cell",17
+"6","IMGN_St_31-38-44-_SLN | Mouse | SaVanT",0.6639085176,83,"SaVanT","Mouse","","IMGN_St_31-38-44-_SLN",44
+"6","HPCA_Macrophage | Human | SaVanT",0.6634958133,84,"SaVanT","Human","","HPCA_Macrophage",22
+"6","Mesenchymal stromal cell | Bone marrow | Mouse | CellMarker",0.6629983675,85,"CellMarker","Mouse","Bone marrow","Mesenchymal stromal cell",6
+"6","Pericytes_FANTOM_2 | Human | xCell",0.6625401756,86,"xCell","Human","","Pericytes_FANTOM_2",5
+"6","T helper cell | Liver | Human | CellMarker",0.6597632653,87,"CellMarker","Human","Liver","T helper cell",5
+"6","Nephron epithelial cell | Kidney | Human | CellMarker",0.6577069163,88,"CellMarker","Human","Kidney","Nephron epithelial cell",7
+"6","Foreskin fibroblast cell line | Human | TISSUES",0.6568387637,89,"TISSUES","Human","","Foreskin fibroblast cell line",8
+"6","Skin fibroblast cell line | Human | TISSUES",0.6568387637,90,"TISSUES","Human","","Skin fibroblast cell line",8
+"6","osteoblast_day21 | SaVanT",0.655150541,91,"SaVanT","","","osteoblast_day21",40
+"6","Mesenchymal stromal cell | Umbilical cord | Mouse | CellMarker",0.6548854202,92,"CellMarker","Mouse","Umbilical cord","Mesenchymal stromal cell",7
+"6","Rheaume et al.Nat Commun.34 | Retina | Mouse | CellMarker",0.6548573851,93,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.34",8
+"6","MA_M_GMCSF_OA_24h | Human | SaVanT",0.6543361292,94,"SaVanT","Human","","MA_M_GMCSF_OA_24h",30
+"6","Choroid plexus cells | Brain | Human | PanglaoDB",0.654326141,95,"PanglaoDB","Human","Brain","Choroid plexus cells",14
+"6","Choroid plexus cells | Brain | Mouse | PanglaoDB",0.654326141,96,"PanglaoDB","Mouse","Brain","Choroid plexus cells",14
+"6","IMGN_MF_Thio5_II+480int_PC | Mouse | SaVanT",0.6531440639,97,"SaVanT","Mouse","","IMGN_MF_Thio5_II+480int_PC",38
+"6","Rheaume et al.Nat Commun.27 | Retina | Mouse | CellMarker",0.651247499,98,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.27",8
+"6","Alveolar macrophages | Lungs | Human | PanglaoDB",0.6504803854,99,"PanglaoDB","Human","Lungs","Alveolar macrophages",8
+"6","Alveolar macrophages | Lungs | Mouse | PanglaoDB",0.6504803854,100,"PanglaoDB","Mouse","Lungs","Alveolar macrophages",8
+"7","Endothelial cell | Heart | Mouse | CellMarker",0.9383955646,1,"CellMarker","Mouse","Heart","Endothelial cell",7
+"7","Endothelial cell | Embryo | Mouse | CellMarker",0.9377521948,2,"CellMarker","Mouse","Embryo","Endothelial cell",9
+"7","Endothelial cell | Brain | Human | CellMarker",0.9220947795,3,"CellMarker","Human","Brain","Endothelial cell",5
+"7","Hemangioblast | Germ | Human | CellMarker",0.9006280395,4,"CellMarker","Human","Germ","Hemangioblast",6
+"7","ly Endothelial cells_HPCA_2 | Human | xCell",0.8859238649,5,"xCell","Human","","ly Endothelial cells_HPCA_2",5
+"7","Endothelial cell | Brain | Mouse | CellMarker",0.8787807416,6,"CellMarker","Mouse","Brain","Endothelial cell",69
+"7","Long-term hematopoietic stem cell | Bone marrow | Mouse | CellMarker",0.8644932868,7,"CellMarker","Mouse","Bone marrow","Long-term hematopoietic stem cell",5
+"7","Endothelial cells_HPCA_1 | Human | xCell",0.8623710622,8,"xCell","Human","","Endothelial cells_HPCA_1",7
+"7","ly Endothelial cells_HPCA_1 | Human | xCell",0.8545500538,9,"xCell","Human","","ly Endothelial cells_HPCA_1",6
+"7","ly Endothelial cells_HPCA_3 | Human | xCell",0.8545500538,10,"xCell","Human","","ly Endothelial cells_HPCA_3",6
+"7","Endothelial cells_BLUEPRINT_1 | Human | xCell",0.8544960162,11,"xCell","Human","","Endothelial cells_BLUEPRINT_1",5
+"7","Endothelial cells_BLUEPRINT_2 | Human | xCell",0.8544960162,12,"xCell","Human","","Endothelial cells_BLUEPRINT_2",5
+"7","Endothelial cell | Adipose tissue | Human | CellMarker",0.8544440158,13,"CellMarker","Human","Adipose tissue","Endothelial cell",6
+"7","Endothelial cell | Lung | Human | CellMarker",0.8505187124,14,"CellMarker","Human","Lung","Endothelial cell",6
+"7","Stem cell | Submandibular gland | Mouse | CellMarker",0.8467747573,15,"CellMarker","Mouse","Submandibular gland","Stem cell",5
+"7","ly Endothelial cells_FANTOM_3 | Human | xCell",0.8407797774,16,"xCell","Human","","ly Endothelial cells_FANTOM_3",8
+"7","Endothelial cells_FANTOM_1 | Human | xCell",0.8335336158,17,"xCell","Human","","Endothelial cells_FANTOM_1",8
+"7","Endothelial cells_FANTOM_2 | Human | xCell",0.8335336158,18,"xCell","Human","","Endothelial cells_FANTOM_2",8
+"7","Endothelial cell | Mouse | CellMarker",0.8286220199,19,"CellMarker","Mouse","","Endothelial cell",7
+"7","Endothelial cell | Human | CellMarker",0.8225509703,20,"CellMarker","Human","","Endothelial cell",11
+"7","Pericyte | Brain | Mouse | CellMarker",0.8094605704,21,"CellMarker","Mouse","Brain","Pericyte",6
+"7","Embryonic stem cell | Germ | Human | CellMarker",0.8059811756,22,"CellMarker","Human","Germ","Embryonic stem cell",7
+"7","Neutrophils_BLUEPRINT_1 | Human | xCell",0.8022057804,23,"xCell","Human","","Neutrophils_BLUEPRINT_1",5
+"7","Cancer stem cell (Lung Cancer) | Mouse | CellMarker",0.8012826511,24,"CellMarker","Mouse","","Cancer stem cell (Lung Cancer)",5
+"7","Stem cell | Adipose tissue | Mouse | CellMarker",0.7924830632,25,"CellMarker","Mouse","Adipose tissue","Stem cell",6
+"7","M2 macrophage | Mouse | CellMarker",0.7794270903,26,"CellMarker","Mouse","","M2 macrophage",5
+"7","Endothelial cells_ENCODE_3 | Human | xCell",0.7793852139,27,"xCell","Human","","Endothelial cells_ENCODE_3",19
+"7","ly Endothelial cells_FANTOM_2 | Human | xCell",0.7744050697,28,"xCell","Human","","ly Endothelial cells_FANTOM_2",23
+"7","Mural cell | Brain | Mouse | CellMarker",0.773378628,29,"CellMarker","Mouse","Brain","Mural cell",37
+"7","Chondrocytes_HPCA_1 | Human | xCell",0.7726685325,30,"xCell","Human","","Chondrocytes_HPCA_1",6
+"7","Endothelial cell | Lacrimal gland | Mouse | CellMarker",0.7713560699,31,"CellMarker","Mouse","Lacrimal gland","Endothelial cell",16
+"7","Prostate adenocarcinoma cell | Human | TISSUES",0.7707798354,32,"TISSUES","Human","","Prostate adenocarcinoma cell",5
+"7","CUI_DEVELOPING_HEART_CORONARY_VASCULAR_ENDOTHELIAL_CELL | Human | MSigDB",0.7653341348,33,"MSigDB","Human","","CUI_DEVELOPING_HEART_CORONARY_VASCULAR_ENDOTHELIAL_CELL",25
+"7","HBA_colon | Human | SaVanT",0.7631607025,34,"SaVanT","Human","","HBA_colon",13
+"7","Red pulp macrophages | Immune system | Human | PanglaoDB",0.7498172004,35,"PanglaoDB","Human","Immune system","Red pulp macrophages",5
+"7","Red pulp macrophages | Immune system | Mouse | PanglaoDB",0.7498172004,36,"PanglaoDB","Mouse","Immune system","Red pulp macrophages",5
+"7","Myeloid dendritic cell | Blood | Human | CellMarker",0.7488455685,37,"CellMarker","Human","Blood","Myeloid dendritic cell",5
+"7","Myeloid dendritic cell | Intestine | Human | CellMarker",0.7488455685,38,"CellMarker","Human","Intestine","Myeloid dendritic cell",5
+"7","Myeloid dendritic cell | Lung | Human | CellMarker",0.7488455685,39,"CellMarker","Human","Lung","Myeloid dendritic cell",5
+"7","Myeloid dendritic cell | Skin | Human | CellMarker",0.7488455685,40,"CellMarker","Human","Skin","Myeloid dendritic cell",5
+"7","Myeloid dendritic cell | Stomach | Human | CellMarker",0.7488455685,41,"CellMarker","Human","Stomach","Myeloid dendritic cell",5
+"7","Neutrophil | Blood | Human | CellMarker",0.7437591592,42,"CellMarker","Human","Blood","Neutrophil",8
+"7","Thymocyte | Thymus | Mouse | CellMarker",0.7416913385,43,"CellMarker","Mouse","Thymus","Thymocyte",7
+"7","IGNg_TNF_24h_HaCaT_27 | SaVanT",0.7385306216,44,"SaVanT","","","IGNg_TNF_24h_HaCaT_27",24
+"7","Endothelial stem cell | Blood vessel | Human | CellMarker",0.7329171255,45,"CellMarker","Human","Blood vessel","Endothelial stem cell",11
+"7","Endothelial cell | Blood vessel | Mouse | CellMarker",0.7307377357,46,"CellMarker","Mouse","Blood vessel","Endothelial cell",15
+"7","Axin2-Palpha+ cell | Lung | Mouse | CellMarker",0.7306545293,47,"CellMarker","Mouse","Lung","Axin2-Palpha+ cell",9
+"7","Cardiac stem and precursor cells | Heart | Human | PanglaoDB",0.7301790503,48,"PanglaoDB","Human","Heart","Cardiac stem and precursor cells",6
+"7","Endothelial cell | Bone marrow | Human | CellMarker",0.7288653508,49,"CellMarker","Human","Bone marrow","Endothelial cell",10
+"7","Endothelial cells_FANTOM_3 | Human | xCell",0.7286244009,50,"xCell","Human","","Endothelial cells_FANTOM_3",24
+"7","HSC_NOVERSHTERN_3 | Human | xCell",0.7232891036,51,"xCell","Human","","HSC_NOVERSHTERN_3",5
+"7","B cell (Leukemia) | Human | CellMarker",0.7224433475,52,"CellMarker","Human","","B cell (Leukemia)",8
+"7","MA_M_GMCSF_IFNg_12h | Human | SaVanT",0.719450732,53,"SaVanT","Human","","MA_M_GMCSF_IFNg_12h",30
+"7","Progenitor cell | Mammary gland | Mouse | CellMarker",0.7161441533,54,"CellMarker","Mouse","Mammary gland","Progenitor cell",5
+"7","MA_M_GMCSF_IFNg_6h | Human | SaVanT",0.7146862973,55,"SaVanT","Human","","MA_M_GMCSF_IFNg_6h",29
+"7","GAO_STOMACH_24W_C2_TFF2POS_MULTIPOTENT_PROGENITOR | Human | MSigDB",0.7146157599,56,"MSigDB","Human","","GAO_STOMACH_24W_C2_TFF2POS_MULTIPOTENT_PROGENITOR",6
+"7","mv Endothelial cells_FANTOM_2 | Human | xCell",0.7139098212,57,"xCell","Human","","mv Endothelial cells_FANTOM_2",32
+"7","Smooth muscle cell | Brain | Mouse | CellMarker",0.7077941621,58,"CellMarker","Mouse","Brain","Smooth muscle cell",40
+"7","Stem cell | Bone | Mouse | CellMarker",0.7060505471,59,"CellMarker","Mouse","Bone","Stem cell",6
+"7","Kupffer cells | Liver | Mouse | PanglaoDB",0.7057349755,60,"PanglaoDB","Mouse","Liver","Kupffer cells",12
+"7","Pericytes | Vasculature | Human | PanglaoDB",0.7041209978,61,"PanglaoDB","Human","Vasculature","Pericytes",39
+"7","Pericytes | Vasculature | Mouse | PanglaoDB",0.7041209978,62,"PanglaoDB","Mouse","Vasculature","Pericytes",39
+"7","Tear | Human | TISSUES",0.701150879,63,"TISSUES","Human","","Tear",5
+"7","lung | SaVanT",0.7009780678,64,"SaVanT","","","lung",28
+"7","IFNg_20ng_24h_NHEK_23 | SaVanT",0.699812809,65,"SaVanT","","","IFNg_20ng_24h_NHEK_23",28
+"7","Rheaume et al.Nat Commun.19 | Retina | Mouse | CellMarker",0.6990156745,66,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.19",9
+"7","Myofibroblasts | Smooth muscle | Human | PanglaoDB",0.6969285682,67,"PanglaoDB","Human","Smooth muscle","Myofibroblasts",8
+"7","Myofibroblasts | Smooth muscle | Mouse | PanglaoDB",0.6969285682,68,"PanglaoDB","Mouse","Smooth muscle","Myofibroblasts",8
+"7","FAN_EMBRYONIC_CTX_MICROGLIA_2 | Human | MSigDB",0.6963847858,69,"MSigDB","Human","","FAN_EMBRYONIC_CTX_MICROGLIA_2",6
+"7","Mesenchymal stem cell | Placenta | Human | CellMarker",0.6962343943,70,"CellMarker","Human","Placenta","Mesenchymal stem cell",7
+"7","Endothelial cells (blood brain barrier) | Vasculature | Human | PanglaoDB",0.6952544206,71,"PanglaoDB","Human","Vasculature","Endothelial cells (blood brain barrier)",12
+"7","Endothelial cells (blood brain barrier) | Vasculature | Mouse | PanglaoDB",0.6952544206,72,"PanglaoDB","Mouse","Vasculature","Endothelial cells (blood brain barrier)",12
+"7","IFNg_10ng_4d_NHEK_12 | SaVanT",0.6938293791,73,"SaVanT","","","IFNg_10ng_4d_NHEK_12",39
+"7","Basophil | Bone marrow | Mouse | CellMarker",0.6929018489,74,"CellMarker","Mouse","Bone marrow","Basophil",10
+"7","CUI_DEVELOPING_HEART_COMPACT_ATRIAL_CARDIOMYOCYTE | Human | MSigDB",0.6846226746,75,"MSigDB","Human","","CUI_DEVELOPING_HEART_COMPACT_ATRIAL_CARDIOMYOCYTE",10
+"7","Endothelial cells_ENCODE_2 | Human | xCell",0.6842102299,76,"xCell","Human","","Endothelial cells_ENCODE_2",32
+"7","IMGN_BEC_MLN | Mouse | SaVanT",0.683045954,77,"SaVanT","Mouse","","IMGN_BEC_MLN",44
+"7","IFNg_24h_NHEK_2 | SaVanT",0.6807055736,78,"SaVanT","","","IFNg_24h_NHEK_2",33
+"7","Follicular B cell | Mouse | CellMarker",0.6737433787,79,"CellMarker","Mouse","","Follicular B cell",5
+"7","Cancer cell (Breast Cancer (circulating)) | Blood | Human | CellMarker",0.6730910197,80,"CellMarker","Human","Blood","Cancer cell (Breast Cancer (circulating))",5
+"7","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_PERICYTES | Human | MSigDB",0.6723584881,81,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_PERICYTES",59
+"7","mv Endothelial cells_HPCA_2 | Human | xCell",0.6720952001,82,"xCell","Human","","mv Endothelial cells_HPCA_2",16
+"7","MA_M1_2_GMCSF_24h | Human | SaVanT",0.6680002609,83,"SaVanT","Human","","MA_M1_2_GMCSF_24h",32
+"7","IMGN_BEC_SLN | Mouse | SaVanT",0.6671205675,84,"SaVanT","Mouse","","IMGN_BEC_SLN",47
+"7","Endothelial cell | Blood vessel | Human | CellMarker",0.6670123184,85,"CellMarker","Human","Blood vessel","Endothelial cell",43
+"7","Erythroid cell | Bone marrow | Mouse | CellMarker",0.6658656886,86,"CellMarker","Mouse","Bone marrow","Erythroid cell",6
+"7","mv Endothelial cells_HPCA_3 | Human | xCell",0.661898448,87,"xCell","Human","","mv Endothelial cells_HPCA_3",11
+"7","mv Endothelial cells_HPCA_1 | Human | xCell",0.661395348,88,"xCell","Human","","mv Endothelial cells_HPCA_1",9
+"7","Endothelial cell | Lung | Mouse | CellMarker",0.6611527744,89,"CellMarker","Mouse","Lung","Endothelial cell",117
+"7","bladder | SaVanT",0.6607987592,90,"SaVanT","","","bladder",27
+"7","Cardiac stem and precursor cells | Heart | Mouse | PanglaoDB",0.6588677916,91,"PanglaoDB","Mouse","Heart","Cardiac stem and precursor cells",5
+"7","FAN_EMBRYONIC_CTX_BIG_GROUPS_BRAIN_ENDOTHELIAL | Human | MSigDB",0.6544507691,92,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_BRAIN_ENDOTHELIAL",257
+"7","GAO_LARGE_INTESTINE_24W_C2_MKI67POS_PROGENITOR | Human | MSigDB",0.649842177,93,"MSigDB","Human","","GAO_LARGE_INTESTINE_24W_C2_MKI67POS_PROGENITOR",63
+"7","Macrophage | Lung | Human | CellMarker",0.6480728864,94,"CellMarker","Human","Lung","Macrophage",6
+"7","Erythrocytes_FANTOM_3 | Human | xCell",0.6473264455,95,"xCell","Human","","Erythrocytes_FANTOM_3",5
+"7","Endothelial cells | Vasculature | Human | PanglaoDB",0.6469072482,96,"PanglaoDB","Human","Vasculature","Endothelial cells",97
+"7","Endothelial cells | Vasculature | Mouse | PanglaoDB",0.6469072482,97,"PanglaoDB","Mouse","Vasculature","Endothelial cells",97
+"7","Epithelial cell | Mouse | CellMarker",0.6460063701,98,"CellMarker","Mouse","","Epithelial cell",26
+"7","Spermatozoa | Reproductive | Human | PanglaoDB",0.6454761328,99,"PanglaoDB","Human","Reproductive","Spermatozoa",5
+"7","Spermatozoa | Reproductive | Mouse | PanglaoDB",0.6454761328,100,"PanglaoDB","Mouse","Reproductive","Spermatozoa",5
+"8","CD8+ T-cells_FANTOM_2 | Human | xCell",0.8118307529,1,"xCell","Human","","CD8+ T-cells_FANTOM_2",5
+"8","Mesenchymal stem cell | Human | TISSUES",0.7430984517,2,"TISSUES","Human","","Mesenchymal stem cell",6
+"8","Enterocyte | Intestinal crypt | Mouse | CellMarker",0.73978753,3,"CellMarker","Mouse","Intestinal crypt","Enterocyte",5
+"8","Parathyroid gland | Human | TISSUES",0.667194534,4,"TISSUES","Human","","Parathyroid gland",5
+"8","Reticulocyte | Human | TISSUES",0.6605890205,5,"TISSUES","Human","","Reticulocyte",6
+"8","Pyramidal cell | Human | CellMarker",0.6560003688,6,"CellMarker","Human","","Pyramidal cell",8
+"8","Embryonic carcinoma cell line | Mouse | TISSUES",0.6497126836,7,"TISSUES","Mouse","","Embryonic carcinoma cell line",6
+"8","Embryonic cell line | Mouse | TISSUES",0.6497126836,8,"TISSUES","Mouse","","Embryonic cell line",6
+"8","Keratinocyte | Mouse | TISSUES",0.6254159822,9,"TISSUES","Mouse","","Keratinocyte",5
+"8","Stratum spinosum | Mouse | TISSUES",0.6254159822,10,"TISSUES","Mouse","","Stratum spinosum",5
+"8","mv Endothelial cells_HPCA_2 | Human | xCell",0.5910833638,11,"xCell","Human","","mv Endothelial cells_HPCA_2",16
+"8","HBA_TemporalLobe | Human | SaVanT",0.5881893349,12,"SaVanT","Human","","HBA_TemporalLobe",50
+"8","Bone marrow stromal cell | Human | TISSUES",0.5772692622,13,"TISSUES","Human","","Bone marrow stromal cell",6
+"8","Stromal cell | Human | TISSUES",0.5772692622,14,"TISSUES","Human","","Stromal cell",6
+"8","HBA_Amygdala | Human | SaVanT",0.5752957689,15,"SaVanT","Human","","HBA_Amygdala",50
+"8","Th2 cells_IRIS_3 | Human | xCell",0.5723308171,16,"xCell","Human","","Th2 cells_IRIS_3",7
+"8","Neurons_ENCODE_1 | Human | xCell",0.5702709013,17,"xCell","Human","","Neurons_ENCODE_1",7
+"8","cerebral_cortex | SaVanT",0.5681300906,18,"SaVanT","","","cerebral_cortex",50
+"8","HBA_Wholebrain | Human | SaVanT",0.5657942243,19,"SaVanT","Human","","HBA_Wholebrain",50
+"8","cerebral_cortex_prefrontal | SaVanT",0.5606274235,20,"SaVanT","","","cerebral_cortex_prefrontal",50
+"8","Neuron | Brain | Mouse | CellMarker",0.5480721005,21,"CellMarker","Mouse","Brain","Neuron",46
+"8","CD8+ T-cells_IRIS_3 | Human | xCell",0.5469764458,22,"xCell","Human","","CD8+ T-cells_IRIS_3",10
+"8","Smooth muscle_HPCA_2 | Human | xCell",0.5387421983,23,"xCell","Human","","Smooth muscle_HPCA_2",9
+"8","HBA_GlobusPallidus | Human | SaVanT",0.5380215475,24,"SaVanT","Human","","HBA_GlobusPallidus",50
+"8","Follicular cells | Thyroid | Human | PanglaoDB",0.536352531,25,"PanglaoDB","Human","Thyroid","Follicular cells",6
+"8","Follicular cells | Thyroid | Mouse | PanglaoDB",0.536352531,26,"PanglaoDB","Mouse","Thyroid","Follicular cells",6
+"8","HBA_SubthalamicNucleus | Human | SaVanT",0.5299651533,27,"SaVanT","Human","","HBA_SubthalamicNucleus",50
+"8","HBA_Cerebellum | Human | SaVanT",0.5284625028,28,"SaVanT","Human","","HBA_Cerebellum",50
+"8","HBA_PrefrontalCortex | Human | SaVanT",0.5279854618,29,"SaVanT","Human","","HBA_PrefrontalCortex",50
+"8","Pyramidal cells | Brain | Human | PanglaoDB",0.5260873486,30,"PanglaoDB","Human","Brain","Pyramidal cells",23
+"8","Pyramidal cells | Brain | Mouse | PanglaoDB",0.5260873486,31,"PanglaoDB","Mouse","Brain","Pyramidal cells",23
+"8","CD8+ T-cells_IRIS_1 | Human | xCell",0.5235567581,32,"xCell","Human","","CD8+ T-cells_IRIS_1",6
+"8","Insulinoma cell | Mouse | TISSUES",0.5228045066,33,"TISSUES","Mouse","","Insulinoma cell",6
+"8","Pancreatic cancer cell | Mouse | TISSUES",0.5228045066,34,"TISSUES","Mouse","","Pancreatic cancer cell",6
+"8","HAY_BONE_MARROW_CD34_POS_LYMPHOID_UNK | Human | MSigDB",0.5158261431,35,"MSigDB","Human","","HAY_BONE_MARROW_CD34_POS_LYMPHOID_UNK",5
+"8","Fibroblastoma cell | Human | TISSUES",0.5156878047,36,"TISSUES","Human","","Fibroblastoma cell",6
+"8","Fibrosarcoma cell | Human | TISSUES",0.5156878047,37,"TISSUES","Human","","Fibrosarcoma cell",6
+"8","nucleus_accumbens | SaVanT",0.5126162856,38,"SaVanT","","","nucleus_accumbens",46
+"8","CLP_BLUEPRINT_3 | Human | xCell",0.5093464496,39,"xCell","Human","","CLP_BLUEPRINT_3",21
+"8","Embryonic carcinoma cell line | Human | TISSUES",0.5079496712,40,"TISSUES","Human","","Embryonic carcinoma cell line",7
+"8","hippocampus | SaVanT",0.503486203,41,"SaVanT","","","hippocampus",49
+"8","B-lymphocyte | Human | TISSUES",0.5022716295,42,"TISSUES","Human","","B-lymphocyte",6
+"8","pre-B-lymphocyte | Human | TISSUES",0.5022716295,43,"TISSUES","Human","","pre-B-lymphocyte",6
+"8","pro-B-lymphocyte | Human | TISSUES",0.5022716295,44,"TISSUES","Human","","pro-B-lymphocyte",6
+"8","Frontal lobe | Mouse | TISSUES",0.5020327748,45,"TISSUES","Mouse","","Frontal lobe",24
+"8","Olfactory bulb | Mouse | TISSUES",0.5020327748,46,"TISSUES","Mouse","","Olfactory bulb",24
+"8","Olfactory lobe | Mouse | TISSUES",0.5020327748,47,"TISSUES","Mouse","","Olfactory lobe",24
+"8","Embryonic cell line | Human | TISSUES",0.5001978243,48,"TISSUES","Human","","Embryonic cell line",8
+"8","Cochlea | Mouse | TISSUES",0.4996927535,49,"TISSUES","Mouse","","Cochlea",5
+"8","Vestibular labyrinth | Mouse | TISSUES",0.4996927535,50,"TISSUES","Mouse","","Vestibular labyrinth",5
+"8","Vestibular system | Mouse | TISSUES",0.4996927535,51,"TISSUES","Mouse","","Vestibular system",5
+"8","mv Endothelial cells_HPCA_3 | Human | xCell",0.4995483728,52,"xCell","Human","","mv Endothelial cells_HPCA_3",11
+"8","Myocytes_ENCODE_2 | Human | xCell",0.4963154467,53,"xCell","Human","","Myocytes_ENCODE_2",8
+"8","HBA_CerebellumPeduncles | Human | SaVanT",0.4928240492,54,"SaVanT","Human","","HBA_CerebellumPeduncles",50
+"8","HBA_CingulateCortex | Human | SaVanT",0.4927108042,55,"SaVanT","Human","","HBA_CingulateCortex",50
+"8","Cardiomyocyte | Heart | Mouse | CellMarker",0.4913545693,56,"CellMarker","Mouse","Heart","Cardiomyocyte",6
+"8","amygdala | SaVanT",0.4863376982,57,"SaVanT","","","amygdala",50
+"8","Lake et al.Science.Ex1 | Brain | Human | CellMarker",0.4790246393,58,"CellMarker","Human","Brain","Lake et al.Science.Ex1",12
+"8","Megakaryocyte-erythroid progenitor | Bone marrow | Mouse | CellMarker",0.4762389997,59,"CellMarker","Mouse","Bone marrow","Megakaryocyte-erythroid progenitor",7
+"8","Cardiomyocyte | Heart | Human | CellMarker",0.473942103,60,"CellMarker","Human","Heart","Cardiomyocyte",11
+"8","Smooth muscle_HPCA_1 | Human | xCell",0.4739222187,61,"xCell","Human","","Smooth muscle_HPCA_1",6
+"8","Glutaminergic neurons | Brain | Human | PanglaoDB",0.4738341463,62,"PanglaoDB","Human","Brain","Glutaminergic neurons",9
+"8","Glutaminergic neurons | Brain | Mouse | PanglaoDB",0.4738341463,63,"PanglaoDB","Mouse","Brain","Glutaminergic neurons",9
+"8","Rheaume et al.Nat Commun.7 | Retina | Mouse | CellMarker",0.4724602895,64,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.7",8
+"8","naive B-cells_NOVERSHTERN_2 | Human | xCell",0.4710653901,65,"xCell","Human","","naive B-cells_NOVERSHTERN_2",20
+"8","Epithelial cell | Lacrimal gland | Mouse | CellMarker",0.4683830719,66,"CellMarker","Mouse","Lacrimal gland","Epithelial cell",7
+"8","CLP_BLUEPRINT_1 | Human | xCell",0.4658490598,67,"xCell","Human","","CLP_BLUEPRINT_1",6
+"8","MEP_NOVERSHTERN_2 | Human | xCell",0.463624114,68,"xCell","Human","","MEP_NOVERSHTERN_2",5
+"8","CLP_BLUEPRINT_2 | Human | xCell",0.4621885109,69,"xCell","Human","","CLP_BLUEPRINT_2",10
+"8","Ciliated cell | Lung | Mouse | CellMarker",0.4602205138,70,"CellMarker","Mouse","Lung","Ciliated cell",14
+"8","Rheaume et al.Nat Commun.31 | Retina | Mouse | CellMarker",0.4579904393,71,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.31",9
+"8","CD4+ Tem_BLUEPRINT_3 | Human | xCell",0.4578160496,72,"xCell","Human","","CD4+ Tem_BLUEPRINT_3",9
+"8","HBA_Pons | Human | SaVanT",0.4572453031,73,"SaVanT","Human","","HBA_Pons",48
+"8","HBA_OccipitalLobe | Human | SaVanT",0.4520716768,74,"SaVanT","Human","","HBA_OccipitalLobe",49
+"8","HSC_BLUEPRINT_2 | Human | xCell",0.4493886738,75,"xCell","Human","","HSC_BLUEPRINT_2",11
+"8","CD4+ Tcm_NOVERSHTERN_1 | Human | xCell",0.4477592819,76,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_1",5
+"8","CD4+ Tcm_NOVERSHTERN_2 | Human | xCell",0.4477592819,77,"xCell","Human","","CD4+ Tcm_NOVERSHTERN_2",5
+"8","Peripheral ganglion | Human | TISSUES",0.4453909789,78,"TISSUES","Human","","Peripheral ganglion",7
+"8","Spinal ganglion | Human | TISSUES",0.4453909789,79,"TISSUES","Human","","Spinal ganglion",7
+"8","Large granular lymphocyte | Mouse | TISSUES",0.4442996762,80,"TISSUES","Mouse","","Large granular lymphocyte",7
+"8","Natural killer cell | Mouse | TISSUES",0.4442996762,81,"TISSUES","Mouse","","Natural killer cell",7
+"8","Null cell | Mouse | TISSUES",0.4442996762,82,"TISSUES","Mouse","","Null cell",7
+"8","GAO_LARGE_INTESTINE_24W_C6_SECRETORY_PROGENITOR | Human | MSigDB",0.4418747366,83,"MSigDB","Human","","GAO_LARGE_INTESTINE_24W_C6_SECRETORY_PROGENITOR",9
+"8","Chondrocytes_ENCODE_1 | Human | xCell",0.4390107543,84,"xCell","Human","","Chondrocytes_ENCODE_1",11
+"8","Secretory progenitor cell | Large intestine | Human | CellMarker",0.4381468732,85,"CellMarker","Human","Large intestine","Secretory progenitor cell",6
+"8","Renal proximal tubule | Human | TISSUES",0.438082638,86,"TISSUES","Human","","Renal proximal tubule",7
+"8","Renal tubule | Human | TISSUES",0.438082638,87,"TISSUES","Human","","Renal tubule",7
+"8","HBA_MedullaOblongata | Human | SaVanT",0.4322196152,88,"SaVanT","Human","","HBA_MedullaOblongata",49
+"8","MANNO_MIDBRAIN_NEUROTYPES_BASAL | Human | MSigDB",0.431642135,89,"MSigDB","Human","","MANNO_MIDBRAIN_NEUROTYPES_BASAL",61
+"8","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_GLOBOSE_BASAL_CELLS | Human | MSigDB",0.4292410769,90,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_GLOBOSE_BASAL_CELLS",20
+"8","Chondrocytes_ENCODE_2 | Human | xCell",0.4284976002,91,"xCell","Human","","Chondrocytes_ENCODE_2",12
+"8","Rheaume et al.Nat Commun.34 | Retina | Mouse | CellMarker",0.4262788168,92,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.34",8
+"8","Interstitial cell | Human | TISSUES",0.4259027311,93,"TISSUES","Human","","Interstitial cell",137
+"8","Interstitial cell of Cajal | Human | TISSUES",0.4259027311,94,"TISSUES","Human","","Interstitial cell of Cajal",137
+"8","dorsal_striatum | SaVanT",0.4245535656,95,"SaVanT","","","dorsal_striatum",46
+"8","ZHONG_PFC_C8_UNKNOWN_NEUROD2_POS_INTERNEURON | Human | MSigDB",0.4239097282,96,"MSigDB","Human","","ZHONG_PFC_C8_UNKNOWN_NEUROD2_POS_INTERNEURON",61
+"8","MSC_HPCA_2 | Human | xCell",0.4192745672,97,"xCell","Human","","MSC_HPCA_2",11
+"8","Osteoblast_FANTOM_1 | Human | xCell",0.4161582542,98,"xCell","Human","","Osteoblast_FANTOM_1",23
+"8","Immune cell (Renal Clear Cell Carcinoma) | Human | CellMarker",0.4157395889,99,"CellMarker","Human","","Immune cell (Renal Clear Cell Carcinoma)",7
+"8","HBA_ParietalLobe | Human | SaVanT",0.4139240959,100,"SaVanT","Human","","HBA_ParietalLobe",49
+"9","Radial glial cell | Human | CellMarker",0.8092249996,1,"CellMarker","Human","","Radial glial cell",6
+"9","Cancer stem cell (Head And Neck Squamous Cell Carcinoma) | Mouse | CellMarker",0.7847549706,2,"CellMarker","Mouse","","Cancer stem cell (Head And Neck Squamous Cell Carcinoma)",5
+"9","Neural stem cell | Brain | Mouse | CellMarker",0.7741948315,3,"CellMarker","Mouse","Brain","Neural stem cell",10
+"9","Arterial smooth muscle | Human | TISSUES",0.7702560371,4,"TISSUES","Human","","Arterial smooth muscle",5
+"9","Quiescent neural stem cell | Brain | Mouse | CellMarker",0.7511544057,5,"CellMarker","Mouse","Brain","Quiescent neural stem cell",10
+"9","Osteocyte | Bone | Human | CellMarker",0.733375234,6,"CellMarker","Human","Bone","Osteocyte",5
+"9","Rheaume et al.Nat Commun.22 | Retina | Mouse | CellMarker",0.7200135053,7,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.22",7
+"9","Thymocytes | Thymus | Human | PanglaoDB",0.7175230538,8,"PanglaoDB","Human","Thymus","Thymocytes",8
+"9","Thymocytes | Thymus | Mouse | PanglaoDB",0.7175230538,9,"PanglaoDB","Mouse","Thymus","Thymocytes",8
+"9","Enteric glia cells | GI tract | Human | PanglaoDB",0.7159569845,10,"PanglaoDB","Human","GI tract","Enteric glia cells",9
+"9","Enteric glia cells | GI tract | Mouse | PanglaoDB",0.7159569845,11,"PanglaoDB","Mouse","GI tract","Enteric glia cells",9
+"9","Radial glia cells | Brain | Human | PanglaoDB",0.7153579595,12,"PanglaoDB","Human","Brain","Radial glia cells",10
+"9","Radial glia cells | Brain | Mouse | PanglaoDB",0.7153579595,13,"PanglaoDB","Mouse","Brain","Radial glia cells",10
+"9","Ventral otocyst | Brain | Mouse | CellMarker",0.7125077768,14,"CellMarker","Mouse","Brain","Ventral otocyst",6
+"9","Astrocyte | Brain | Mouse | CellMarker",0.7071708206,15,"CellMarker","Mouse","Brain","Astrocyte",45
+"9","Cancer stem cell (Glioblastoma) | Human | CellMarker",0.7055528296,16,"CellMarker","Human","","Cancer stem cell (Glioblastoma)",10
+"9","Epidermal stem cell | Skin | Human | CellMarker",0.6987098406,17,"CellMarker","Human","Skin","Epidermal stem cell",7
+"9","Intestinal stem cell | Intestine | Mouse | CellMarker",0.6908504132,18,"CellMarker","Mouse","Intestine","Intestinal stem cell",5
+"9","Ito cell (hepatic stellate cell) | Liver | Mouse | CellMarker",0.6885429223,19,"CellMarker","Mouse","Liver","Ito cell (hepatic stellate cell)",6
+"9","HPCA_M1_IFNg | Human | SaVanT",0.6881297332,20,"SaVanT","Human","","HPCA_M1_IFNg",23
+"9","Stem cell | Bone | Mouse | CellMarker",0.6867009128,21,"CellMarker","Mouse","Bone","Stem cell",6
+"9","Sertoli cell | Human | CellMarker",0.6777319457,22,"CellMarker","Human","","Sertoli cell",6
+"9","CD4+ T cell | Mouse | CellMarker",0.6766302304,23,"CellMarker","Mouse","","CD4+ T cell",5
+"9","Rheaume et al.Nat Commun.35 | Retina | Mouse | CellMarker",0.6754893463,24,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.35",5
+"9","Macrophages M1_BLUEPRINT_1 | Human | xCell",0.6753907951,25,"xCell","Human","","Macrophages M1_BLUEPRINT_1",5
+"9","Nasal polyp | Human | TISSUES",0.6734356088,26,"TISSUES","Human","","Nasal polyp",6
+"9","Cancer stem cell (Hepatocellular Cancer) | Liver | Human | CellMarker",0.6726031476,27,"CellMarker","Human","Liver","Cancer stem cell (Hepatocellular Cancer)",5
+"9","Keratinocyte | Mouse | TISSUES",0.6698129743,28,"TISSUES","Mouse","","Keratinocyte",5
+"9","Stratum spinosum | Mouse | TISSUES",0.6698129743,29,"TISSUES","Mouse","","Stratum spinosum",5
+"9","Endothelial cell | Brain | Human | CellMarker",0.6588785449,30,"CellMarker","Human","Brain","Endothelial cell",5
+"9","Cancer stem cell | Lung | Human | CellMarker",0.6588184322,31,"CellMarker","Human","Lung","Cancer stem cell",6
+"9","Epithelial cells_HPCA_3 | Human | xCell",0.654919128,32,"xCell","Human","","Epithelial cells_HPCA_3",6
+"9","HPCA_Macrophage | Human | SaVanT",0.653015687,33,"SaVanT","Human","","HPCA_Macrophage",22
+"9","Follicular B cell | Human | CellMarker",0.6493452331,34,"CellMarker","Human","","Follicular B cell",6
+"9","Intestinal stem cell | Small intestine | Human | CellMarker",0.6493281863,35,"CellMarker","Human","Small intestine","Intestinal stem cell",6
+"9","Wnt2+ cell | Lung | Mouse | CellMarker",0.6431816049,36,"CellMarker","Mouse","Lung","Wnt2+ cell",7
+"9","Cancer stem cell (Glioma) | Human | CellMarker",0.642536562,37,"CellMarker","Human","","Cancer stem cell (Glioma)",11
+"9","Fibroblast | Mouse | CellMarker",0.6406828771,38,"CellMarker","Mouse","","Fibroblast",6
+"9","Mesenchymal cell (Ovarian Cancer) | Ovary | Human | CellMarker",0.6390477546,39,"CellMarker","Human","Ovary","Mesenchymal cell (Ovarian Cancer)",10
+"9","Mesenchymal cell | Ovary | Human | CellMarker",0.6390477546,40,"CellMarker","Human","Ovary","Mesenchymal cell",10
+"9","Basophil | Human | CellMarker",0.6389814697,41,"CellMarker","Human","","Basophil",12
+"9","FAN_EMBRYONIC_CTX_ASTROCYTE_1 | Human | MSigDB",0.6341196558,42,"MSigDB","Human","","FAN_EMBRYONIC_CTX_ASTROCYTE_1",55
+"9","Memory B-cells_IRIS_2 | Human | xCell",0.6332420779,43,"xCell","Human","","Memory B-cells_IRIS_2",6
+"9","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_SUSTENTACULAR_CELLS | Human | MSigDB",0.6311054319,44,"MSigDB","Human","","DURANTE_ADULT_OLFACTORY_NEUROEPITHELIUM_SUSTENTACULAR_CELLS",10
+"9","Cancer stem cell (Glioblastoma) | Brain | Human | CellMarker",0.6261977019,45,"CellMarker","Human","Brain","Cancer stem cell (Glioblastoma)",5
+"9","Hepatocyte | Liver | Mouse | CellMarker",0.6232694789,46,"CellMarker","Mouse","Liver","Hepatocyte",6
+"9","Plasma cell | Human | CellMarker",0.619660219,47,"CellMarker","Human","","Plasma cell",7
+"9","ZHONG_PFC_C9_ORG_OTHER | Human | MSigDB",0.6166718683,48,"MSigDB","Human","","ZHONG_PFC_C9_ORG_OTHER",56
+"9","Crypt cells | GI tract | Human | PanglaoDB",0.6164039082,49,"PanglaoDB","Human","GI tract","Crypt cells",8
+"9","Crypt cells | GI tract | Mouse | PanglaoDB",0.6164039082,50,"PanglaoDB","Mouse","GI tract","Crypt cells",8
+"9","Cancer stem cell (Colon Cancer) | Human | CellMarker",0.6161251588,51,"CellMarker","Human","","Cancer stem cell (Colon Cancer)",7
+"9","Cancer stem cell (Pancreatic Cancer) | Pancreas | Human | CellMarker",0.6157126871,52,"CellMarker","Human","Pancreas","Cancer stem cell (Pancreatic Cancer)",5
+"9","T helper17 (Th17) cell | Human | CellMarker",0.6156716131,53,"CellMarker","Human","","T helper17 (Th17) cell",5
+"9","FAN_EMBRYONIC_CTX_BIG_GROUPS_GLIAL | Human | MSigDB",0.6141007861,54,"MSigDB","Human","","FAN_EMBRYONIC_CTX_BIG_GROUPS_GLIAL",102
+"9","Astrocytes | SaVanT",0.611162307,55,"SaVanT","","","Astrocytes",50
+"9","Dental pulp stem cell | Dental pulp | Human | CellMarker",0.6105433803,56,"CellMarker","Human","Dental pulp","Dental pulp stem cell",7
+"9","Goblet cells | GI tract | Human | PanglaoDB",0.6083336444,57,"PanglaoDB","Human","GI tract","Goblet cells",5
+"9","Goblet cells | GI tract | Mouse | PanglaoDB",0.6083336444,58,"PanglaoDB","Mouse","GI tract","Goblet cells",5
+"9","Cancer stem cell (Bladder Cancer) | Bladder | Human | CellMarker",0.6057270505,59,"CellMarker","Human","Bladder","Cancer stem cell (Bladder Cancer)",5
+"9","Bergmann glial cell | Brain | Mouse | CellMarker",0.6054397603,60,"CellMarker","Mouse","Brain","Bergmann glial cell",39
+"9","Cancer stem cell (Lung Adenocarcinoma) | Lung | Human | CellMarker",0.6047847104,61,"CellMarker","Human","Lung","Cancer stem cell (Lung Adenocarcinoma)",5
+"9","Spermatogonial stem cell | Testis | Human | CellMarker",0.6037839983,62,"CellMarker","Human","Testis","Spermatogonial stem cell",5
+"9","Chondrocytes_HPCA_2 | Human | xCell",0.5999958945,63,"xCell","Human","","Chondrocytes_HPCA_2",5
+"9","Progenitor cell | Liver | Mouse | CellMarker",0.5997624607,64,"CellMarker","Mouse","Liver","Progenitor cell",5
+"9","Cancer cell (Breast Cancer (circulating)) | Blood | Human | CellMarker",0.5993605518,65,"CellMarker","Human","Blood","Cancer cell (Breast Cancer (circulating))",5
+"9","Epithelial cell | Lacrimal gland | Mouse | CellMarker",0.5990008221,66,"CellMarker","Mouse","Lacrimal gland","Epithelial cell",7
+"9","Müller cells | Eye | Human | PanglaoDB",0.5986296687,67,"PanglaoDB","Human","Eye","Müller cells",29
+"9","Astrocytes | Brain | Human | PanglaoDB",0.5981162675,68,"PanglaoDB","Human","Brain","Astrocytes",47
+"9","Astrocytes | Brain | Mouse | PanglaoDB",0.5981162675,69,"PanglaoDB","Mouse","Brain","Astrocytes",47
+"9","Gamma delta T cells | Immune system | Mouse | PanglaoDB",0.5965845389,70,"PanglaoDB","Mouse","Immune system","Gamma delta T cells",13
+"9","Cardiomyocyte | Heart | Human | CellMarker",0.5958262698,71,"CellMarker","Human","Heart","Cardiomyocyte",11
+"9","Macrophage | Mouse | CellMarker",0.5954119649,72,"CellMarker","Mouse","","Macrophage",16
+"9","Müller cells | Eye | Mouse | PanglaoDB",0.5906242041,73,"PanglaoDB","Mouse","Eye","Müller cells",28
+"9","MA_M_GMCSF_baseline_72h | Human | SaVanT",0.5879651578,74,"SaVanT","Human","","MA_M_GMCSF_baseline_72h",35
+"9","Pancreatic progenitor cells | Pancreas | Human | PanglaoDB",0.5851952925,75,"PanglaoDB","Human","Pancreas","Pancreatic progenitor cells",6
+"9","Pancreatic progenitor cells | Pancreas | Mouse | PanglaoDB",0.5851952925,76,"PanglaoDB","Mouse","Pancreas","Pancreatic progenitor cells",6
+"9","Rheaume et al.Nat Commun.33 | Retina | Mouse | CellMarker",0.5850191612,77,"CellMarker","Mouse","Retina","Rheaume et al.Nat Commun.33",15
+"9","ZHONG_PFC_MAJOR_TYPES_ASTROCYTES | Human | MSigDB",0.5763856706,78,"MSigDB","Human","","ZHONG_PFC_MAJOR_TYPES_ASTROCYTES",228
+"9","MA_M_MCSF_upLPS_72h | Human | SaVanT",0.575584462,79,"SaVanT","Human","","MA_M_MCSF_upLPS_72h",30
+"9","Marginal zone B cell | Mouse | CellMarker",0.5750526898,80,"CellMarker","Mouse","","Marginal zone B cell",5
+"9","Bergmann glia | Brain | Human | PanglaoDB",0.5739542457,81,"PanglaoDB","Human","Brain","Bergmann glia",31
+"9","Bergmann glia | Brain | Mouse | PanglaoDB",0.5739542457,82,"PanglaoDB","Mouse","Brain","Bergmann glia",31
+"9","CD8+ T-cells_HPCA_1 | Human | xCell",0.5701529097,83,"xCell","Human","","CD8+ T-cells_HPCA_1",6
+"9","CD8+ T-cells_NOVERSHTERN_2 | Human | xCell",0.5701529097,84,"xCell","Human","","CD8+ T-cells_NOVERSHTERN_2",6
+"9","Stem cell | Liver | Human | CellMarker",0.5687168792,85,"CellMarker","Human","Liver","Stem cell",12
+"9","Cancer stem cell (Lung Cancer) | Lung | Mouse | CellMarker",0.5682655555,86,"CellMarker","Mouse","Lung","Cancer stem cell (Lung Cancer)",6
+"9","FAN_EMBRYONIC_CTX_ASTROCYTE_2 | Human | MSigDB",0.5666249434,87,"MSigDB","Human","","FAN_EMBRYONIC_CTX_ASTROCYTE_2",104
+"9","Fat cell (adipocyte) | Adipose tissue | Human | CellMarker",0.565760215,88,"CellMarker","Human","Adipose tissue","Fat cell (adipocyte)",13
+"9","Fibroblast | Human | CellMarker",0.5650637805,89,"CellMarker","Human","","Fibroblast",9
+"9","Cancer stem cell (Breast Cancer) | Breast | Human | CellMarker",0.5642452195,90,"CellMarker","Human","Breast","Cancer stem cell (Breast Cancer)",10
+"9","Ependymal cell | Brain | Mouse | CellMarker",0.5622796807,91,"CellMarker","Mouse","Brain","Ependymal cell",22
+"9","Embryonic stem cell | Blood | Mouse | CellMarker",0.5619867325,92,"CellMarker","Mouse","Blood","Embryonic stem cell",5
+"9","T regulatory cells | Immune system | Human | PanglaoDB",0.560372689,93,"PanglaoDB","Human","Immune system","T regulatory cells",6
+"9","T regulatory cells | Immune system | Mouse | PanglaoDB",0.560372689,94,"PanglaoDB","Mouse","Immune system","T regulatory cells",6
+"9","B cell (Leukemia) | Human | CellMarker",0.5587807695,95,"CellMarker","Human","","B cell (Leukemia)",8
+"9","ly Endothelial cells_HPCA_2 | Human | xCell",0.5585557101,96,"xCell","Human","","ly Endothelial cells_HPCA_2",5
+"9","Macrophage | Human | CellMarker",0.557987841,97,"CellMarker","Human","","Macrophage",11
+"9","Mesenchymal stem cell | Gingiva | Human | CellMarker",0.5563596305,98,"CellMarker","Human","Gingiva","Mesenchymal stem cell",6
+"9","Proximal tubule cells | Kidney | Human | PanglaoDB",0.5561127678,99,"PanglaoDB","Human","Kidney","Proximal tubule cells",27
+"9","Proximal tubule cells | Kidney | Mouse | PanglaoDB",0.5561127678,100,"PanglaoDB","Mouse","Kidney","Proximal tubule cells",27
