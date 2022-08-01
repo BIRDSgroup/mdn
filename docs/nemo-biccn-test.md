@@ -15,3 +15,9 @@
 ![tSNE plot](images/180325/dimplot-tsne-labels.png)
 ![UMAP plot](images/180325/dimplot-umap-labels.png)
 
+### Experiment 3: 
+- [Brain Architecture Portal](), [NeMo Portal](), [BICCN Portal](https://singlecell.broadinstitute.org/single_cell/study/SCP662/single-nuclei-dataset-nucleus-accumbens-md736?cluster=PCA&spatialGroups=--&annotation=cell_type__ontology_label--group--study&subsample=all#study-visualize)
+
+![PCA plot](images/190402/dimplot-pca-labels.png)
+![tSNE plot](images/190402/dimplot-tsne-labels.png)
+![UMAP plot](images/190402/dimplot-umap-labels.png)
