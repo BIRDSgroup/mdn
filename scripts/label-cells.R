@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 # Cell labelling using GSEA
-print("Start labelling")
+cat("Start labelling",file="status.log",append=TRUE)
 
 library(Seurat)
 library(clustermole)
@@ -59,4 +59,4 @@ enrich_tbl <- clustermole_enrichment(expr_mat = avg_exp_mat_subset, species = "m
 # Write the enriched table with all the cell types to file. 
 write.csv(enrich_tbl, snakemake@output[[1]], row.names = FALSE)
 
-print("End labelling")
+cat("End labelling",file="status.log",append=TRUE)

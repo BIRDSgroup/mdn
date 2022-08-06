@@ -1,6 +1,9 @@
 #!/usr/bin/env Rscript
 
-# Script to perform the integrated analysis of two or more species. 
+
+cat("Start integrative analysis-cerebellum",file="status.log",append=TRUE)
+
+# Script to perform the integrated analysis of two or more species using cross-cluster correlation. 
 # This script will refer to the methods used in the following papers. 
 # 1) Tosches, Maria Antonietta, et al. "Evolution of pallium, hippocampus, and cortical cell types revealed by single-cell transcriptomics in reptiles." Science 360.6391 (2018): 881-888.
 # 2) Kebschull, Justus M., et al. "Cerebellar nuclei evolved by repeatedly duplicating a conserved cell-type set." Science 370.6523 (2020): eabd5059.
@@ -18,7 +21,7 @@ findHumanOrthologs = function(genelist, species_from) {
     # Change the gene_df to a format similar to eggnog files. 
     gene_df_subset = gene_df[c('input_gene', 'ortholog_gene')]
     # Reset the indices and change col names. 
-    rown.names(gene_df_subset) = NULL
+    rownames(gene_df_subset) = NULL
     colnames(gene_df_subset) = c(species_from, 'eggnog')
     return (gene_df_subset) 
 }
@@ -32,8 +35,8 @@ SpPermute = function(ExpressionTableSpecies1, species1, DEgenesSpecies1, Express
   genelist_1 = rownames(ExpressionTableSpecies1)
   genelist_2 = rownames(ExpressionTableSpecies2)
   
-  eggnog1 = findHumanOrthologs(genelist_1)
-  eggnog2 = findHumanOrthologs(genelist_2)
+  eggnog1 = findHumanOrthologs(genelist_1, species1)
+  eggnog2 = findHumanOrthologs(genelist_2, species2)
 
 
   #Step2: Take intersect, union, species1 or species2 of DEgenes for analysis
@@ -164,6 +167,7 @@ ggsave("corrplot.png",last_plot())
 # dev.off()
 
 # Save the correlation matrix to file for further processing. 
-saveRDS(seu_dob, file = "integrated_cluster_correlation.rds")
+saveRDS(seu_dob, file = snakemake@output[[1]])
 
 
+cat("End integrative analysis-cerebellum",file="status.log",append=TRUE)

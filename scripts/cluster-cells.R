@@ -3,7 +3,7 @@
 ## Guided clustering in Seurat. 
 ## https://satijalab.org/seurat/archive/v3.0/pbmc3k_tutorial.html
 
-print("Start clustering")
+cat("Start clustering",file="status.log",append=TRUE)
 
 library(dplyr)
 library(Seurat)
@@ -106,6 +106,7 @@ head(Idents(seu_dob), 5)
 # If you haven't installed UMAP, you can do so via reticulate::py_install(packages =
 # 'umap-learn')
 seu_dob <- RunUMAP(seu_dob, dims = 1:10)
+seu_dob <- RunTSNE(seu_dob)
 
 # note that you can set `label = TRUE` or use the LabelClusters function to help label
 # individual clusters
@@ -145,12 +146,15 @@ ggsave(paste(intermediate_output, 'top-10-genes-cluster.png'), last_plot())
 ## Assigning cell type identity to clusters
 ## Will need to get this information from a gene expression database. 
 
-new.cluster.ids <- c("Naive CD4 T", "Memory CD4 T", "CD14+ Mono", "B", "CD8 T", "FCGR3A+ Mono", 
-                         "NK", "DC", "Platelet")
-names(new.cluster.ids) <- levels(seu_dob)
-seu_dob <- RenameIdents(seu_dob, new.cluster.ids)
-DimPlot(seu_dob, reduction = "umap", label = TRUE, pt.size = 0.5) + NoLegend()
+# new.cluster.ids <-  c("T cell", "T cell", "NA", "NA", "Oligodendrocyte", "Oligodendrocyte", 
+# "GABAergic neurons", "NA", "Macrophage", "Glutaminergic neurons", "Oligodendrocyte", "NA", 
+# "Gamma delta", "Endothelial cells", "GABAergic         neurons", "Myofibroblasts", "Meningeal cells", "NA")
+# names(new.cluster.ids) <- levels(seu_dob)
+# seu_dob <- RenameIdents(seu_dob, new.cluster.ids)
+# DimPlot(seu_dob, reduction = "umap", label = TRUE, pt.size = 0.5) + NoLegend()
+# ggsave(paste(intermediate_output, 'dimplot-umap-labels.png'), last_plot())
+
 
 saveRDS(seu_dob, file = paste(intermediate_output, project_name + "_clusters.rds"))
 
-print("End clustering")
+cat("End clustering",file="status.log",append=TRUE)
