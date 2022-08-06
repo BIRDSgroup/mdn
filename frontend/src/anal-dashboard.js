@@ -16,7 +16,6 @@ class AnalysisDashboard extends React.Component {
       anal_id: "", 
       species_1: "", 
       gene_mtx_1: "", 
-      integration: "", 
       species_2: "", 
       gene_mtx_2: "",  
       run_status: "", 
@@ -31,6 +30,7 @@ class AnalysisDashboard extends React.Component {
     this.handleIntegration = this.handleIntegration.bind(this); 
     this.handleCustom = this.handleCustom.bind(this); 
     this.handleChange = this.handleChange.bind(this); 
+    this.handleFileChange = this.handleFileChange.bind(this); 
     this.handleSubmit = this.handleSubmit.bind(this); 
     this.sendRequest = this.sendRequest.bind(this); 
     this.alertHandler = this.alertHandler.bind(this); 
@@ -42,13 +42,18 @@ class AnalysisDashboard extends React.Component {
     this.setState({use_custom_id: !this.state.use_custom_id}); 
   }
   handleChange (evt) {
+    console.log("Inside handlechange"); 
+    console.log(evt); 
     this.setState({ [evt.target.name]: evt.target.value });
+  }
+  handleFileChange(evt) {
+    console.log("Inside handlefilechange"); 
+    console.log(evt.target.files); 
+    this.setState({[evt.target.name]: evt.target.files[0]}); 
   }
   sendRequest() {
     console.log(this.state); 
-    var bodyFormData = new FormData();
-    bodyFormData.append('species_1', this.state.species_1); 
-    bodyFormData.append('gene_mtx_1', this.state.gene_mtx_1); 
+    let formData = new FormData();
     var payload = {
       anal_id: this.state.anal_id, 
       species_1: this.state.species_1, 
@@ -58,13 +63,25 @@ class AnalysisDashboard extends React.Component {
       gene_mtx_2: this.state.gene_mtx_2,  
       run_status: this.state.run_status, 
     }
+    formData.append('anal_id', this.state.anal_id); 
+    formData.append('species_1', this.state.species_1); 
+    formData.append('gene_mtx_1', this.state.gene_mtx_1, this.state.gene_mtx_1.name); 
+    formData.append('integration', this.state.integration); 
+    formData.append('species_2', this.state.species_2); 
+    if (this.state.integration) {
+      // Add more file objects if the integration flag is true. 
+      formData.append('gene_mtx_2', this.state.gene_mtx_2, this.state.gene_mtx_2.name); 
+    } else {
+      // In this case, it'll be a random string and we don't have to worry about it. 
+      formData.append('gene_mtx_2', this.state.gene_mtx_2); 
+    }
+    formData.append('run_status', this.state.run_status); 
+    
     axios({
-      url: '/api/runanal', 
+      url: 'http://localhost:5000/api/runanal', 
       method: 'post', 
-      headers: {
-        'Content-Type': "multipart/form-data",
-      },
-      data: bodyFormData,
+      headers: {'content-type': 'multipart/form-data'},
+      data: formData,
     }).then((response) => {
       console.log(response); 
       this.setState({showalert:true, variant:"success", alertmsg: response.data['status']}); 
@@ -112,12 +129,12 @@ class AnalysisDashboard extends React.Component {
             <Col className='mt-2'><Link to={'/analysis/runs'}>Previous runs</Link></Col>
           </Row>  
         </Container>
-        <Form className="w-responsive mx-auto p-3 mt-2">
+        <Form className="w-responsive mx-auto p-3 mt-2"  formMethod="POST" formEncType="multipart/form-data">
         
           <Form.Group controlId="formFile" className="mb-3">
             <Form.Control type="text" name="species_1" value={this.state.species_1} onChange={this.handleChange} placeholder="Name of the species" />
             <Form.Label>Upload Gene count matrix</Form.Label>
-            <Form.Control type="file" name="gene_mtx_1" value={this.state.gene_mtx_1} onChange={this.handleChange} />
+            <Form.Control type="file" name="gene_mtx_1" onChange={this.handleFileChange} />
             OR
             <Form.Control type="text" placeholder="Enter Run ID to automatically import data from previous Alignment pipeline runs." />
           </Form.Group>
@@ -130,7 +147,7 @@ class AnalysisDashboard extends React.Component {
               <>
                 <Form.Control type="text" name="species_2" value={this.state.species_2} onChange={this.handleChange} placeholder="Name of the second species" />
                 <Form.Label>Upload Gene count matrix</Form.Label>
-                <Form.Control type="file" name="gene_mtx_2" value={this.state.gene_mtx_2} onChange={this.handleChange}/>
+                <Form.Control type="file" name="gene_mtx_2" onChange={this.handleFileChange}/>
                 OR
                 <Form.Control type="text" placeholder="Enter Run ID to automatically import data from previous Alignment pipeline runs." />
               </>
@@ -151,7 +168,7 @@ class AnalysisDashboard extends React.Component {
             }
           </Form.Group>
 
-          <Button variant="primary" type="submit" onClick={this.handleSubmit}>
+          <Button variant="primary" onClick={this.handleSubmit}>
             Run the Analysis!
           </Button>
         </Form>

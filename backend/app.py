@@ -132,9 +132,32 @@ def run_analysis():
     Run the analysis pipeline consisting of cell labelling and integrative analysis. 
     """ 
     if request.method == "POST":
-        config = request.get_json()
-        # config = json.loads(request.body)
-        # Make a new config file based on the json dump (verify it first)
+        # Download the appropriate files based on how many species are there. 
+        print(request.form)
+        if request.form['integration'] == 'true': 
+            print("Integration analysis")
+            # Download the second file to appropriate locations. 
+            gene_mtx_2 = request.files['gene_mtx_2']
+            filename_2 = secure_filename(gene_mtx_2.filename)
+            gene_mtx_2.save(os.path.join(app.config['UPLOAD_FOLDER'], filename_2))
+
+        # Download the gene matrix to appropriate location. 
+        gene_mtx_1 = request.files['gene_mtx_1']
+        filename_1 = secure_filename(gene_mtx_1.filename)
+        gene_mtx_1.save(os.path.join(app.config['UPLOAD_FOLDER'], filename_1))
+
+        config = {
+            'anal_id': request.form['anal_id'], 
+            'species_1': request.form['species_1'], 
+            'gene_mtx_1': filename_1, 
+            'integration': request.form['integration'], 
+            'species_2': request.form['species_2'] if request.form['integration'] == 'true' else "", 
+            'gene_mtx_2': filename_2 if request.form['integration'] == 'true' else "", 
+            'run_status': request.form['run_status'], 
+        }
+
+        print("Config file: ", config)
+
         with open('config.yaml', 'w') as f:
             yaml.dump(config, f)
 
