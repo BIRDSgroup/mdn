@@ -8,10 +8,8 @@ create table alignhistory
     build_transcriptome BOOLEAN, 
     fasta_file TEXT, 
     gtf_file TEXT, 
-    resume_prev BOOLEAN, 
-    prev_run_id INTEGER, 
     run_status TEXT, 
-    folder TEXT, 
+    raw_reads TEXT, 
     comments TEXT
 ); 
 

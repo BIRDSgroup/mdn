@@ -1,82 +1,77 @@
+
 $schema: "http://json-schema.org/draft-06/schema#"
 
 description: snakemake configuration file
 
 type: object
 
+
 properties:
-  build_transcriptome:
-    type: object
-    properties:
-      fa:
-        type: string
-      gtf:
-        type: string
-    required:
-      - fa
-      - gtf
-  
-  integration:
-    type: object
-    properties:
-      species1:
-        enum:
-          - mouse
-          - human
-          - marmoset
-          - mallard_duck
-          - common_carp
-          - guinea_pig
-      species2:
-        enum:
-          - mouse
-          - human
-          - marmoset
-          - mallard_duck
-          - common_carp
-          - guinea_pig
-    required:
-      - species1
-      - species2
 
-  evaluate_reads:
+  # Variables related to the alignment of raw reads. 
+  
+  do_alignment:
     type: boolean
-  
-  previous_run:
-    type: object
-    properties:
-      run_id: 
-        type: string
-    required:
-      - run_id
-  
-  new_run: 
-    type: object
-    properties:
-      run_id:
-        type: string
-      is_new_run:
-        type: boolean
-    required:
-      - is_new_run
 
-  species:
-    enum:
-      - mouse
-      - human
-      - marmoset
-      - mallard_duck
-      - common_carp
-      - guinea_pig
+  run_id: 
+    type: string 
 
-  raw_reads:
-    type: object
-    properties:
-      fastq:
-        type: string
-    required:
-      - fastq
+  species: 
+    type: string 
 
-required:
-  - species
-  - raw_reads
+  build_transcriptome: 
+    type: boolean 
+
+  fasta_file: 
+    type: string 
+
+  gtf_file: 
+    type: string 
+
+  raw_reads: 
+    type: string 
+
+  # Variables related to the analysis of gene count matrix. 
+
+  do_analysis:
+    type: boolean
+
+  anal_id: 
+    type: string 
+
+  species_1: 
+    type: string 
+
+  gene_mtx_1: 
+    type: string 
+
+  integration: 
+    type: boolean 
+
+  species_2: 
+    type: string 
+
+  gene_mtx_2: 
+    type: string 
+
+dependentRequired:
+  do_alignment:
+    - run_id
+    - species  
+    - raw_reads
+
+  do_analysis:
+    - anal_id
+    - species_1
+    - gene_mtx_1
+    - integration
+
+if: 
+  properties:
+    integration: true
+    required: 
+      - integration
+then:
+  required:
+    - fasta_file
+    - gtf_file

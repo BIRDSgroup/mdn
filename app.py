@@ -9,11 +9,11 @@ from io import BytesIO
 import zipfile
 import json
 
-DATABASE = './mdn_database.db'
-UPLOAD_FOLDER = '../uploads'
+DATABASE = './database/mdn_database.db'
+UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
-app = Flask(__name__, static_folder='../frontend/build')
+app = Flask(__name__, static_folder='./frontend/build')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 CORS(app)
 
@@ -134,17 +134,23 @@ def run_analysis():
     if request.method == "POST":
         # Download the appropriate files based on how many species are there. 
         print(request.form)
+
+        # Create a directory in the uploads folder for storing files. 
+        storage_location = os.path.join(app.config['UPLOAD_FOLDER'], request.form['anal_id'])
+        if not os.path.exists(storage_location):
+            os.makedirs(storage_location, exist_ok = True)
+
         if request.form['integration'] == 'true': 
             print("Integration analysis")
             # Download the second file to appropriate locations. 
             gene_mtx_2 = request.files['gene_mtx_2']
-            filename_2 = secure_filename(gene_mtx_2.filename)
-            gene_mtx_2.save(os.path.join(app.config['UPLOAD_FOLDER'], filename_2))
+            filename_2 = request.form['species_2'] + '_matrix.h5'
+            gene_mtx_2.save(os.path.join(storage_location, filename_2))
 
         # Download the gene matrix to appropriate location. 
         gene_mtx_1 = request.files['gene_mtx_1']
-        filename_1 = secure_filename(gene_mtx_1.filename)
-        gene_mtx_1.save(os.path.join(app.config['UPLOAD_FOLDER'], filename_1))
+        filename_1 = request.form['species_1'] + '_matrix.h5'
+        gene_mtx_1.save(os.path.join(storage_location, filename_1))
 
         config = {
             'anal_id': request.form['anal_id'], 
@@ -190,7 +196,7 @@ def anal_historical_runs():
 
 @app.route('/output/<path:path>')
 def send_report(path):
-    return send_from_directory('../output', path)
+    return send_from_directory('./output', path)
 
 def allowed_file(filename):
     return '.' in filename and \

@@ -18,7 +18,7 @@ class AlignDashboard extends React.Component {
     this.state = {
       run_id: "", 
       species: "", 
-      folder: "", 
+      raw_reads: "", 
       build_transcriptome: false, 
       fasta_file: "", 
       gtf_file: "", 
@@ -50,12 +50,10 @@ class AlignDashboard extends React.Component {
     var payload = {
       run_id: this.state.run_id, 
       species: this.state.species, 
-      folder: this.state.folder, 
+      raw_reads: this.state.raw_reads, 
       build_transcriptome: this.state.build_transcriptome, 
       fasta_file: this.state.fasta_file, 
       gtf_file: this.state.gtf_file, 
-      resume_prev: this.state.resume_prev, 
-      prev_run_id: this.state.prev_run_id, 
       run_status: this.state.run_status, 
       comments: this.state.comments, 
     }
@@ -126,7 +124,7 @@ class AlignDashboard extends React.Component {
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Location of raw reads</Form.Label>
-            <Form.Control name="folder" value={this.state.folder} onChange={this.handleChange} type="text" placeholder="raw_reads/marmoset/" />
+            <Form.Control name="raw_reads" value={this.state.raw_reads} onChange={this.handleChange} type="text" placeholder="raw_reads/marmoset/" />
             <Form.Text className="text-muted">
               Please make sure that this is a location on the server and not on your local machine.
             </Form.Text>
