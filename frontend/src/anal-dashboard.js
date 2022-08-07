@@ -66,7 +66,7 @@ class AnalysisDashboard extends React.Component {
     formData.append('anal_id', this.state.anal_id); 
     formData.append('species_1', this.state.species_1); 
     formData.append('gene_mtx_1', this.state.gene_mtx_1, this.state.gene_mtx_1.name); 
-    formData.append('integration', this.state.integration); 
+    formData.append('integration', JSON.stringify(this.state.integration)); 
     formData.append('species_2', this.state.species_2); 
     if (this.state.integration) {
       // Add more file objects if the integration flag is true. 
