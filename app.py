@@ -92,10 +92,6 @@ def run_alignment_pipeline():
     if request.method == "POST":
         config = request.get_json()
         print(config)
-        # config = json.loads(request.body)
-        # Make a new config file based on the json dump (verify it first)
-        with open('config.yaml', 'w') as f:
-            yaml.dump(config, f)
 
         columns = ', '.join(config.keys())
         values = ', '.join(f'"{w}"' for w in config.values())
@@ -109,6 +105,12 @@ def run_alignment_pipeline():
         cur = get_db()
         cur.execute(query)
         cur.commit()
+
+
+        config['do_alignment'] = True
+        # Generate the config.yaml file for running with snakemake. 
+        with open('config.yaml', 'w') as f:
+            yaml.dump(config, f)
 
         # Trigger snakemake job using the config generated. 
         # subprocess.run(["snakemake", "--dry-run"])
@@ -132,7 +134,6 @@ def run_analysis():
     Run the analysis pipeline consisting of cell labelling and integrative analysis. 
     """ 
     if request.method == "POST":
-        # Download the appropriate files based on how many species are there. 
         print(request.form)
 
         # Create a directory in the uploads folder for storing files. 
@@ -140,6 +141,7 @@ def run_analysis():
         if not os.path.exists(storage_location):
             os.makedirs(storage_location, exist_ok = True)
 
+        # Download the appropriate files based on how many species are there. 
         if request.form['integration'] == 'true': 
             print("Integration analysis")
             # Download the second file to appropriate locations. 
@@ -156,16 +158,13 @@ def run_analysis():
             'anal_id': request.form['anal_id'], 
             'species_1': request.form['species_1'], 
             'gene_mtx_1': filename_1, 
-            'integration': request.form['integration'], 
+            'integration': request.form['integration'] == 'true', 
             'species_2': request.form['species_2'] if request.form['integration'] == 'true' else "", 
             'gene_mtx_2': filename_2 if request.form['integration'] == 'true' else "", 
             'run_status': request.form['run_status'], 
         }
 
         print("Config file: ", config)
-
-        with open('config.yaml', 'w') as f:
-            yaml.dump(config, f)
 
         columns = ', '.join(config.keys())
         values = ', '.join(f'"{w}"' for w in config.values())
@@ -179,6 +178,11 @@ def run_analysis():
         cur = get_db()
         cur.execute(query)
         cur.commit()
+
+        config['do_analysis'] = True
+        # Generate the config.yaml file for running with snakemake. 
+        with open('config.yaml', 'w') as f:
+            yaml.dump(config, f)
 
         # Trigger snakemake job using the config generated. 
         # subprocess.run(["snakemake", "--dry-run"])
