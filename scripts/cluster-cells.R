@@ -11,11 +11,12 @@ library(ggplot2)
 
 # Defind some variables to be used. 
 project_name =  snakemake@params[["species"]]
-cellranger_output = snakemake@params[["input_dir"]]
+gene_count_mat = snakemake@input[[1]]
 intermediate_output = snakemake@params[["intermediate_output"]]
 
 # Load the PBMC dataset
-seu_dob.data <- Read10X(data.dir = cellranger_output)
+seu_dob.data <- Read10X_h5(gene_count_mat)
+
 # Initialize the Seurat object with the raw (non-normalized data).
 seu_dob <- CreateSeuratObject(counts = seu_dob.data, project = project_name, min.cells = 3, min.features = 100)
 
