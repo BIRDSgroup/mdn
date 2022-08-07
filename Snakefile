@@ -34,7 +34,7 @@ if 'do_alignment' in config and config['do_alignment']:
                 hash_value = hash_value 
             )
     
-    if "build_transcriptome" in config:
+    if "build_transcriptome" in config and config['build_transcriptome']:
         rule build_transcriptome:
             input:
                 fa = config['fasta_file'], 
