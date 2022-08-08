@@ -1,14 +1,20 @@
-# Make sure that the input species name is the same as the name of the transcriptome for the 
-# particluar genome. 
+# Default config.yaml file. Allows the user to choose between either the 
+# alignment or the analysis pipeline. 
 
-species: common_marmoset
+# Variables related to the alignment of raw reads. 
+# do_alignment: true
+# run_id: 'random'
+# species: 'mouse'
+# build_transcriptome: false
+# fasta_file: ""
+# gtf_file: ""
+# raw_reads: "reads_location/"
 
-raw_reads:
-  fastq: "raw_reads/"
-
-# build_transcriptome:
-#   fa: "genome_files/common_marmoset/Callithrix_jacchus.mCalJac1.pat.X.dna.primary_assembly.fa"
-#   gtf: "genome_files/common_marmoset/Callithrix_jacchus.mCalJac1.pat.X.105.filtered.gtf"
-
-# previous_run: 
-#   run_id: "12235asdlkjvk8sjls"
+# # Variables related to the analysis of gene count matrix. 
+do_analysis: true
+anal_id:  'something'
+species_1: 'mouse'
+gene_mtx_1: 'mouse_gene_mtx.h5' 
+integration: false
+species_2: 'marmoset'
+gene_mtx_2: 'marmoset_gene_mtx.h5'
