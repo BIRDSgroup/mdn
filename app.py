@@ -8,6 +8,7 @@ import sqlite3
 from io import BytesIO
 import zipfile
 import json
+import shutil
 
 DATABASE = './database/mdn_database.db'
 UPLOAD_FOLDER = './uploads'
@@ -223,6 +224,19 @@ def upload_file():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return jsonify({'status': 'Uploaded successfully'}), 200
     return jsonify({'status': 'Working'}), 200
+
+@app.route('/download/<string:hash>')
+def download(hash):
+    print(hash)
+    # Generate a zip file of the directory contents. 
+    base_name = './output/' + hash
+    zipfile = hash + '.zip'
+    if os.path.isfile(base_name + '.zip'):
+        pass
+    else:
+        shutil.make_archive(base_name, 'zip', base_name)
+    return send_from_directory('./output', zipfile)
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
