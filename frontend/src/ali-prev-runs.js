@@ -70,7 +70,7 @@ class AlignPrevRuns extends React.Component {
               <td>{item.time_stamp}</td>
               <td>{item.species}</td>
               <td>{item.run_status}</td>
-              <td><a href='/alignment/details'>Details</a></td>
+              <td><Link to="/alignment/details" state={{hash: item.run_id, species: item.species}}>Details</Link></td>
             </tr>
           );
         })}
