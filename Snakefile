@@ -79,7 +79,7 @@ elif 'do_analysis' in config and config['do_analysis']:
     rule all:
         input:
             expand(
-                "output/{hash_value}/{species}_cluster_labels.csv", 
+                "output/{hash_value}/{species}_intermediate/cell_cluster_labels.csv", 
                 species = [config['species_1'], config['species_2']] if config['integration'] else [config['species_1']], 
                 hash_value = hash_value
             ), 
@@ -94,7 +94,7 @@ elif 'do_analysis' in config and config['do_analysis']:
         input:
             "uploads/{hash_value}/{species}_matrix.h5"
         output:
-            "output/{hash_value}/{species}_clusters.rds"
+            "output/{hash_value}/{species}_intermediate/cell_clusters.rds" 
         params:
             species="{species}",
             input_dir="output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix/",
@@ -104,9 +104,9 @@ elif 'do_analysis' in config and config['do_analysis']:
 
     rule label_cell_types:
         input:
-            "output/{hash_value}/{species}_clusters.rds"
+            "output/{hash_value}/{species}_intermediate/cell_clusters.rds"
         output:
-            "output/{hash_value}/{species}_cluster_labels.csv"
+            "output/{hash_value}/{species}_intermediate/cell_cluster_labels.csv"
         params:
             species="{species}"
         script:
@@ -115,8 +115,8 @@ elif 'do_analysis' in config and config['do_analysis']:
 
     rule integrated_analysis:
         input:
-            gene_mtx_1 = "output/{hash_value}/{species1}_clusters.rds", 
-            gene_mtx_2 = "output/{hash_value}/{species2}_clusters.rds"
+            gene_mtx_1 = "output/{hash_value}/{species1}_intermediate/cell_clusters.rds", 
+            gene_mtx_2 = "output/{hash_value}/{species2}_intermediate/cell_clusters.rds"
         params:
             sp1 = "{species1}", 
             sp2 = "{species2}"
