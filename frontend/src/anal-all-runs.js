@@ -15,7 +15,7 @@ class AnalysisAllRuns extends React.Component {
 
   // Function to make an API call to the flask endpoint and fetch data. 
   componentDidMount() {
-    fetch("http://localhost:5000/api/analhistory")
+    fetch("/api/analhistory")
       .then(res => res.json())
       .then(
         (result) => {

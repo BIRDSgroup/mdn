@@ -78,7 +78,7 @@ class AnalysisDashboard extends React.Component {
     formData.append('run_status', this.state.run_status); 
     
     axios({
-      url: 'http://localhost:5000/api/runanal', 
+      url: '/api/runanal', 
       method: 'post', 
       headers: {'content-type': 'multipart/form-data'},
       data: formData,
