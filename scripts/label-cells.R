@@ -19,9 +19,7 @@ avg_exp_mat <- log1p(avg_exp_mat)
 # Skip the ortholog conversion if the species is mouse. 
 if (snakemake@params[["species"]] == "mouse") {
     avg_exp_mat_subset = avg_exp_mat
-} 
-
-else {
+} else {
     # Convert the genes present in the average expression matrix to their orthologs in mouse. 
     genelist = rownames(avg_exp_mat)
 
