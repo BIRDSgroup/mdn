@@ -3,6 +3,24 @@
 
 cat("Start integrative analysis-cerebellum",file="status.log",append=TRUE)
 
+library(Seurat)
+library(homologene)
+library(dplyr)
+library(limSolve)
+library(Rtsne)
+library(matrixStats)
+library(gplots)
+library(Matrix) # this is for working with sparse matrices
+library(useful)
+library(gmodels)
+library(HiClimR)
+library(propagate)
+library(foreach)
+library(doParallel)
+library(corrplot)
+
+
+
 # Script to perform the integrated analysis of two or more species using cross-cluster correlation. 
 # This script will refer to the methods used in the following papers. 
 # 1) Tosches, Maria Antonietta, et al. "Evolution of pallium, hippocampus, and cortical cell types revealed by single-cell transcriptomics in reptiles." Science 360.6391 (2018): 881-888.
