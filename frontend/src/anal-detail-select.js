@@ -18,7 +18,7 @@ function AnalysisDetailSelect() {
     console.log(hash); 
 
     return (
-        <CardGroup>
+        <CardGroup className='w-responsive mx-auto p-3 mt-2'>
             <Card className="text-center">
                 <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px'}} src="/images/chart.png" />
                 <Card.Body>
