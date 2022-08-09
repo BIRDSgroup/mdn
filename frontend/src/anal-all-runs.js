@@ -53,6 +53,7 @@ class AnalysisAllRuns extends React.Component {
           <th>Timestamp</th>
           <th>Species</th>
           <th>Type</th>
+          <th>Status</th>
           <th>Info</th>  
         </thead>
         <tbody>
@@ -64,6 +65,7 @@ class AnalysisAllRuns extends React.Component {
               <td>{item.time_stamp}</td>
               <td>{item.species_1}{item.integration === "True" ? "," + item.species_2 : ""}</td>
               <td>{item.integration === "True" ? "Integration": "Labels"}</td>
+              <td>{item.run_status}</td>
               <td><Link to='/analysis/details' state={{hash: item.anal_id, species_1: item.species_1, species_2: item.integration === "True" ? item.species_2 : ""}}>Details</Link></td>
             </tr>
           );

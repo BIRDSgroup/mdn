@@ -18,7 +18,7 @@ class AnalysisDashboard extends React.Component {
       gene_mtx_1: "", 
       species_2: "", 
       gene_mtx_2: "",  
-      run_status: "", 
+      run_status: "Queued", 
       integration: false, 
       use_custom_id: false,
       custom_id: "", 

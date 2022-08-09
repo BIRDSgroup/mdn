@@ -24,7 +24,7 @@ class AlignDashboard extends React.Component {
       gtf_file: "", 
       resume_prev: false, 
       prev_run_id: "", 
-      run_status: "", 
+      run_status: "Queued", 
       comments: "", 
 
       showalert: false, 
