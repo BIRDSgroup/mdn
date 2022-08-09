@@ -108,11 +108,11 @@ class AlignDashboard extends React.Component {
     return (
       <div>
         <Container>
-          <Row className='w-responsive mx-auto p-3 mt-2'>
+          <Row className='w-responsive mx-auto p-3 mt-2 text-center'>
             <Col><h2>Alignment Portal</h2></Col>
-            <Col className='mt-2'><Link to={'/alignment/runs'}>Previous runs</Link></Col>
+            <Col className='mt-2'><Link to={'/alignment/runs'}><Button variant='outline-secondary'>Previous runs</Button></Link></Col>
           </Row>  
-        </Container>
+        
         
         
         
@@ -172,7 +172,7 @@ class AlignDashboard extends React.Component {
         </Form>
 
         <AlertDismissible handler={this.alertHandler} show={this.state.showalert} variant={this.state.variant} message={this.state.alertmsg} />
-
+        </Container>
       </div>
         
     );

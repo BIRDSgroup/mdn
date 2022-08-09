@@ -18,9 +18,9 @@ function AnalysisDetailSelect() {
     console.log(hash); 
 
     return (
-        <CardGroup className={styles.center} style={{display: 'flex', justifyContent: 'center'}}>
-            <Card>
-                <Card.Img variant="top" style={{height: '400px', width: '400px'}} src="https://i.imgur.com/Nj3kyvu.png" />
+        <CardGroup>
+            <Card className="text-center">
+                <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px'}} src="/images/chart.png" />
                 <Card.Body>
                 <Card.Title><Link to='/analysis/gallery'> Plots from the Pipeline </Link></Card.Title>
                 <Card.Text>
@@ -28,8 +28,8 @@ function AnalysisDetailSelect() {
                 </Card.Text>
                 </Card.Body>
             </Card>
-            <Card>
-                <Card.Img variant="top" style={{height: '400px', width: '400px' }} src="https://media.istockphoto.com/vectors/download-icon-isolated-vector-vector-id844294300?k=20&m=844294300&s=612x612&w=0&h=Um3AUbTxB9AlQVK_0ykyr4UO3Yy6rcB0HII6HZbf28M=" />
+            <Card className="text-center">
+                <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px' }} src="/images/download.png" />
                 <Card.Body>
                 <Card.Title> <Link to={`/download/${hash}`}> Download Output files </Link></Card.Title>
                 <Card.Text>

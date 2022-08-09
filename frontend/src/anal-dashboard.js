@@ -124,11 +124,12 @@ class AnalysisDashboard extends React.Component {
     return (
       <div>
         <Container>
-          <Row className='w-responsive mx-auto p-3 mt-2'>
+          
+          <Row className='w-responsive mx-auto p-3 mt-2 text-center'>
             <Col><h2>Analysis Portal</h2></Col>
-            <Col className='mt-2'><Link to={'/analysis/runs'}>Previous runs</Link></Col>
+            <Col className='mt-2'><Link to={'/analysis/runs'}><Button variant='outline-secondary'>Previous runs</Button></Link></Col>
           </Row>  
-        </Container>
+       
         <Form className="w-responsive mx-auto p-3 mt-2"  formMethod="POST" formEncType="multipart/form-data">
         
           <Form.Group controlId="formFile" className="mb-3">
@@ -174,7 +175,7 @@ class AnalysisDashboard extends React.Component {
         </Form>
 
         <AlertDismissible handler={this.alertHandler} show={this.state.showalert} variant={this.state.variant} message={this.state.alertmsg} />
-
+        </Container>
       </div>      
     );
   }

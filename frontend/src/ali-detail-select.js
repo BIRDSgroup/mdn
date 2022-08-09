@@ -9,8 +9,8 @@ function AlignDetailSelect() {
 
     return (
         <CardGroup>
-            <Card>
-                <Card.Img variant="top" style={{height: '300px' }} src="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc.png" />
+            <Card className="text-center">
+                <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px' }} src="/images/qc.png" />
                 <Card.Body>
                 <Card.Title> <Link target="_blank" to={`/output/${hash}/quality_control/marm027_S1_L001_R2_001_fastqc.html`}> FastQC report of raw reads </Link></Card.Title>
                 <Card.Text>
@@ -18,9 +18,9 @@ function AlignDetailSelect() {
                     of reads from both ends on various metrics. 
                 </Card.Text>
                 </Card.Body>
-            </Card>
-            <Card>
-                <Card.Img variant="top" style={{height: '300px' }} src="https://i1.wp.com/enseqlopedia.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-14-at-15.04.21.png" />
+            </Card >
+            <Card className="text-center">
+                <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px' }} src="/images/10x-genomics.png" />
                 <Card.Body>
                 <Card.Title> <Link target="_blank" to={`/output/${hash}/${species}_cellranger/web_summary.html`}>Cellranger report </Link></Card.Title>
                 <Card.Text>
@@ -28,8 +28,8 @@ function AlignDetailSelect() {
                 </Card.Text>
                 </Card.Body>
             </Card>
-            <Card>
-                <Card.Img variant="top" style={{height: '300px', width: '300px' }} src="https://media.istockphoto.com/vectors/download-icon-isolated-vector-vector-id844294300?k=20&m=844294300&s=612x612&w=0&h=Um3AUbTxB9AlQVK_0ykyr4UO3Yy6rcB0HII6HZbf28M=" />
+            <Card className="text-center">
+                <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px' }} src="/images/download.png" />
                 <Card.Body>
                 <Card.Title><Link target="_blank" to={`/download/${hash}`}> Download Output files </Link></Card.Title>
                 <Card.Text>
