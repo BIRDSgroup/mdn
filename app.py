@@ -9,6 +9,10 @@ from io import BytesIO
 import zipfile
 import json
 import shutil
+from rq import Queue
+from rq.job import Job
+from worker import conn
+
 
 DATABASE = './database/mdn_database.db'
 UPLOAD_FOLDER = './uploads'
@@ -18,13 +22,14 @@ app = Flask(__name__, static_folder='./frontend/build')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 CORS(app)
 
+redis_queue = Queue(connection=conn, default_timeout=600)
+
 @app.after_request
 def set_headers(response):
     response.headers["Access-Control-Allow-Origin"] = "*"
     response.headers["Access-Control-Allow-Headers"] = "*"
     response.headers["Access-Control-Allow-Methods"] = "*"
     return response
-
 
 # Serve React App using flask 
 @app.route('/', defaults={'path': ''})
@@ -76,13 +81,64 @@ def close_connection(exception):
 # Application related functions. 
 # -----------------------------------------------------------------------------
 
-def run_job_and_update():
+def trigger_snakemake_job(config, type):
     """
     Function to run the snakemake job and update the database status depending on
     job completion. Would be a long running function so would be run using a python 
     executor in the background so that the server doesn't hang up. 
     """
-    pass
+    with app.app_context():
+        cur = get_db()
+
+        if type == 'analysis':
+            config['do_analysis'] = True
+            update_table = 'analhistory'
+            id = 'anal_id'
+        elif type == 'alignment':
+            config['do_alignment'] = True
+            update_table = 'alignhistory'
+            id = 'run_id'
+
+        query = 'update {table} set run_status = "Running" where {id_col} = "{id_val}"'.format(
+            table=update_table, 
+            id_col=id, 
+            id_val=config[id]
+        ) 
+
+        # Update the database. 
+        cur.execute(query)
+        cur.commit()
+
+        # Generate the config.yaml file for running with snakemake. 
+        with open('config.yaml', 'w') as f:
+            yaml.dump(config, f)
+
+        # Trigger snakemake job using the config generated. 
+        # result = subprocess.run(["snakemake"])
+        result = subprocess.run(["sleep", "10"])
+        
+        # Update the status in the database after the job is finished. 
+        if result.returncode == 0:
+            query = 'update {table} set run_status = "Finished" where {id_col} = "{id_val}"'.format(
+                table=update_table, 
+                id_col=id, 
+                id_val=config[id]
+            ) 
+            # Update the database. 
+            cur.execute(query)
+            cur.commit()
+            return jsonify({'status': "Finished"})
+
+        else:
+            query = 'update {table} set run_status = "Failed" where {id_col} = "{id_val}"'.format(
+                table=update_table, 
+                id_col=id, 
+                id_val=config[id]
+            ) 
+            # Update the database. 
+            cur.execute(query)
+            cur.commit()
+            return jsonify({'status': "Failed"})
 
 @app.route('/api/runalign', methods=["POST", "GET"], strict_slashes=False)
 def run_alignment_pipeline():
@@ -91,6 +147,7 @@ def run_alignment_pipeline():
     Dump the run information in a sqlite database to be retrieved later. 
     """ 
     if request.method == "POST":
+        from app import trigger_snakemake_job
         config = request.get_json()
         print(config)
 
@@ -108,10 +165,15 @@ def run_alignment_pipeline():
         cur.commit()
 
 
-        config['do_alignment'] = True
-        # Generate the config.yaml file for running with snakemake. 
-        with open('config.yaml', 'w') as f:
-            yaml.dump(config, f)
+        job = redis_queue.enqueue_call(
+            func=trigger_snakemake_job, args=(config, 'alignment'), result_ttl=5000
+        )
+        print("redis job id: ", job.get_id())
+
+        # config['do_alignment'] = True
+        # # Generate the config.yaml file for running with snakemake. 
+        # with open('config.yaml', 'w') as f:
+        #     yaml.dump(config, f)
 
         # Trigger snakemake job using the config generated. 
         # subprocess.run(["snakemake", "--dry-run"])
@@ -135,6 +197,7 @@ def run_analysis():
     Run the analysis pipeline consisting of cell labelling and integrative analysis. 
     """ 
     if request.method == "POST":
+        from app import trigger_snakemake_job
         print(request.form)
 
         # Create a directory in the uploads folder for storing files. 
@@ -180,10 +243,15 @@ def run_analysis():
         cur.execute(query)
         cur.commit()
 
-        config['do_analysis'] = True
-        # Generate the config.yaml file for running with snakemake. 
-        with open('config.yaml', 'w') as f:
-            yaml.dump(config, f)
+        job = redis_queue.enqueue_call(
+            func=trigger_snakemake_job, args=(config, 'analysis'), result_ttl=5000
+        )
+        print("redis job id: ", job.get_id())
+
+        # config['do_analysis'] = True
+        # # Generate the config.yaml file for running with snakemake. 
+        # with open('config.yaml', 'w') as f:
+        #     yaml.dump(config, f)
 
         # Trigger snakemake job using the config generated. 
         # subprocess.run(["snakemake", "--dry-run"])
