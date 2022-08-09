@@ -16,7 +16,7 @@ class AlignPrevRuns extends React.Component {
 
   // Function to make an API call to the flask endpoint and fetch data. 
   componentDidMount() {
-    fetch("http://localhost:5000/api/alignhistory")
+    fetch("/api/alignhistory")
       .then(res => res.json())
       .then(
         (result) => {
