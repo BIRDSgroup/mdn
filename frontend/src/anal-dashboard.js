@@ -133,11 +133,13 @@ class AnalysisDashboard extends React.Component {
         <Form className="w-responsive mx-auto p-3 mt-2"  formMethod="POST" formEncType="multipart/form-data">
         
           <Form.Group controlId="formFile" className="mb-3">
-            <Form.Control type="text" name="species_1" value={this.state.species_1} onChange={this.handleChange} placeholder="Name of the species" />
-            <Form.Label>Upload Gene count matrix</Form.Label>
+            <Form.Label className='mt-3'>Name of the species</Form.Label>
+            <Form.Control type="text" name="species_1" value={this.state.species_1} onChange={this.handleChange} placeholder="mouse" />
+            <Form.Label className='mt-3'>Upload Gene count matrix (.h5 file format)</Form.Label>
             <Form.Control type="file" name="gene_mtx_1" onChange={this.handleFileChange} />
-            OR
-            <Form.Control type="text" placeholder="Enter Run ID to automatically import data from previous Alignment pipeline runs." />
+            <br/> OR <br/>
+            <Form.Label className='mt-3'>Enter Run ID to automatically import data from previous Alignment pipeline runs.</Form.Label>
+            <Form.Control type="text" placeholder="c9c9873536f6bf648e3852d6e49a6b83" />
           </Form.Group>
           
 
@@ -146,11 +148,13 @@ class AnalysisDashboard extends React.Component {
 
             {this.state.integration ? (
               <>
-                <Form.Control type="text" name="species_2" value={this.state.species_2} onChange={this.handleChange} placeholder="Name of the second species" />
-                <Form.Label>Upload Gene count matrix</Form.Label>
+                <Form.Label className='mt-3'>Name of the second species (for integrated study) </Form.Label> 
+                <Form.Control type="text" name="species_2" value={this.state.species_2} onChange={this.handleChange} placeholder="marmoset" />
+                <Form.Label className='mt-3'>Enter Run ID to automatically import data from previous Alignment pipeline runs.</Form.Label>
                 <Form.Control type="file" name="gene_mtx_2" onChange={this.handleFileChange}/>
-                OR
-                <Form.Control type="text" placeholder="Enter Run ID to automatically import data from previous Alignment pipeline runs." />
+                <br/> OR <br/>
+                <Form.Label className='mt-3'>Upload Gene count matrix (.h5 file format)</Form.Label>
+                <Form.Control type="text" placeholder="c9c9873536f6bf648e3852d6e49a6b83" />
               </>
             )
             : (<></>)
@@ -162,7 +166,7 @@ class AnalysisDashboard extends React.Component {
             <Form.Check type="checkbox" name = "use_custom_id" checked={this.state.use_custom_id} onChange={this.handleCustom} label="Use custom Analysis ID to refer the results of this analysis" />
             {this.state.use_custom_id ? (
               <>
-                <Form.Control type="text" name="custom_id" value={this.state.custom_id} onChange={this.handleChange} placeholder="Custom analysis ID" />
+                <Form.Control type="text" name="custom_id" value={this.state.custom_id} onChange={this.handleChange} placeholder="9cb052a8d84c93f2070e09c2c13251f9" />
               </>
             ): (<></>)
 
