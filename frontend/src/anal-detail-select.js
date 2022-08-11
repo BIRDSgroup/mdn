@@ -16,13 +16,14 @@ function AnalysisDetailSelect() {
     const { hash, species_1, species_2 } = location.state; 
 
     console.log(hash); 
+    console.log(species_1); 
 
     return (
         <CardGroup className='w-responsive mx-auto p-3 mt-2'>
             <Card className="text-center">
                 <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px'}} src="/images/chart.png" />
                 <Card.Body>
-                <Card.Title><Link to='/analysis/gallery'> Plots from the Pipeline </Link></Card.Title>
+                <Card.Title><Link to='/analysis/gallery' state={{hash: hash, species: species_1}}> Plots from the Pipeline </Link></Card.Title>
                 <Card.Text>
                     Plots generated throughout the analysis of gene count matrix from upstream processes. 
                 </Card.Text>

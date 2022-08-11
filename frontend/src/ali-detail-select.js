@@ -22,7 +22,7 @@ function AlignDetailSelect() {
             <Card className="text-center">
                 <Card.Img variant="top" className='mx-auto' style={{height: '300px', width: '300px' }} src="/images/10x-genomics.png" />
                 <Card.Body>
-                <Card.Title> <Link target="_blank" to={`/output/${hash}/${species}_cellranger/web_summary.html`}>Cellranger report </Link></Card.Title>
+                <Card.Title> <Link target="_blank" to={`/output/${hash}/${species}_cellranger/outs/web_summary.html`}>Cellranger report </Link></Card.Title>
                 <Card.Text>
                     Html report generated during alignment and gene count matrix generation using cellranger. 
                 </Card.Text>
