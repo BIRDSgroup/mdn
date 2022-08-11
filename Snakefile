@@ -23,9 +23,7 @@ if 'do_alignment' in config and config['do_alignment']:
     rule all: 
         input: 
             expand(
-                "output/{hash_value}/quality_control/{sample}_fastqc.html", 
-                species = config["species"], 
-                sample = fastq_filenames, 
+                "output/{hash_value}/quality_control/multiqc_report.html", 
                 hash_value = hash_value
             ), 
             expand(
@@ -46,7 +44,7 @@ if 'do_alignment' in config and config['do_alignment']:
                 )
             shell:
                 """
-                cellranger mkref --genome={species} --fasta={input.fa} --genes={input.gtf} --nthreads=16 --memgb=512
+                /data/public-data/cellranger-6.1.1/cellranger mkref --genome={species} --fasta={input.fa} --genes={input.gtf} --nthreads=16 --memgb=512
                 mv {species} transcriptomes/
                 """
 
@@ -58,7 +56,23 @@ if 'do_alignment' in config and config['do_alignment']:
         params:
             dir="output/{hash_value}/quality_control"
         shell:
-            "./FastQC/fastqc {input.fastq} --outdir={params.dir}"
+            "/data/public-data/FastQC/fastqc {input.fastq} --outdir={params.dir}"
+    
+    rule multiqc:
+        input: 
+            expand(
+                    "output/{hash_value}/quality_control/{sample}_fastqc.html", 
+                    sample = fastq_filenames, 
+                    hash_value = hash_value
+                ) 
+        output:
+            "output/{hash_value}/quality_control/multiqc_report.html"
+        params:
+            dir="output/{hash_value}/quality_control"
+        shell:
+            "multiqc {params.dir} --outdir {params.dir}"
+
+        
 
     rule build_count_matrix:
         input:
@@ -68,7 +82,7 @@ if 'do_alignment' in config and config['do_alignment']:
             "output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix.h5" 
         shell:
             """
-            cellranger count --id={wildcards.species}_cellranger --fastqs={input.fastq} --transcriptome={input.trans} --expect-cells 3000 --localmem 512
+            /data/public-data/cellranger-6.1.1/cellranger count --id={wildcards.species}_cellranger --fastqs={input.fastq} --transcriptome={input.trans} --expect-cells 3000 --localmem 512
             rsync -a {wildcards.species}_cellranger/ output/{hash_value}/{wildcards.species}_cellranger && rm -rf {wildcards.species}_cellranger/
             """
 
