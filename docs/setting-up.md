@@ -23,6 +23,32 @@ docker build -t mdn
 docker run --publish 5000:5000 mdn 
 ```
 
+## Running the pipeline 
+
+If you're running the pipeline locally, i.e. not a docker container it's recommended to use a tmux shell (separate terminals) in order to prevent the run from being affected by any network issues which might cause the ssh connection to break. You can check how to use a [tmux shell here](https://linuxize.com/post/getting-started-with-tmux/). 
+
+The pipeline makes use of multiple components, all of which need to be running in order for the pipeline to function properly. These components are: 
+- **Redis server**: Used for task queuing when multiple task requests are received in order to reduce the load on the server. It's preferable to start redis as a daemon in the background. This can be done using the following command: 
+```bash 
+redis-server --daemonize yes
+```
+- **Redis worker**: This worker thread takes one task at a time from the queued tasks on the redis server and executes them. Essentially this is the thread that runs the snakemake jobs that are triggered by the web UI. In order to run it, just activate the conda environment created earlier and run the following command: 
+```bash 
+conda activate <env-name> 
+python worker.py
+```
+You can also run this worker in the background and push all the output and logs to a file using the following command instead (note that this notation only works in bash): 
+```bash 
+nohup python worker.py &> worker.log & 
+```
+
+- **Flask backend**: This is the flask server which takes requests from the web UI and queues the job on the redis queue. Starting it up is similar to the redis worker and can be done using the following set of commands: 
+```bash 
+conda activate <env-name> 
+python app.py
+```
+By default the server runs on port `5000`, which can be changed in the app.py file or using additional command line arguments while running the file. 
+
 ## Updating various aspects 
 
 ### R scripts 
