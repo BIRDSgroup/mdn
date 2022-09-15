@@ -1,54 +1,39 @@
-## Documentation for the repository
+## MultiScale Digital Neuroanatomy (Computational track)
 
-The repository contains code for processing snRNA seq data from brain samples of multiple species to understand brain evolution. 
+### Motivation 
+With the advent of new technologies like drop-seq, obtaining genetic data nowadays is easier than ever. It's projected that genomics will require up to 110 PB of storage a day within the next decade. By contrast, Youtube requires 3-5PB/day and astronomy requires 3-4PB/day. 
 
-### Directory and naming conventions 
+In order to utilize this data to it's full potential, automation and quality analytics software is necessary. We present mdn, a pipeline for fully automated cell labelling and cross species integrative analysis. It supports analysis of 700+ species by identifying and mapping orthologous genes in the genetic data and can be used via command line or an easy to use web based interface. 
 
-Following is the list of directories that are present in the repository: The description of individual files/directory is as follows: 
-- `config-schema.yaml`: File where the schema rules for the config file is defined. 
-- `config.yaml`: Single point of entry for the pipeline, pipelines for different species can be run by changing few variables in here. 
-- `Dockerfile`: Dockerfile defines the libraries and directory structure of the docker image. 
-- `genome_files/`: Stores the raw genome data and gene annotation files for different species. 
-- `output/`: Output from pipeline runs. There is a different folder created for each species. 
-- `raw_reads/`: Directory containing the raw snRNA seq reads for different species. 
-- `frontend/`: Directory containing the html templates and files for the web portal. 
-- `backend/`: Directory containing the code for running the flask server for the web portal. 
-- `Readme.md`: This file. 
-- `scripts/`: Different scripts for downstream analysis in the pipeline. 
-- `Snakefile`: File defining different parts of the pipeline, the input and output files etc. 
-- `.snakemake/`: Directory snakemake uses to store the recency and other information about the files defined in `Snakefile`. 
-- `transcriptomes/`: Directory containing the transcriptomes for different species. These are generated using the files present in the `genome_files` directory. 
+### Results 
+We compared our [cell labelling results](nemo-biccn-test.md) with the manually curated ones on the BICCN portal and found the labels to be in agreement most of the time, with our pipeline providing more granular information regarding the cell types compared to the manually tagged. 
 
-### Data
-The raw reads were downloaded from the [NeMo Portal](https://portal.nemoarchive.org/search/), there are a lot of filters available that you can use to narrow down on the region of brain that you're interested in. 
+Since these results are probabilistic in nature, further fine tuning might be required in some cases in order to zero in on the exact cell type. Even in those cases, the labels obtained will serve as a good starting point to do literature survey for manual identification of cell types. 
 
-Transcriptomes for species aren't available readily apart from Human and mouse, which you can download from the [cellranger website](https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest?) itself. In order to build a transcriptome, you need the genome assembly and gene annotation files, which can be found either on [NCBI](https://www.ncbi.nlm.nih.gov/assembly) or [Ensembl](https://asia.ensembl.org/index.html). 
+### Design and implementation 
 
-### Running the pipeline
-The single entry point for the code is the `config.yaml` file. After you have updated the file with necessary variables, use the following command to run the pipeline: 
-```bash 
-snakemake --cores <n>
-```
-This will run the top rule defined in the `Snakemake` file with n parallel processes at once (wherever applicable), which in this case is all i.e. Running the pipeline from end to end. 
+The pipeline makes use of snakemake to tie up different modules for computation as shown in the figure.  
+![pipeline](images/readme/pipeline-arch-mdn.png)
+The different modules share data amongst themselves by caching intermediate results as `.rds` files. This design decision enables us to resume previous job which may have failed at an intermediate step and saves overall computation time. 
 
-### Adding additional species.  
+The users can interact with the `snakemake` pipeline via command line or the web portal. Both of these options work by generating a `config.yaml` file which is used by the triggered snakemake job to run appropriate modules. More details on which can be found here. 
 
-In order to add new species, You need to modify the `config-schema.yaml` file to allow that species in the config file. 
+### Methods
+The pipeline is broadly divided into two parts, Alignment and Analysis. They can be executed independent of each other using either the web portal or the CLI. 
 
-After that, add the relevant files in the following directories by creating a new directory with that species name (which you defined in the prev file): 
-- genome_files
-- raw_reads
-- transcriptomes
+The alignment pipeline takes in raw `fastq` reads from species, aligns it with the reference transcriptome of the species (or closest available one) using `cellranger` and generates a gene count matrix. We also perform various quality checks on the `fastq` files using tools such as `FastQC` and `MultiQC`. 
 
-Once your files are in place, You can just modify the `species_name` key in the config file and run the pipeline. It'll automatically pick up the right files and dump the output in the `output` directory under the species name. 
+The analysis pipeline takes in the gene count matrix of a species as an input from the user. The gene count matrix is pruned for presense of any mitochondrial genes; variable genes are then selected from the gene count matrix which are used to cluster cells together and find markers for the respective clusters. Since, there's a lot of information available about the cell types and marker genes for humans and mice, we use orthologs from given species to these with methods like ORA or GSEA to infer the probable cell type from the gene expression of cells in a cluster. The pipeline uses a package called `clustermole` in order to perform GSEA. 
 
-### Additional useful commands 
+Users can also perform integrative analysis on multiple species by specifying a gene count matrix for each, on top of automated cell labelling. We make use of two approaches for the same as described by [Kebschull et. al. 2020](https://www.science.org/doi/10.1126/science.abd5059) and [Tosches et. al. 2018](https://www.science.org/doi/10.1126/science.aar4237). 
 
-To do a dry run of the snakemake pipeline and see what all rules would be executed, run 
-```bash 
-snakemake --dryrun
-```
-### Caution/Things to keep in mind
-- Snakemake builds the execution graph using the last modified time of the input and output files defined in the Snakefile. Please be mindful of that while making some adhoc changes e.g. renaming a file, changing directory structure etc. Failure to do so might result in some parts of the pipeline running again prolonging the execution by few minutes or hours. In addition to that, the timestamps of different files and directories are preserved when mounted into a docker container.  
-- The docker image doesn't include the raw data or transcriptomes. While using the docker image, you need to mount the relavant directories to the ones defined in the repository. An example from the birds machine would be to mount the `/data/public-data/cellranger-ref-data/` directory to the `transcriptomes` directory in the repo. 
+### Future work
+- The code in the repository is in alpha stage, more work is needed to make it more robust to various system and user errors that might occur. 
+- The pipeline outputs can be made more interactive and customizable by using dymanic plots (e.g. plotly) instead of static in the future. This will allow users to interact and get a better sense of the data on the browser itself without having to download data locally. 
+- The output from the current pipeline can be used for many interesting analyses, extending the pipeline to add modules for them and providing functionality allowing users to change and replace parts of the pipeline on demand would be helpful. 
 
+### Installation and Usage
+Details on how to run the pipeline on your own system can be found [here](setting-up.md). An overview of the web based interface is present in [this page](getting-started.md). 
+
+### Documentation 
+More details regarding various parts of the pipeline are available on [this page](documentation.md). 
