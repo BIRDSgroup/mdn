@@ -1,7 +1,7 @@
 ## MultiScale Digital Neuroanatomy (Computational track)
 
 ### Motivation 
-With the advent of new technologies like drop-seq, obtaining genetic data nowadays is easier than ever. It's projected that genomics will require up to 110 PB of storage a day within the next decade. By contrast, Youtube requires 3-5PB/day and astronomy requires 3-4PB/day. 
+With the advent of new technologies like drop-seq, obtaining genomic data nowadays is easier than ever. It's projected that genomics will require up to 110 PB of storage a day within the next decade. By contrast, Youtube requires 3-5PB/day and astronomy requires 3-4PB/day. 
 
 In order to utilize this data to it's full potential, automation and quality analytics software is necessary. We present mdn, a pipeline for fully automated cell labelling and cross species integrative analysis. It supports analysis of 700+ species by identifying and mapping orthologous genes in the genetic data and can be used via command line or an easy to use web based interface. 
 
