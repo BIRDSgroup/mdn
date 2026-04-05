@@ -27,7 +27,7 @@ if 'do_alignment' in config and config['do_alignment']:
                 hash_value = hash_value
             ), 
             expand(
-                "output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix.h5", 
+                "output/{hash_value}/{species}_cellranger/outs/filtered_feature_bc_matrix.h5", 
                 species = config['species'], 
                 hash_value = hash_value 
             )
@@ -39,12 +39,12 @@ if 'do_alignment' in config and config['do_alignment']:
                 gtf = config['gtf_file']
             output:
                 expand(
-                    "transcriptomes/{species}/reference.json", 
+                    "transcriptomes/{species}/reference.json",
                     species = config['species']
                 )
             shell:
                 """
-                /data/public-data/cellranger-6.1.1/cellranger mkref --genome={species} --fasta={input.fa} --genes={input.gtf} --nthreads=16 --memgb=512
+                /data/public-data/cellranger-7.1.0/cellranger mkref --genome={species} --fasta={input.fa} --genes={input.gtf} --nthreads=16 --memgb=512
                 mv {species} transcriptomes/
                 """
 
@@ -79,10 +79,10 @@ if 'do_alignment' in config and config['do_alignment']:
             fastq="raw_reads/{hash_value}/", 
             trans="transcriptomes/{species}/", 
         output:
-            "output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix.h5" 
+            "output/{hash_value}/{species}_cellranger/outs/filtered_feature_bc_matrix.h5" 
         shell:
             """
-            /data/public-data/cellranger-6.1.1/cellranger count --id={wildcards.species}_cellranger --fastqs={input.fastq} --transcriptome={input.trans} --expect-cells 3000 --localmem 512
+            /data/public-data/cellranger-7.1.0/cellranger count --id={wildcards.species}_cellranger --fastqs={input.fastq} --transcriptome={input.trans} --localmem 512
             rsync -a {wildcards.species}_cellranger/ output/{hash_value}/{wildcards.species}_cellranger && rm -rf {wildcards.species}_cellranger/
             """
 
@@ -111,7 +111,7 @@ elif 'do_analysis' in config and config['do_analysis']:
             "output/{hash_value}/{species}_intermediate/cell_clusters.rds" 
         params:
             species="{species}",
-            input_dir="output/{hash_value}/{species}_cellranger/outs/raw_feature_bc_matrix/",
+            input_dir="output/{hash_value}/{species}_cellranger/outs/filtered_feature_bc_matrix/",
             intermediate_output="output/{hash_value}/{species}_intermediate"
         script:
             "scripts/cluster-cells.R"

@@ -1,20 +1,9 @@
-# Default config.yaml file. Allows the user to choose between either the 
-# alignment or the analysis pipeline. 
-
-# Variables related to the alignment of raw reads. 
-# do_alignment: true
-# run_id: 'random'
-# species: 'mouse'
-# build_transcriptome: false
-# fasta_file: ""
-# gtf_file: ""
-# raw_reads: "reads_location/"
-
-# # Variables related to the analysis of gene count matrix. 
-do_analysis: true
-anal_id:  'something'
-species_1: 'mouse'
-gene_mtx_1: 'mouse_gene_mtx.h5' 
-integration: false
-species_2: 'marmoset'
-gene_mtx_2: 'marmoset_gene_mtx.h5'
+build_transcriptome: false
+comments: ''
+do_alignment: true
+fasta_file: ''
+gtf_file: ''
+raw_reads: /data/public-data/scpipeline_data/raw_reads
+run_id: 3c916259a29011ba77206afd49d99187
+run_status: Queued
+species: Demo_ducks1

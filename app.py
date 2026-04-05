@@ -22,7 +22,7 @@ app = Flask(__name__, static_folder='./frontend/build')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 CORS(app)
 
-redis_queue = Queue(connection=conn, default_timeout=600)
+redis_queue = Queue(connection=conn, default_timeout=7200)
 
 @app.after_request
 def set_headers(response):
@@ -114,8 +114,8 @@ def trigger_snakemake_job(config, type):
             yaml.dump(config, f)
 
         # Trigger snakemake job using the config generated. 
-        # result = subprocess.run(["snakemake"])
-        result = subprocess.run(["sleep", "10"])
+        result = subprocess.run(["snakemake"])
+        # result = subprocess.run(["sleep", "10"])
         
         # Update the status in the database after the job is finished. 
         if result.returncode == 0:
@@ -307,5 +307,5 @@ def download(hash):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=3000)
 

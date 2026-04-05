@@ -42,7 +42,7 @@ if (snakemake@params[["species"]] == "mouse") {
     ## Chage the rownames of the avg_exp_mat to orthologs using gene_df
     rownames(avg_exp_mat_subset) = gene_df$ortholog_gene
 }
-
+#avg_exp_mat_subset = avg_exp_mat
 
 
 # Run enrichment of all cell type signatures across all clusters. 

@@ -21,8 +21,8 @@ seu_dob.data <- Read10X_h5(gene_count_mat)
 seu_dob <- CreateSeuratObject(counts = seu_dob.data, project = project_name, min.cells = 3, min.features = 100)
 
 
-# The [[ operator can add columns to object metadata. This is a great place to stash QC stats
-seu_dob[["percent.mt"]] <- PercentageFeatureSet(seu_dob, pattern = "^MT-")
+# The [[ operator can add columns to object metadata. This is a great place to stash QC stats for humans it starts with MT- but for chicken it starts with Mt, for mouse it starts with mt- 
+seu_dob[["percent.mt"]] <- PercentageFeatureSet(seu_dob, pattern = "^mt-")
 
 # Visualize QC metrics as a violin plot
 VlnPlot(seu_dob, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
@@ -34,7 +34,8 @@ ggsave(file.path(intermediate_output, 'qc_metrics_voilin.png'), last_plot())
 
 plot1 <- FeatureScatter(seu_dob, feature1 = "nCount_RNA", feature2 = "percent.mt")
 plot2 <- FeatureScatter(seu_dob, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
-CombinePlots(plots = list(plot1, plot2))
+plot1+plot2
+#CombinePlots(plots = list(plot1, plot2))
 # Save the last plot to file. 
 ggsave(file.path(intermediate_output, 'combine-plot-features.png'), last_plot())
 
@@ -52,7 +53,8 @@ top10 <- head(VariableFeatures(seu_dob), 10)
 # plot variable features with and without labels
 plot1 <- VariableFeaturePlot(seu_dob)
 plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
-CombinePlots(plots = list(plot1, plot2))
+plot1+plot2
+#CombinePlots(plots = list(plot1, plot2))
 # Save the last plot to file. 
 ggsave(file.path(intermediate_output, 'combine-plot-variable-features.png'), last_plot())
 
@@ -95,9 +97,9 @@ ElbowPlot(seu_dob)
 ggsave(file.path(intermediate_output, 'elbow-plot.png'), last_plot())
 
 ## Cluster the cells
-
+## resoultion changed from 0.5 to 1.5
 seu_dob <- FindNeighbors(seu_dob, dims = 1:10)
-seu_dob <- FindClusters(seu_dob, resolution = 0.5)
+seu_dob <- FindClusters(seu_dob, resolution = 1.5)
 
 # Look at cluster IDs of the first 5 cells
 head(Idents(seu_dob), 5)
@@ -114,22 +116,28 @@ seu_dob <- RunTSNE(seu_dob)
 DimPlot(seu_dob, reduction = "umap", label=TRUE)
 # Save the last plot to file. 
 ggsave(file.path(intermediate_output, 'dimplot-umap.png'), last_plot())
-
+DimPlot(seu_dob, reduction = "tsne",label=TRUE)
+ggsave(file.path(intermediate_output, 'dimplot-tsne.png'), last_plot())
 ## Finding differentially expressed features (cluster biomarkers)
 
 # find all markers of cluster 1
-cluster1.markers <- FindMarkers(seu_dob, ident.1 = 1, min.pct = 0.25)
-head(cluster1.markers, n = 5)
+#cluster1.markers <- FindMarkers(seu_dob, ident.1 = 1, min.pct = 0.25)
+#head(cluster1.markers, n = 5)
 
 # find all markers distinguishing cluster 5 from clusters 0 and 3
-cluster5.markers <- FindMarkers(seu_dob, ident.1 = 5, ident.2 = c(0, 3), min.pct = 0.25)
-head(cluster5.markers, n = 5)
+#cluster5.markers <- FindMarkers(seu_dob, ident.1 = 5, ident.2 = c(0, 3), min.pct = 0.25)
+#head(cluster5.markers, n = 5)
 
 # find markers for every cluster compared to all remaining cells, report only the positive ones
-seu_dob.markers <- FindAllMarkers(seu_dob, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+#if you want it faster run the below command, it will only show up the marker genes with 25 percent difference and positive markers
+#seu_dob.markers <- FindAllMarkers(seu_dob, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+#the below one will find all the markers
+seu_dob.markers <- FindAllMarkers(seu_dob)
+#write the markers to a file 
+write.csv(seu_dob.markers,file.path(intermediate_output,'markers.csv'))
 # seu_dob.markers %>% group_by(cluster) %>% top_n(n = 2, wt = avg_log2FC)
 
-cluster1.markers <- FindMarkers(seu_dob, ident.1 = 0, logfc.threshold = 0.25, test.use = "roc", only.pos = TRUE)
+#cluster1.markers <- FindMarkers(seu_dob, ident.1 = 0, logfc.threshold = 0.25, test.use = "roc", only.pos = TRUE)
 
 # VlnPlot(seu_dob, features = c("MS4A1", "CD79A"))
 
